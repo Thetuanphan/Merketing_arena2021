@@ -1,0 +1,17 @@
+@media (max-width:768px) {
+    img#hidden {
+      display: none;
+    }
+
+    div#navbarCollapse{
+        padding-left: 0px;
+    }
+
+    a.nav-link{
+        text-align: center;
+    }
+
+    a.navbar-brand{
+        padding-left: 80%;
+    }
+  }
