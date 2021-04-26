@@ -40,8 +40,8 @@
               font-size: 12px;
           }
           .margin-auto{
-            margin-left: 10px;
-            margin-right:10px;
+            margin-left: 7px;
+            margin-right:7px;
           }
 
           .dropdown:hover .dropdown-menu{
@@ -53,24 +53,27 @@
               border-bottom: 1px solid rgb(173, 173, 173);
           }
 
-          .a-logo{
-              width: 5.5%;
-              border-left: 1px solid rgb(173, 173, 173);
-              background-color: rgb(233, 233, 233);
-              float: right;
-              margin-top: -8px;
-              margin-bottom: -8px;
-              margin-left: -7px;
-              margin-right: -14px;
+          .logo-left{
+              width: 80px;
           }
 
-          .logo-img{
-              width: 100%;
-              float: right;
-              padding-right: 10px;
-              padding-left: 10px;
-              padding-top: 5px;
-              padding-bottom: 5px;
+          .logo-right{
+              width: 45px;
+              text-align: center;
+              margin-top: 8px;
+              margin-left: 93%;               
+              position: absolute;
+              z-index: 8;
+          }
+
+          .margin-logo-right{
+              width: 110px;
+              height: 75px;
+              margin-top: -11px;
+              margin-bottom: -11px;
+              margin-left: 60px;
+              margin-right: -16px;
+              background-color: tomato;
           }
 
           #navbar-margin{
@@ -78,7 +81,7 @@
           }
 
           #navbarCollapse{
-              padding-left: 20%;
+              padding-left: 15%;
           }
 
           #dropdown-menu-hover{
@@ -91,31 +94,39 @@
               color: #FFCF00;
           }
 
+          #navbar-pos{
+              position: absolute;
+              z-index: 0;
+          }
+
           </style>
     
       </head>
 
       <body>
+
+        <!-- Navbar -->
           <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-border" id="navbar-padding">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-border" id="navbar-pos">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon">
                 </span>
             </button>
 
-            <a class="navbar-brand"><img src=".png"></a>
+            <a class="navbar-brand"><img class="logo-left" src="./img/Trang_Chu/1.png"></a>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
             
             <ul class="navbar-nav" id="menu-responsive">
                 <li class="nav-item margin-auto">
                     <a class="nav-link" href="#TC">TRANG CHỦ</a>
-                </li>
+                </li> 
                 <li class="nav-item margin-auto">
                     <a class="nav-link" href="#VCT">VỀ CHÚNG TÔI</a>
                 </li>
                 <li class="nav-item dropdown margin-auto">
-                    <a class="nav-link dropdown margin-auto" data-toggle="dropdown" data-target="#dropdown-target" href="#MA">MARKETING ARENA 2021</a>
+                    <a class="nav-link dropdown margin-auto" data-toggle="dropdown" data-target="#dropdown-target" href="#MA">
+                        MARKETING ARENA 2021</a>
                     <div class="dropdown-menu margin-auto shadow-lg p-3 mb-5 bg-white" aria-labelledby="dropdown-target">
                         <a class="dropdown-item" id="dropdown-menu-hover" href="#">Thể lệ vòng thi</a>
                         <a class="dropdown-item" id="dropdown-menu-hover" href="#">Cơ cấu cuộc thi</a>
@@ -135,11 +146,19 @@
                 <li class="nav-item margin-auto">
                     <a class="nav-link" href="#LH">LIÊN HỆ</a>
                 </li>
+                
             </ul>
             </div>
-
-            <a class="a-logo"><img class="logo-img" id="hidden" src="./img/logo.png"></a>
           </nav>
+            
+            
+            <img class="logo-right" src="./img/Trang_Chu/3.png">
+            
+          </div>
+
+          <!-- Body -->
+          <div class="container-fluid">
+              <img style="width: 100%;" src="">
           </div>
       </body>
 
