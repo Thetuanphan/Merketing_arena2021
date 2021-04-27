@@ -18,12 +18,16 @@
         -->
 
         <style>
+          .align-center{
+              text-align: center;
+          }
+
           .navbar-light .navbar-nav .nav-link {
               color: black;
               border-radius: 20px;
               transition: 0.3s;
               font-weight: bold;
-              font-size: 13px;
+              font-size: 1vw;
           }
           .navbar-light .navbar-nav .nav-link:hover {
               color: white;
@@ -58,7 +62,7 @@
           }
 
           .logo-right{
-              width: 45px;
+              width: 1vw;
               text-align: center;
               margin-top: 8px;
               margin-left: 93%;               
@@ -66,22 +70,61 @@
               z-index: 8;
           }
 
-          .margin-logo-right{
-              width: 110px;
-              height: 75px;
-              margin-top: -11px;
-              margin-bottom: -11px;
-              margin-left: 60px;
-              margin-right: -16px;
-              background-color: tomato;
+          .img-banner{
+              width: 100%;
           }
+
+          .container-fluid{
+              padding-left: 0px;
+              padding-right: 0px;
+          }
+
+          .img-banner{
+              margin-top: 1vw;
+          }
+
+          .vct{
+          }
+
+          .vct-dot{
+              width: 7vw;
+              align-self: center;
+          }
+
+          .vct-col-img{
+              padding: 4vw;
+          }
+          
+          .vct-img{
+              width: 100%;
+          }
+
+          .vct-col-content{
+              margin-top: 4vw;
+              padding: 5vw;    
+          }
+
+          .vct-content{
+              
+          }
+
+          .vct-title{
+              width: 25vw;
+          }
+
+          .vct-text{
+              width: 100%;
+              margin-top: 2.5vw;
+              font-size: 1vw;
+          }
+
 
           #navbar-margin{
               height: 100%;
           }
 
           #navbarCollapse{
-              padding-left: 15%;
+              padding-left: 10%;
           }
 
           #dropdown-menu-hover{
@@ -150,15 +193,42 @@
             </ul>
             </div>
           </nav>
-            
-            
-            <img class="logo-right" src="./img/Trang_Chu/3.png">
+    
+            <!-- <img class="hidden" src="./img/Trang_Chu/3.png"> -->
             
           </div>
 
           <!-- Body -->
+          <!-- Banner -->
           <div class="container-fluid">
-              <img style="width: 100%;" src="">
+              <img class="img-banner" src="./img/Trang_Chu/Banner.png"/>
+          </div>
+          <!-- Ve chung toi -->
+          <div class="container align-center">
+              <img class="vct-dot" src="./img/Ve_Chung_Toi/3.png"/>
+          </div>
+
+          <div class="container vct">
+              <div class="row">
+                  <div class="col-md-5 vct-col-img">
+                      <img class=" vct-img" src="./img/Ve_Chung_Toi/1.png"/>
+                  </div>
+
+                  <div class="col-md-7 vct-col-content">
+                      <div class="vct-content">
+                          <img class="vct-title" src="./img/Ve_Chung_Toi/4.png"/>
+                          <div class="vct-text">
+                            Sự linh hoạt là kỹ năng tối quan trọng giúp mỗi cá nhân ứng biến nhanh chóng trước 
+                            mọi sự thay đổi trong cuộc sống. Tựa như những màn đua xe đầy kịch tính, tính linh hoạt 
+                            giúp ta quan sát và đưa ra chiến thuật tối ưu nhằm đương đầu với những biến động và 
+                            nhanh chóng về đích. Với thông điệp “”, MARKETING MARENA 2021 đã chính thức trở lại, 
+                            tiếp nối chặng đường thành công của 05 mùa trước . Cuộc thi năm nay chính là cơ hội để 
+                            các Marketers rèn luyện tư duy linh hoạt, sẵn sàng gia nhập trường đua giành lấy 
+                            vinh quang đầy thách thức và gay cấn.
+                          </div>
+                      </div>
+                  </div>
+              </div>
           </div>
       </body>
 
