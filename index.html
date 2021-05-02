@@ -1,201 +1,35 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title></title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" href="style.css" />
-        <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
         -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
         -->
 
-        <style>
-          .align-center{
-              text-align: center;
-          }
+    <style>
+    </style>
 
-          .navbar-light .navbar-nav .nav-link {
-              color: black;
-              border-radius: 20px;
-              transition: 0.3s;
-              font-weight: bold;
-              font-size: 1vw;
-          }
-          .navbar-light .navbar-nav .nav-link:hover {
-              color: white;
-              background-color: #FFCF00;
-          }
+    <title>Marketing Arena 2021</title>
 
-          .dropdown-menu{
-              border-style: none;
-              border-radius: 20px;
-          }
+</head>
 
-          .dropdown-item{
-              font-weight: bold;
-              font-size: 12px;
-          }
-          .margin-auto{
-            margin-left: 7px;
-            margin-right:7px;
-          }
+<body>
 
-          .dropdown:hover .dropdown-menu{
-              margin-top: 5px;
-              display: block;
-          }
-
-          .navbar-border{
-              border-bottom: 1px solid rgb(173, 173, 173);
-          }
-
-          .logo-left{
-              width: 80px;
-          }
-
-          .logo-right{
-              width: 1vw;
-              margin-top: 8px;
-              margin-left: 93%;               
-              position: absolute;
-              z-index: 8;
-          }
-
-          .img-banner{
-              width: 100%;
-          }
-
-          .container-fluid{
-              padding-left: 0px;
-              padding-right: 0px;
-          }
-
-          .img-banner{
-              margin-top: 1vw;
-          }
-
-          .vct{
-          }
-
-          .vct-dot{
-              width: 7vw;
-              align-self: center;
-          }
-
-          .vct-col-img{
-              padding: 4vw;
-          }
-          
-          .vct-img{
-              width: 100%;
-          }
-
-          .vct-col-content{
-              margin-top: 4vw;
-              padding: 5vw;    
-          }
-
-          .vct-content{
-              
-          }
-
-          .vct-title{
-              width: 25vw;
-          }
-
-          .vct-text{
-              width: 100%;
-              margin-top: 2.5vw;
-              font-size: 1vw;
-          }
-
-          .vct-dot-anima{
-              text-align: right;
-              margin-top: -10vw;
-          }
-
-          .vct-dot-anima img{
-              width: 12vw;
-              margin-right: 7vw;
-          }
-
-          .tlct-container{
-              margin-top: 10vw;  
-          }
-          
-          .tlct-banner{
-              width: 21vw;
-          }
-
-          .tlct-right-img{
-              margin-top: -29.5vw;
-              text-align: right;
-              margin-right: -17vw;
-          }
-
-          .tlct-right-img img{
-              width: 30vw;
-          }
-
-          .tlct-title{
-              margin-top: 6vw;;
-          }
-
-          .tlct-title img{
-              width: 30vw;
-          }
-
-          .tlct-text{
-              padding-top: 3vw;
-              padding-left: 15vw;
-              padding-right: 15vw;
-              font-size: 1vw;
-          }
-
-          .tlct-timeline-icon img{
-              width: 10vw;
-          }
-
-          #navbar-margin{
-              height: 100%;
-          }
-
-          #navbarCollapse{
-              padding-left: 10%;
-          }
-
-          #dropdown-menu-hover{
-              background-color: white;
-              color: black;
-          }
-
-          #dropdown-menu-hover:hover{
-              background-color: white;
-              color: #FFCF00;
-          }
-
-          #navbar-pos{
-              position: absolute;
-              z-index: 0;
-          }
-
-          </style>
-    
-      </head>
-
-      <body>
-
-        <!-- Navbar -->
-          <div class="container-fluid">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-border" id="navbar-pos">
+    <!-- Navbar -->
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-border" id="navbar-pos">
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon">
                 </span>
@@ -204,117 +38,512 @@
             <a class="navbar-brand"><img class="logo-left" src="./img/Trang_Chu/1.png"></a>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
-            
-            <ul class="navbar-nav" id="menu-responsive">
-                <li class="nav-item margin-auto">
-                    <a class="nav-link" href="#TC">TRANG CHỦ</a>
-                </li> 
-                <li class="nav-item margin-auto">
-                    <a class="nav-link" href="#VCT">VỀ CHÚNG TÔI</a>
-                </li>
-                <li class="nav-item dropdown margin-auto">
-                    <a class="nav-link dropdown margin-auto" data-toggle="dropdown" data-target="#dropdown-target" href="#MA">
-                        MARKETING ARENA 2021</a>
-                    <div class="dropdown-menu margin-auto shadow-lg p-3 mb-5 bg-white" aria-labelledby="dropdown-target">
-                        <a class="dropdown-item" id="dropdown-menu-hover" href="#">Thể lệ vòng thi</a>
-                        <a class="dropdown-item" id="dropdown-menu-hover" href="#">Cơ cấu cuộc thi</a>
-                        <a class="dropdown-item" id="dropdown-menu-hover" href="#">Cơ cấu giải thưởng</a>
-                        <a class="dropdown-item" id="dropdown-menu-hover" href="#">Lưu ý dành cho thí sinh</a>
-                    </div>
-                </li>
-                <li class="nav-item margin-auto">
-                    <a class="nav-link" href="#DKTG">ĐĂNG KÝ THAM GIA</a>
-                </li>
-                <li class="nav-item margin-auto">
-                    <a class="nav-link" href="#SK">SỰ KIỆN</a>
-                </li>
-                <li class="nav-item margin-auto">
-                    <a class="nav-link" href="#DT">ĐỐI TÁC</a>
-                </li>
-                <li class="nav-item margin-auto">
-                    <a class="nav-link" href="#LH">LIÊN HỆ</a>
-                </li>
-                
-            </ul>
+
+                <ul class="navbar-nav" id="menu-responsive">
+                    <li class="nav-item margin-auto">
+                        <a class="nav-link" href="#TC">TRANG CHỦ</a>
+                    </li>
+                    <li class="nav-item margin-auto">
+                        <a class="nav-link" href="#VCT">VỀ CHÚNG TÔI</a>
+                    </li>
+                    <li class="nav-item dropdown margin-auto">
+                        <a class="nav-link dropdown margin-auto" data-toggle="dropdown" data-target="#dropdown-target"
+                            href="#MA">
+                            MARKETING ARENA 2021</a>
+                        <div class="dropdown-menu margin-auto shadow-lg p-3 mb-5 bg-white"
+                            aria-labelledby="dropdown-target">
+                            <a class="dropdown-item" id="dropdown-menu-hover" href="#TLCT">Thể lệ vòng thi</a>
+                            <a class="dropdown-item" id="dropdown-menu-hover" href="#">Cơ cấu cuộc thi</a>
+                            <a class="dropdown-item" id="dropdown-menu-hover" href="#">Cơ cấu giải thưởng</a>
+                            <a class="dropdown-item" id="dropdown-menu-hover" href="#">Lưu ý dành cho thí sinh</a>
+                        </div>
+                    </li>
+                    <li class="nav-item margin-auto">
+                        <a class="nav-link" href="#DKTG">ĐĂNG KÝ THAM GIA</a>
+                    </li>
+                    <li class="nav-item margin-auto">
+                        <a class="nav-link" href="#SK">SỰ KIỆN</a>
+                    </li>
+                    <li class="nav-item margin-auto">
+                        <a class="nav-link" href="#DT">ĐỐI TÁC</a>
+                    </li>
+                    <li class="nav-item margin-auto">
+                        <a class="nav-link" href="#LH">LIÊN HỆ</a>
+                    </li>
+
+                </ul>
             </div>
-          </nav>
-    
-            <!-- <img class="hidden" src="./img/Trang_Chu/3.png"> -->
-            
-          </div>
-          <!-- End Navbar -->
+        </nav>
 
-          <!-- Body -->
-          <!-- Banner -->
-          <div class="container-fluid">
-              <img class="img-banner" src="./img/Trang_Chu/Banner.png"/>
-          </div>
-          <!-- End Banner -->
+        <!-- <img class="hidden" src="./img/Trang_Chu/3.png"> -->
 
-          <!-- VCT -->
-          <!-- VCT Dot -->
-          <div class="container align-center">
-              <img class="vct-dot" src="./img/Ve_Chung_Toi/3.png"/>
-          </div>
-          <!-- End VCT Dot -->
+    </div>
+    <!-- End Navbar -->
 
-          <!-- VCT Content -->
-          <div class="container vct">
-              <div class="row">
-                  <div class="col-md-5 vct-col-img">
-                      <img class=" vct-img" src="./img/Ve_Chung_Toi/1.png"/>
-                  </div>
+    <!-- Body -->
+    <!-- Banner -->
+    <div class="container-fluid" id="TC">
+        <img class="img-banner" src="./img/Trang_Chu/Banner.png" />
+    </div>
+    <!-- End Banner -->
 
-                  <div class="col-md-7 vct-col-content">
-                      <div class="vct-content">
-                          <img class="vct-title" src="./img/Ve_Chung_Toi/4.png"/>
-                          <div class="vct-text">
-                            Sự linh hoạt là kỹ năng tối quan trọng giúp mỗi cá nhân ứng biến nhanh chóng trước 
-                            mọi sự thay đổi trong cuộc sống. Tựa như những màn đua xe đầy kịch tính, tính linh hoạt 
-                            giúp ta quan sát và đưa ra chiến thuật tối ưu nhằm đương đầu với những biến động và 
-                            nhanh chóng về đích. Với thông điệp “”, MARKETING MARENA 2021 đã chính thức trở lại, 
-                            tiếp nối chặng đường thành công của 05 mùa trước . Cuộc thi năm nay chính là cơ hội để 
-                            các Marketers rèn luyện tư duy linh hoạt, sẵn sàng gia nhập trường đua giành lấy 
-                            vinh quang đầy thách thức và gay cấn.
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          <!-- End VCT Content -->
+    <!-- VCT -->
+    <!-- VCT Dot -->
+    <div class="container align-center" id="VCT">
+        <img class="vct-dot" src="./img/Ve_Chung_Toi/3.png" />
+    </div>
+    <!-- End VCT Dot -->
 
-          <!-- VCT Dot Animation-->
-          <div class="container vct-dot-anima">
-              <img src="./img/Ve_Chung_Toi/3.png"/>
-          </div>
-          <!-- End VCT Dot Animation -->
-          <!-- End VCT -->
+    <!-- VCT Content -->
+    <div class="container vct">
+        <div class="row">
+            <div class="col-lg-5 col-sm-12 vct-col-img">
+                <img class=" vct-img" src="./img/Ve_Chung_Toi/1.png" />
+            </div>
 
-          <!-- TLCT -->
-          <div class="container-fluid tlct-container align-center">
-            <img class="tlct-banner" src="./img/The_Le_Cuoc_Thi/2.png"/>
-          </div>
-          
-          <div class="tlct-right-img">
-              <img src="./img/The_Le_Cuoc_Thi/1.png"/>
-          </div>
-          
-          <div class="tlct-title align-center">
-              <img src="./img/The_Le_Cuoc_Thi/4.png"/>
-          </div>
+            <div class="col-lg-7 col-sm-12 vct-col-content">
+                <div class="vct-content">
+                    <img class="vct-title" src="./img/Ve_Chung_Toi/4.png" />
+                    <div class="vct-text">
+                        Sự linh hoạt là kỹ năng tối quan trọng giúp mỗi cá nhân ứng biến nhanh chóng trước
+                        mọi sự thay đổi trong cuộc sống. Tựa như những màn đua xe đầy kịch tính, tính linh hoạt
+                        giúp ta quan sát và đưa ra chiến thuật tối ưu nhằm đương đầu với những biến động và
+                        nhanh chóng về đích. Với thông điệp “”, MARKETING MARENA 2021 đã chính thức trở lại,
+                        tiếp nối chặng đường thành công của 05 mùa trước . Cuộc thi năm nay chính là cơ hội để
+                        các Marketers rèn luyện tư duy linh hoạt, sẵn sàng gia nhập trường đua giành lấy
+                        vinh quang đầy thách thức và gay cấn.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End VCT Content -->
 
-          <div class="tlct-text align-center">
-              Cuộc thi MARKETING ARENA 2021 sẽ chính thức khởi động từ ngày 09.05.2021 và kết thúc vào ngày 27.05.2021.
-               Các đội sẽ được thử thách qua 03 chặng hành trình chính với 02 lựa chọn.
-              <br><br>
-              Lưu ý: 20 đội đăng ký dự thi sớm nhất sẽ được quyền tự do lựa chọn đề, các đội còn lại sẽ được BTC chỉ định đề thi.
-          </div>
+    <!-- VCT Dot Animation-->
+    <div class="container vct-dot-anima">
+        <img src="./img/Ve_Chung_Toi/3.1.png" />
+        <img src="./img/Ve_Chung_Toi/3.1.png" />
+        <img src="./img/Ve_Chung_Toi/3.1.png" />
+    </div>
+    <!-- End VCT Dot Animation -->
+    <!-- End VCT -->
 
-          <div class="tlct-timeline-icon align-center">
-              <img src="./img/The_Le_Cuoc_Thi/5.png"/>
-          </div>
-        <!-- End TLCT -->
-      </body>
+    <!-- TLCT -->
+    <div class="container-fluid tlct-container align-center" id="TLCT">
+        <img class="tlct-banner" src="./img/The_Le_Cuoc_Thi/2.png" />
+    </div>
+
+    <div class="tlct-right-img">
+        <img src="./img/The_Le_Cuoc_Thi/1.png" />
+    </div>
+
+    <div class="tlct-title align-center">
+        <img src="./img/The_Le_Cuoc_Thi/4.png" />
+    </div>
+
+    <div class="tlct-text align-center">
+        <p>
+            Cuộc thi
+            <span style="color:#FFCF00">
+                MARKETING ARENA 2021
+            </span> sẽ chính thức khởi động từ ngày
+            <span>
+                09.05.2021
+            </span> và kết thúc vào ngày
+            <span>
+                27.05.2021
+            </span>.
+            Các đội sẽ được thử thách qua
+            <span>
+                03 chặng hành trình
+            </span> chính với
+            <span>
+                02 lựa chọn.
+            </span>
+        </p>
+        <p>
+            <span>
+                Lưu ý: 20 đội
+            </span> đăng ký dự thi
+            <span>
+                sớm nhất
+            </span> sẽ được quyền
+            <span>
+                tự do lựa chọn đề
+            </span>, các đội còn lại sẽ được
+            <span>
+                BTC chỉ định
+            </span> đề thi.
+
+        </p>
+    </div>
+
+    <!-- <div class="tlct-timeline-icon align-center">
+        <img src="./img/The_Le_Cuoc_Thi/5.png" style="max-width: 10vw;" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (1).png" id="svg1" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/line.png" id="svg2" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/7.png" id="svg3" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/8.png" id="svg4" />
+        <div class="datetime1 datetime">
+            <span>
+                16.05
+            </span>
+            <img src="./img/The_Le_Cuoc_Thi/arrow.svg" id="arr_svg" />
+            <span>
+                02.06
+            </span>
+        </div>
+        <div class="btn-r1 btn-shadow">
+            <p>
+                ROUND 1 - KICK-START
+                <br>
+                <i>Ideation</i>
+            </p>
+        </div>
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg5" />
+        <div class="datetime2 datetime">
+            <span>
+                16.05
+            </span>
+        </div>
+        <div class="btn-r1-white btn-shadow">
+            <p>
+                Information Day
+            </p>
+        </div>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg6" />
+        <div class="timeline-text">
+            <p>
+                Chọn ra
+                <span>
+                    Top 10
+                </span> xuất sắc nhất của
+                <span>
+                    mỗi đề.
+                </span>
+            </p>
+        </div>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg7" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/10.png" id="svg8" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg9" />
+        <div class="datetime3 datetime">
+            <span>
+                16.05
+            </span>
+            <img src="./img/The_Le_Cuoc_Thi/arrow.svg" id="arr_svg" />
+            <span>
+                02.06
+            </span>
+        </div>
+        <div class="btn-r2 btn-shadow">
+            <p>
+                ROUND 2 - SPEED UP
+                <br>
+                <i>Deployment</i>
+            </p>
+        </div>
+
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg10" />
+
+        <div class="timeline-text text1">
+            <p>
+                <span>
+                    20 đội thi
+                </span> xây dựng
+                <span>
+                    kế hoạch Marketing truyền thông tích hợp
+                </span> cho nhãn hàng theo từng đề bài tương ứng.
+            </p>
+        </div>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (7).png" id="svg11" />
+
+        <div class="btn-r2-arr">
+            <div class="datetime2 datetime" id="trainning1">
+                <span>
+                    6:00 PM 04.06
+                </span>
+            </div>
+            <div class="btn-r2-white btn-shadow">
+                <p>
+                    Trainning Session:
+                </p>
+                <p class="grey">
+                    IMC Plan: Ideation
+                </p>
+            </div>
+        </div>
+
+        <div class="btn-r2-arr1">
+            <div class="datetime2 datetime" id="trainning2">
+                <span>
+                    8:00 AM 06.06
+                </span>
+            </div>
+            <div class="btn-r2-white1 btn-shadow">
+                <p>
+                    Trainning Session:
+                </p>
+                <p class="grey">
+                    IMC Plan: Execution
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-text">
+            <p>
+                Chọn 
+                <span>
+                    Top 02
+                </span> xuất sắc nhất mỗi đề
+            </p>
+        </div>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/10.png" id="svg8" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
+        <div class="datetime3 datetime">
+            <span>
+                18.06
+            </span>
+            <img src="./img/The_Le_Cuoc_Thi/arrow.svg" id="arr_svg" />
+            <span>
+                24.06
+            </span>
+        </div>
+        <div class="btn-r2 btn-shadow">
+            <p>
+                ROUND 3 - TOP OFF
+                <br>
+                <i>Social Activation</i>
+            </p>
+        </div>
+
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg10" />
+
+        <div class="timeline-text text1">
+            <p>
+                <span>
+                    04 đội thi
+                </span> đề xuất ý tưởng thực hiện một
+                <span>
+                    hoạt động activation
+                </span> trên nền tảng online.
+            </p>
+        </div>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (7).png" id="svg11" />
+
+        <div class="btn-r2-arr">
+            <div class="datetime2 datetime" id="trainning1">
+                <span>
+                    6:00 PM 18.06
+                </span>
+            </div>
+            <div class="btn-r2-white btn-shadow" id="social-media">
+                <p>
+                    Trainning Session:
+                </p>
+                <p class="grey">
+                    Social Media Marketing
+                </p>
+            </div>
+        </div>
+
+        <div class="btn-r2-arr1">
+            <div class="datetime2 datetime" id="trainning2">
+                <span>
+                    8:00 AM 20.06
+                </span>
+            </div>
+            <div class="btn-r2-white1 btn-shadow">
+                <p>
+                    Trainning Session:
+                </p>
+                <p class="grey">
+                    Brand Activation
+                </p>
+            </div>
+        </div>
+        <div class="btn-r1-white btn-shadow" id="sub1">
+            <p>
+                Mentoring
+            </p>
+            <p id="sub1_1">
+                <span>
+                    Top 04 đội thi
+                </span> hoàn thành Kế hoạch và triển khai ý tưởng theo hướng dẫn của Mentor.
+            </p>
+        </div>
+    </div> -->
+    <!-- End TLCT -->
+
+
+
+
+
+
+
+    <div class="tlct-timeline-icon align-center">
+        <img src="./img/The_Le_Cuoc_Thi/5.png" style="max-width: 10vw;" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/TL/16.png" id="svg1" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/line.png" id="svg2" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/7.png" id="svg3" />
+        <br>
+        <img src="./img/The_Le_Cuoc_Thi/8.png" id="svg4" />
+        
+    </div>
+
+    <!-- QDCT -->
+    <div class="qdct">
+        <div class="qdct-content align-center" id="qdct-bg">
+            <img class="qdct-icon" src="./img/Quy_Dinh_Cuoc_Thi/1.png" />
+            <br>
+            <img class="qdct-title" src="./img/Quy_Dinh_Cuoc_Thi/2.png" />
+            <br>
+            <div class="qdct-text">
+                <p id="qdct-title">
+                    ĐỐI TƯỢNG THAM GIA
+                </p>
+                <br>
+                <p>
+                    Nhóm dự thi gồm
+                    <span>
+                        03 thành viên
+                    </span>
+                    , đều là
+                    <span>
+                        công dân Việt Nam hợp pháp
+                    </span>
+                    , đang là
+                    <span>
+                        sinh viên
+                    </span> theo học
+                    tại các trường
+                    <span>
+                        Đại học, Cao đẳng
+                    </span> trên toàn lãnh thổ
+                    <span>
+                        Việt Nam
+                    </span> hoặc
+                    <span>
+                        du học sinh
+                    </span> sống tại
+                    <span>
+                        Việt Nam
+                    </span>
+                    trong suốt quá trình diễn ra cuộc thi, có độ tuổi từ
+                    <span>
+                        18-24
+                    </span> tuổi (đã tốt nghiệp THPT hoặc vừa tốt nghiệp Đại học,
+                    Cao đẳng trong vòng 6 tháng);
+                </p>
+                <p>
+                    Cách thức đăng ký:
+                    <span>
+                        đăng ký dự thi
+                    </span> tại
+                    <span>
+                        Website chính thức
+                    </span> của cuộc thi từ ngày
+                    <span>
+                        09.05.2021
+                    </span> đến trước
+                    <span>
+                        23h59 ngày 21.05.2021
+                    </span>
+                    <span style="color: #FFCF00;">
+                        (đối với đăng ký dự thi)
+                    </span> và 19.05.2021 (đối với đăng ký ghép nhóm);
+                </p>
+                <br>
+                <div id="luuy">
+                    LƯU Ý
+                </div>
+                <br>
+                <p>
+                    Ban Tổ chức (BTC)
+                    <span style="color: #FFCF00;">
+                        MARKETING ARENA 2021
+                    </span> sẽ hỗ trợ ghép nhóm đối với thí sinh tham gia cá nhân;
+                </p>
+                <p>
+                    <span>
+                        Mỗi thí sinh
+                    </span> chỉ được quyền tham gia
+                    <span>
+                        01 nhóm thi
+                    </span> duy nhất;
+                </p>
+                <p>
+                    Thành viên các đội
+                    <span>
+                        tham gia chung kết
+                    </span> của cuộc thi
+                    <span style="color: #FFCF00;">
+                        MARKETING ARENA
+                    </span> trong vòng
+                    <span>
+                        03 năm
+                    </span> trở lại sẽ
+                    <span>
+                        KHÔNG
+                    </span> được đăng ký tham gia cuộc thi năm nay;
+                </p>
+                <p>
+                    Các thành viên trong
+                    <span>
+                        BTC
+                    </span>
+                    <span style="color: #FFCF00;">
+                        MARKETING ARENA 2021
+                    </span>
+                    <span>
+                        KHÔNG
+                    </span> được phép dự thi cuộc thi
+                    <span style="color: #FFCF00;">
+                        MARKETING ARENA 2021
+                    </span>
+                    để đảm bảo tính
+                    <span>
+                        minh bạch
+                    </span> và
+                    <span>
+                        công bằng.
+                    </span>
+                </p>
+            </div>
+            <img class="qdct-dock" src="./img/Quy_Dinh_Cuoc_Thi/dock.png" />
+        </div>
+        <img class="qdct-car" src="./img/Quy_Dinh_Cuoc_Thi/6.png" />
+        <img class="qdct-icon2 hidden" src="./img/Quy_Dinh_Cuoc_Thi/5.png" />
+    </div>
+    <!-- End QDCT -->
+
+
+
+
+
+
+    <!-- Footer -->
+    <div class="container-fluid">
+        <div class="footer">
+            <img class="footer-background" src="./img/Lien_He/3.1.png" />
+        </div>
+    </div>
+    <div id="LH">
+    </div>
+    <!-- End Footer -->
+</body>
 
 
 </html>
