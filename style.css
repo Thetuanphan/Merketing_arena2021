@@ -1,586 +1,668 @@
-html{
+html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth
 }
 
 body {
     overflow-y: scroll;
-    overflow-x: scroll;
-  }
-
-body::-webkit-scrollbar{
-    display: none;
+    overflow-x: scroll
 }
 
-p{
+body::-webkit-scrollbar {
+    display: none
+}
+
+p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 14px
 }
 
-span{
-    font-weight: bold;
+span {
+    font-weight: 700
+}
+
+@media (max-width:990px) {
+    #navbarCollapse {
+        padding-left: 0;
+        padding-right: 0;
+        background-color: #fff;
+        max-width: 100%;
+        text-align: center
+    }
+    .navbar {
+        padding: 10px 0 10px 0;
+        text-align: center
+    }
 }
 
 @media (max-width:768px) {
     img.hidden {
-      display: none;
+        display: none
     }
-
-    div#navbarCollapse{
-        padding-left: 0px;
+    img.logo-left {
+        display: none
     }
-
-    a.nav-link{
-        text-align: center;
+    #navbarCollapse {
+        padding-left: 0;
+        padding-right: 0;
+        background-color: #fff;
+        max-width: 100%;
+        text-align: center
     }
-
-    a.navbar-brand{
-        padding-left: 80%;
+    .navbar {
+        padding: 10px 0 10px 0;
+        text-align: center
     }
-
-    .hidden{
-        display: none;
+    a.nav-link {
+        text-align: center
     }
-
-    #qdct-bg{
-        background-color: white;
+    a.navbar-brand {
+        padding-left: 80%
     }
-
-    .qdct-text{
+    .hidden {
+        display: none
+    }
+    #qdct-bg {
+        background-color: #fff
+    }
+    .qdct-text {
         margin-top: -4vw;
-        padding: 0vw 0vw 0vw 0vw;
+        padding: 0
     }
-    
-    .qdct-text p{
+    .qdct-text p {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         text-align: justify;
-        font-size: 14px;
+        font-size: 14px
     }
-
-    div#luuy{
+    div#luuy {
         max-width: 80px;
-        padding: 1vw 3vw 1vw 3vw;
+        padding: 1vw 3vw 1vw 3vw
     }
-
-    img.qdct-title{
-        background-color: #FFCF00;
+    img.qdct-title {
+        background-color: #ffcf00;
         border-radius: 40px;
         text-align: center;
         margin: auto;
         padding-top: 9px;
-        margin-bottom: 5px;
+        margin-bottom: 5px
     }
-
-    p#qdct-title{
+    p#qdct-title {
         text-align: center;
-        font-size: 20px;
+        font-size: 20px
     }
-
-    div.datetime1.datetime{
+    div.datetime1.datetime {
         margin-top: -13vw;
-        font-size: 10px;
+        font-size: 10px
     }
-
-    img#svg3{
-        margin-top: -14vw;
+    img#svg3 {
+        margin-top: -14vw
     }
-
-    img#svg4{
-        margin-top: -19.3vw;
+    img#svg4 {
+        margin-top: -19.3vw
     }
-  }
-
-.grey{
-    color: rgba(128, 128, 128, 0.795);
 }
 
-.align-center{
-    text-align: center;
+#navbarCollapse {
+    padding-left: 0!important
 }
 
-.navbar{
-    max-height: 75px; 
+.grey {
+    color: rgba(128, 128, 128, .795)
+}
+
+.align-center {
+    text-align: center
+}
+
+.navbar {
+    max-height: 75px
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: black;
+    color: #000;
     border-radius: 20px;
-    transition: 0.3s;
-    font-weight: bold;
-    font-size: 1vw;
+    transition: .3s;
+    font-weight: 700;
+    font-size: 1vw
 }
+
 .navbar-light .navbar-nav .nav-link:hover {
-    color: white;
-    background-color: #FFCF00;
+    color: #fff;
+    background-color: #ffcf00
 }
 
-.dropdown-menu{
+.dropdown-menu {
     border-style: none;
-    border-radius: 20px;
+    border-radius: 20px
 }
 
-.dropdown-item{
-    font-weight: bold;
-    font-size: 12px;
-}
-.margin-auto{
-  margin-left: 7px;
-  margin-right:7px;
+.dropdown-item {
+    font-weight: 700;
+    font-size: 12px
 }
 
-.dropdown:hover .dropdown-menu{
+.margin-auto {
+    margin-left: 7px;
+    margin-right: 7px
+}
+
+.dropdown:hover .dropdown-menu {
     margin-top: 5px;
-    display: block;
+    display: block
 }
 
-.navbar-border{
-    border-bottom: 1px solid rgb(173, 173, 173);
+.navbar-border {
+    border-bottom: 1px solid #adadad
 }
 
-.logo-left{
-    max-width: 80px;
+.logo-left {
+    max-width: 80px
 }
 
-.logo-right{
+.logo-right {
     width: 1vw;
     margin-top: 8px;
-    margin-left: 93%;               
+    margin-left: 93%;
     position: absolute;
-    z-index: 8;
+    z-index: 8
 }
 
-.img-banner{
-    max-width: 100%;
+.img-banner {
+    max-width: 100%
 }
 
-.container-fluid{
-    padding-left: 0px;
-    padding-right: 0px;
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0
 }
 
-.img-banner{
-    margin-top: 1vw;
+.row {
+    margin-left: 0;
+    margin-right: 0
 }
 
-.vct{
+.col {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0
 }
 
-.vct-dot{
+.img-banner {
+    margin-top: 1vw
+}
+
+.vct {
+    margin-bottom: 0
+}
+
+.vct-dot {
     max-width: 7vw;
-    align-self: center;
+    align-self: center
 }
 
-.vct-col-img{
-    padding: 4vw;
+.vct-col-img {
+    padding: 4vw 4vw 0 4vw
 }
 
-.vct-img{
+.vct-img {
     max-width: 100%;
-    max-height: 440px;
+    max-height: 440px
 }
 
-.vct-col-content{
+.vct-col-content {
     margin-top: 4vw;
-    padding: 5vw;    
+    padding: 5vw 5vw 0 5vw
 }
 
-.vct-content{
-    
+.vct-title {
+    max-width: 25vw
 }
 
-.vct-title{
-    max-width: 25vw;
-}
-
-.vct-text{
+.vct-text {
     max-width: 100%;
     margin-top: 2.5vw;
-    font-size: 14px;
+    font-size: 14px
 }
 
-.vct-dot-anima{
+.vct-dot-anima {
     text-align: right;
-    margin-top: -10vw;
+    margin-top: -60px
 }
 
-.vct-dot-anima img{
+.vct-dot-anima img {
     max-width: 6vw;
-    margin-right: 0vw;
+    margin-right: 0
 }
 
-.tlct-container{
-    margin-top: 10vw;  
+.tlct-container {
+    margin-top: -100px
 }
 
-.tlct-banner{
-    max-width: 21vw;
+.tlct-banner {
+    max-width: 21vw
 }
 
-.tlct-right-img{
-    margin-top: -29.5vw;
+.tlct-right-img {
+    margin-top: -45px;
     text-align: right;
-    margin-right: -17vw;
+    margin-right: -17%
 }
 
-.tlct-right-img img{
-    max-width: 30vw;
+.tlct-right-img img {
+    max-width: 30vw
 }
 
-.tlct-title{
-    margin-top: 6vw;;
+.tlct-title {
+    margin-top: 6vw
 }
 
-.tlct-title img{
-    max-width: 30vw;
+.tlct-title img {
+    max-width: 30vw
 }
 
-.tlct-text{
-    padding-top: 3vw;
+.tlct-text {
+    padding-top: 3vw
 }
 
-.tlct-text p{
+.tlct-text p {
     padding-left: 15vw;
     padding-right: 15vw;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 14px;
+    font-size: 14px
 }
 
-.tlct-text p span{
-    font-weight: bold;
+.tlct-text p span {
+    font-weight: 700
 }
 
-.tlct-timeline-icon img{
-    max-width: 10vw;
+.tlct-timeline-icon img {
+    max-width: 10vw
 }
 
-.btn-shadow{
-    box-shadow: 0vw 5px 50px rgb(175, 175, 175);
+.timeline-icon1 {
+    margin-left: -11vw
 }
 
-.datetime{
-    color: #FFCF00;
-    font-weight: bold;
+.btn-shadow {
+    box-shadow: 0 5px 50px #afafaf
+}
+
+.datetime {
+    color: #ffcf00;
+    font-weight: 700;
     text-align: center;
-    font-size: 14px;
+    font-size: 14px
 }
 
-.datetime1{
-    left: 0;
-    right: 0;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -6%;
-    position: absolute;
-}
-
-.datetime2{
-    margin-top: -2.25vw;
+.datetime2 {
     font-size: large;
-    color: rgba(128, 128, 128, 0.795);
+    color: rgba(128, 128, 128, .795)
 }
 
-.datetime3{
-    margin-top: -1.25vw;
+.datetime3 {
+    margin-top: 35px;
+    font-size: large;
+    color: rgba(128, 128, 128, .795)
 }
 
-.datetime4{
-    color: rgb(207, 0, 0);
-    font-weight: bold;
+.datetime4 {
+    color: #cf0000;
+    font-weight: 700;
     text-align: center;
     font-size: large;
-    margin-top: -0.25vw;
+    margin-top: -.25vw
 }
 
-.btn-r1{
-    background-color: #FFCF00;
-    margin: -4.5vw 15vw 0px 15vw;
+.btn-r1 {
+    background-color: #ffcf00;
+    margin: 0 200px -16px 200px;
     border-radius: 12px;
-    padding: 5px 0px 0px 0px;
-    color: white;
+    padding: 5px 0 0 0;
+    color: #fff;
     font-weight: bolder;
-    font-size: larger;
+    font-size: larger
 }
 
-.btn-r1 p{
-    font-size: larger;
+.btn-r1 p {
+    font-size: larger
 }
 
-.btn-r1 p i{
-    font-size: smaller;
+.btn-r1 p i {
+    font-size: smaller
 }
 
-.btn-r1-white{
-    background-color:whitesmoke;
-    margin: 0px 25vw 0px 25vw;
+.btn-r1-white {
+    background-color: #f5f5f5;
+    margin: 0 25vw 0 25vw;
     border-radius: 10px;
-    padding: 10px 0px 0.5px 0px;
-    color: #FFCF00;
-    font-weight: bolder;
+    padding: 10px 0 .5px 0;
+    color: #ffcf00;
+    font-weight: bolder
 }
 
-.btn-r1-white p{
-    font-size: larger;
+.btn-r1-white p {
+    font-size: larger
 }
 
-.btn-r2{
-    background-color: #FFCF00;
-    margin: 0vw 15vw 0px 15vw;
+.btn-r2 {
+    background-color: #ffcf00;
+    margin: 0 200px 0 200px;
     border-radius: 12px;
-    padding: 1px 0px 0px 0px;
-    color: white;
+    padding: 1px 0 0 0;
+    color: #fff;
     font-weight: bolder;
-    font-size: larger;
+    font-size: larger
 }
 
-.btn-r2 p{
-    font-size: larger;
+.btn-r2 p {
+    font-size: larger
 }
 
-.btn-r2 p i{
-    font-size: smaller;
+.btn-r2 p i {
+    font-size: smaller
 }
 
-.btn-r2-arr{
-    margin: -15vw 13vw 0px 13vw;
-    padding: 10px 20px 0.5px 85px;
+.btn-r2-arr {
+    margin: -15vw 13vw 0 13vw;
+    padding: 10px 20px .5px 85px;
     position: absolute;
-    letter-spacing: 3px;
+    letter-spacing: 3px
 }
 
-.btn-r2-white{
+.btn-r2-white {
+    width: 22vw;
     text-align: right;
-    background-color:whitesmoke;
+    background-color: #f5f5f5;
     border-radius: 15px;
-    color: #FFCF00;
+    color: #ffcf00;
     font-weight: bolder;
-    padding: 1vw 1vw 1vw 8vw;
+    padding: 15px 15px 15px;
+    float: right
 }
 
-.btn-r2-white p{
+.btn-r2-white p {
     font-size: larger;
-    margin: -5px 0 0 0;
+    margin: -5px 0 0 0
 }
 
-.btn-r2-arr1{
-    margin: -15vw 0vw 0px 52.5vw;
-    padding: 10px 85px 0.5px 20px;
+.btn-r2-white p {
+    font-size: larger;
+    margin: -5px 0 0 0
+}
+
+.btn-r2-arr1 {
+    margin: -15vw 0 0 52.5vw;
+    padding: 10px 85px .5px 20px;
     position: absolute;
-    letter-spacing: 3px;
+    letter-spacing: 3px
 }
 
-.btn-r2-white1{
+.btn-r2-white1 {
+    width: 22vw;
     text-align: left;
-    background-color:whitesmoke;
+    background-color: #f5f5f5;
     border-radius: 15px;
-    color: #FFCF00;
+    color: #ffcf00;
     font-weight: bolder;
-    padding: 1vw 8vw 1vw 1vw;
+    padding: 15px 00px 15px 15px;
+    float: left
 }
 
-.btn-r2-white1 p{
+.btn-r2-white1 p {
     font-size: larger;
-    margin: -5px 0 0 0;
+    margin: -5px 0 0 0
 }
 
-.timeline-text{
-    margin-top: -1.25vw;
+.text1 {
+    margin: 0 30vw 0 30vw
 }
 
-.text1{
-    margin: -2vw 34vw 0px 34vw;
+.qdct {
+    max-width: 100%
 }
 
-.qdct{
-    max-width: 100%;
+.qdct-content {
+    background-color: #ffcf00
 }
 
-.qdct-content{
-    background-color: #FFCF00;
-}
-
-.qdct-icon{
+.qdct-icon {
     max-width: 30vw;
     margin-top: -28vw;
-    margin-left: 88vw;
+    margin-left: 88vw
 }
 
-.qdct-title{
+.qdct-title {
     max-width: 60vw;
     margin-top: -2vw;
-    margin-left: 25vw;
+    margin-left: 25vw
 }
 
-.qdct-text{
+.qdct-text {
     margin-top: -4vw;
-    padding: 3vw 21vw 10vw 21vw;
-    background-image: url("./img/Quy_Dinh_Cuoc_Thi/3.png");
+    padding: 35px 300px 10% 300px;
+    background-image: url(img/Quy_Dinh_Cuoc_Thi/3.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center
 }
 
-.qdct-text p{
+.qdct-text p {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     text-align: justify;
-    font-size: 14px;
+    font-size: 14px
 }
 
-.qdct-text p span{
-    font-weight: bold;
+.qdct-text p span {
+    font-weight: 700
 }
 
-.qdct-dock{
+.qdct-text1 {
+    margin-top: -4vw;
+    padding: 3vw 21vw 10vw 21vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.qdct-text1 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    font-size: 14px
+}
+
+.qdct-text1 p span {
+    font-weight: 700
+}
+
+.qdct-text2 {
+    margin-top: -4vw;
+    padding: 3vw 21vw 10vw 21vw;
+    background-image: url(img/Quy_Dinh_Cuoc_Thi/3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.qdct-text2 p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    font-size: 14px
+}
+
+.qdct-text2 p span {
+    font-weight: 700
+}
+
+.qdct-dock {
     max-width: 120%;
     margin-top: -30vw;
-    margin-left: -5vw;
+    margin-left: -5vw
 }
 
-.qdct-car{
+.qdct-car {
     max-width: 65vw;
     margin-top: -35vw;
-    margin-left: -18vw;
+    margin-left: -18vw
 }
 
-.qdct-icon2{
+.qdct-icon2 {
     max-width: 10vw;
     margin-top: -60vw;
-    margin-left: 80vw;
+    margin-left: 80vw
 }
 
-.footer{
+.ly {
+    background-image: url(img/Luu_Y_Danh_Cho_Thi_Sinh/2.png);
+    margin: 20vw 20vw 20vw 20vw
+}
+
+.footer {
+    width: 100%
+}
+
+.footer-background {
     width: 100%;
+    margin-top: 5%
 }
 
-.footer-background{
-    width: 100%;
-    margin-top: 5%;
-}
- 
-
-#navbar-margin{
-    height: 100%;
+#navbar-margin {
+    height: 100%
 }
 
-#navbarCollapse{
-    padding-left: 10%;
+#navbarCollapse {
+    padding-left: 10%
 }
 
-#dropdown-menu-hover{
-    background-color: white;
-    color: black;
+#dropdown-menu-hover {
+    background-color: #fff;
+    color: #000
 }
 
-#dropdown-menu-hover:hover{
-    background-color: white;
-    color: #FFCF00;
+#dropdown-menu-hover:hover {
+    background-color: #fff;
+    color: #ffcf00
 }
 
-#qdct-title{
+#qdct-title {
     font-weight: 775;
-    font-size: 22px;
+    font-size: 22px
 }
 
-#luuy{
+#luuy {
     font-size: 18px;
     max-width: 7vw;
-    color: white;
+    color: #fff;
     font-weight: 500;
-    background-color: #FFCF00;
+    background-color: #ffcf00;
     border-radius: 20px;
-    padding: 3px 7px 3px 7px;
+    padding: 3px 7px 3px 7px
 }
 
-#svg1{
+#svg1 {
     margin-top: -2.7vw;
-    position: relative;
+    position: relative
 }
 
-#svg2{
+#svg2 {
     left: 0;
     right: 0;
     margin-left: auto;
     margin-right: auto;
     max-width: 70vw;
     margin-top: -5.1vw;
-    position: absolute;
+    position: absolute
 }
 
-#svg3{
+#svg3 {
     margin-top: -10%;
     margin-left: -35vw;
-    position: absolute;
+    position: absolute
 }
 
-#svg4{
+#svg4 {
     transform: scale(1.2);
     margin-top: -11.4vw;
     margin-left: 23.5vw;
-    position: absolute;
+    position: absolute
 }
 
-#arr_svg{
+#arr_svg {
     max-width: 6px;
     margin-top: -3px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 10px
 }
 
-#svg5{
-    margin-top: -4.9vw;
+#svg8 {
+    transform: scale(.75);
+    margin-top: -16px
 }
 
-#svg6{
-    margin-top: -1.25vw;
+#svg10 {
+    margin-top: -16px
 }
 
-#svg7{
-    margin-top: -2vw;
+#svg11 {
+    margin-top: -1rem
 }
 
-#svg8{
-    transform: scale(0.75);
-    margin-top: -2.5vw;
+#svg12 {
+    max-width: 30vw;
+    margin: -142vw 0 0 0;
+    float: left
 }
 
-#svg10{
-    margin-top: -3vw;
-}
-
-#svg11{
-    margin-top: -2.5vw;
-    position: relative;
-}
-
-#trainning1{
+#trainning1 {
     text-align: right;
-    margin-right: 0.5vw;
+    margin-right: .5vw
 }
 
-#trainning2{
+#trainning2 {
     text-align: left;
-    margin-left: 0.5vw;
+    margin-left: .5vw
 }
 
-#social-media{
-    padding: 1vw 1vw 1vw 3vw;
+#social-media {
+    padding: 1vw 1vw 1vw 3vw
 }
 
-#sub1{
-    margin-top: -1.5vw;
+#sub1 {
+    margin-top: -1.5vw
 }
 
-#sub1_1{
+#sub1_1 {
     margin-top: -1vw;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    color: black;
-    font-weight: normal;
+    color: #000;
+    font-weight: 400
 }
 
-#end-tl{
+#end-tl {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px;
-    color: black;
-    margin-top: -1vw;
-    margin-bottom: 15vw;
+    color: #000;
+    margin-bottom: 15vw
+}
+
+#sub-title {
+    font-size: 18px;
+    max-width: 150px;
+    color: #fff;
+    font-weight: 500;
+    background-color: #ffcf00;
+    border-radius: 20px;
+    padding: 3px 7px 3px 7px
+}
+
+#qdct-svg {
+    max-width: 13vw;
+    margin: -195vw 85vw 0 85vw
+}
+
+#qdct-svg1 {
+    transform: scaleX(-1);
+    margin: -150vw -30vw 0 -30vw;
+    max-width: 50vw
 }

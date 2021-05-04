@@ -35,7 +35,7 @@
                 </span>
             </button>
 
-            <a class="navbar-brand"><img class="logo-left" src="./img/Trang_Chu/1.png"></a>
+            <a class="navbar-brand"><img class="logo-left" src="./img/Trang_Chu/1.jpg"></a>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
 
@@ -53,9 +53,9 @@
                         <div class="dropdown-menu margin-auto shadow-lg p-3 mb-5 bg-white"
                             aria-labelledby="dropdown-target">
                             <a class="dropdown-item" id="dropdown-menu-hover" href="#TLCT">Thể lệ vòng thi</a>
-                            <a class="dropdown-item" id="dropdown-menu-hover" href="#">Cơ cấu cuộc thi</a>
-                            <a class="dropdown-item" id="dropdown-menu-hover" href="#">Cơ cấu giải thưởng</a>
-                            <a class="dropdown-item" id="dropdown-menu-hover" href="#">Lưu ý dành cho thí sinh</a>
+                            <a class="dropdown-item" id="dropdown-menu-hover" href="#CCCT">Cơ cấu cuộc thi</a>
+                            <a class="dropdown-item" id="dropdown-menu-hover" href="#CCGT">Cơ cấu giải thưởng</a>
+                            <a class="dropdown-item" id="dropdown-menu-hover" href="#LY">Lưu ý dành cho thí sinh</a>
                         </div>
                     </li>
                     <li class="nav-item margin-auto">
@@ -78,12 +78,18 @@
         <!-- <img class="hidden" src="./img/Trang_Chu/3.png"> -->
 
     </div>
+
+    <div class="container-fluid">
+        <ul>
+
+        </ul>
+    </div>
     <!-- End Navbar -->
 
     <!-- Body -->
     <!-- Banner -->
     <div class="container-fluid" id="TC">
-        <img class="img-banner" src="./img/Trang_Chu/Banner.png" />
+        <img class="img-banner" src="./img/Trang_Chu/Banner.jpg" />
     </div>
     <!-- End Banner -->
 
@@ -120,21 +126,21 @@
     <!-- End VCT Content -->
 
     <!-- VCT Dot Animation-->
-    <div class="container vct-dot-anima">
+    <div class="container vct-dot-anima" id="TLCT">
         <img src="./img/Ve_Chung_Toi/3.1.png" />
         <img src="./img/Ve_Chung_Toi/3.1.png" />
         <img src="./img/Ve_Chung_Toi/3.1.png" />
+    </div>
+
+    <div class="tlct-right-img">
+        <img src="./img/The_Le_Cuoc_Thi/1.png" />
     </div>
     <!-- End VCT Dot Animation -->
     <!-- End VCT -->
 
     <!-- TLCT -->
-    <div class="container-fluid tlct-container align-center" id="TLCT">
+    <div class="container-fluid tlct-container align-center">
         <img class="tlct-banner" src="./img/The_Le_Cuoc_Thi/2.png" />
-    </div>
-
-    <div class="tlct-right-img">
-        <img src="./img/The_Le_Cuoc_Thi/1.png" />
     </div>
 
     <div class="tlct-title align-center">
@@ -188,6 +194,10 @@
         <img src="./img/The_Le_Cuoc_Thi/7.png" id="svg3" />
         <br>
         <img src="./img/The_Le_Cuoc_Thi/8.png" id="svg4" />
+    </div>
+
+    <div class="container-fluid align-center">
+
         <div class="datetime1 datetime">
             <span>
                 16.05
@@ -205,7 +215,7 @@
             </p>
         </div>
         <br>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg5" />
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg10" />
         <div class="datetime2 datetime">
             <span>
                 16.05
@@ -217,7 +227,7 @@
             </p>
         </div>
         <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg6" />
-        <div class="timeline-text">
+        <div>
             <p>
                 Chọn ra
                 <span>
@@ -228,29 +238,18 @@
                 </span>
             </p>
         </div>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/10.png" id="svg8" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
-        <div class="datetime3 datetime">
-            <span>
-                16.05
-            </span>
-            <img src="./img/The_Le_Cuoc_Thi/arrow.svg" id="arr_svg" />
-            <span>
-                02.06
-            </span>
-        </div>
-        <div class="btn-r2 btn-shadow">
-            <p>
-                ROUND 2 - SPEED UP
-                <br>
-                <i>Deployment</i>
-            </p>
+
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
         </div>
 
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg10" />
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/10.png" id="svg8" />
+        </div>
+
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg10" />
+        </div>
 
         <div class="timeline-text text1">
             <p>
@@ -262,54 +261,62 @@
                 </span> cho nhãn hàng theo từng đề bài tương ứng.
             </p>
         </div>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (7).png" id="svg11" />
-
-        <div class="btn-r2-arr">
-            <div class="datetime2 datetime" id="trainning1">
-                <span>
-                    6:00 PM 04.06
-                </span>
+        <div class="row align-center">
+            <div class="col col-lg-5">
+                <div class="datetime3 datetime" id="trainning1">
+                    <span>
+                        6:00 PM 04.06
+                    </span>
+                </div>
+                <div class="btn-r2-white btn-shadow">
+                    <p>
+                        Trainning Session:
+                    </p>
+                    <p class="grey">
+                        IMC Plan: Ideation
+                    </p>
+                </div>
             </div>
-            <div class="btn-r2-white btn-shadow">
-                <p>
-                    Trainning Session:
-                </p>
-                <p class="grey">
-                    IMC Plan: Ideation
-                </p>
+
+            <div class="col col-lg-2">
+                <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (7).png" id="svg11" />
+            </div>
+
+
+            <div class="col col-lg-5">
+                <div class="datetime3 datetime" id="trainning2">
+                    <span>
+                        8:00 AM 06.06
+                    </span>
+                </div>
+                <div class="btn-r2-white1 btn-shadow">
+                    <p>
+                        Trainning Session:
+                    </p>
+                    <p class="grey">
+                        IMC Plan: Execution
+                    </p>
+                </div>
             </div>
         </div>
-
-        <div class="btn-r2-arr1">
-            <div class="datetime2 datetime" id="trainning2">
-                <span>
-                    8:00 AM 06.06
-                </span>
-            </div>
-            <div class="btn-r2-white1 btn-shadow">
-                <p>
-                    Trainning Session:
-                </p>
-                <p class="grey">
-                    IMC Plan: Execution
-                </p>
-            </div>
-        </div>
-
-        <div class="timeline-text">
+        <div>
             <p>
-                Chọn 
+                Chọn
                 <span>
                     Top 02
                 </span> xuất sắc nhất mỗi đề
             </p>
         </div>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/10.png" id="svg8" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
-        <div class="datetime3 datetime">
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
+        </div>
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/10.png" id="svg8" />
+        </div>
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (5).png" id="svg10" />
+        </div>
+        <div class="datetime1 datetime">
             <span>
                 18.06
             </span>
@@ -326,7 +333,9 @@
             </p>
         </div>
 
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg10" />
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (3).png" id="svg10" />
+        </div>
 
         <div class="timeline-text text1">
             <p>
@@ -338,40 +347,47 @@
                 </span> trên nền tảng online.
             </p>
         </div>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (7).png" id="svg11" />
 
-        <div class="btn-r2-arr">
-            <div class="datetime2 datetime" id="trainning1">
-                <span>
-                    6:00 PM 18.06
-                </span>
+        <div class="row align-center">
+            <div class="col col-lg-5">
+                <div class="datetime3 datetime" id="trainning1">
+                    <span>
+                        6:00 PM 18.06
+                    </span>
+                </div>
+                <div class="btn-r2-white btn-shadow">
+                    <p>
+                        Trainning Session:
+                    </p>
+                    <p class="grey">
+                        Social Media Marketing
+                    </p>
+                </div>
             </div>
-            <div class="btn-r2-white btn-shadow" id="social-media">
-                <p>
-                    Trainning Session:
-                </p>
-                <p class="grey">
-                    Social Media Marketing
-                </p>
+
+            <div class="col col-lg-2">
+                <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (7).png" id="svg11" />
+            </div>
+
+
+            <div class="col col-lg-5">
+                <div class="datetime3 datetime" id="trainning2">
+                    <span>
+                        8:00 AM 20.06
+                    </span>
+                </div>
+                <div class="btn-r2-white1 btn-shadow">
+                    <p>
+                        Trainning Session:
+                    </p>
+                    <p class="grey">
+                        Brand Activation
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="btn-r2-arr1">
-            <div class="datetime2 datetime" id="trainning2">
-                <span>
-                    8:00 AM 20.06
-                </span>
-            </div>
-            <div class="btn-r2-white1 btn-shadow">
-                <p>
-                    Trainning Session:
-                </p>
-                <p class="grey">
-                    Brand Activation
-                </p>
-            </div>
-        </div>
-        <div class="btn-r1-white btn-shadow" id="sub1">
+        <div class="btn-r1-white btn-shadow">
             <p>
                 Mentoring
             </p>
@@ -381,11 +397,19 @@
                 </span> hoàn thành Kế hoạch và triển khai ý tưởng theo hướng dẫn của Mentor.
             </p>
         </div>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (11).png"/>
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/13.png" id="svg8" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (11).png" id="svg6"/>
+
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (11).png" />
+
+        </div>
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/13.png" id="svg8" />
+
+        </div>
+        <div>
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (11).png" id="svg10" />
+
+        </div>
         <div class="datetime4">
             <span>
                 16.05
@@ -396,50 +420,59 @@
                 Gala Night
             </p>
         </div>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (11).png" id="svg6"/>
+
+        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (11).png" id="svg10" />
+
         <div>
             <p>
                 <span>
                     Đêm chung kết
-                </span> diễn ra gồm 
+                </span> diễn ra gồm
                 <span>
                     02
                 </span> phần thi:
             </p>
         </div>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (12).png" id="svg7"/>
-        
-        <div class="btn-r2-arr">
-            <div class="datetime2 datetime" id="trainning1">
-                <span>
-                    PHẦN 01
-                </span>
+
+        <div class="row align-center">
+            <div class="col col-lg-5">
+                <div class="datetime3 datetime" id="trainning1">
+                    <span>
+                        PHẦN 01
+                    </span>
+                </div>
+                <div class="btn-r2-white btn-shadow">
+                    <p>
+                        Trình bày bài làm
+                    </p>
+                    <p>
+                        hoàn thiện
+                    </p>
+                </div>
             </div>
-            <div class="btn-r2-white btn-shadow">
-                <p>
-                    Trình bày bài làm 
-                </p>
-                <p>
-                    hoàn thiện
-                </p>
+
+            <div class="col col-lg-2">
+                <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (12).png" id="svg11" />
+            </div>
+
+
+            <div class="col col-lg-5">
+                <div class="datetime3 datetime" id="trainning2">
+                    <span>
+                        PHẦN 02
+                    </span>
+                </div>
+                <div class="btn-r2-white1 btn-shadow">
+                    <p>
+                        Giải quyết tình huống
+                    </p>
+                    <p>
+                        và tranh luận
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div class="btn-r2-arr1">
-            <div class="datetime2 datetime" id="trainning2">
-                <span>
-                    PHẦN 02
-                </span>
-            </div>
-            <div class="btn-r2-white1 btn-shadow">
-                <p>
-                    Giải quyết tình huống
-                </p>
-                <p>
-                    và tranh luận
-                </p>
-            </div>
-        </div>
         <div class="btn-r1-white btn-shadow" id="end-tl">
             <p>
                 <span>
@@ -447,16 +480,16 @@
                 </span>
             </p>
         </div>
-    </div> 
-</div>
+
+        <div class="timeline-icon1">
+            <img src="./img/The_Le_Cuoc_Thi/1.png" id="svg12" />
+
+        </div>
+    </div>
     <!-- End TLCT -->
 
-
-
-
-
     <!-- QDCT -->
-    <div class="qdct">
+    <div class="qdct" id="CCCT">
         <div class="qdct-content align-center" id="qdct-bg">
             <img class="qdct-icon" src="./img/Quy_Dinh_Cuoc_Thi/1.png" />
             <br>
@@ -581,10 +614,316 @@
     </div>
     <!-- End QDCT -->
 
+    <!-- QDTC -->
+    <div class="qdct-text1" id="qdtc">
+        <p id="qdct-title">
+            QUY ĐỊNH ĐỐI VỚI BTC
+        </p>
+        <br>
+        <div class="align-center" id="sub-title">
+            QUYỀN HẠN
+        </div>
+        <br>
+        <p>
+            <span>
+                BTC
+            </span> có quyền
+            <span>
+                điều chỉnh
+            </span> thể lệ cuộc thi như thay đổi nội dung, thời gian các hoạt động diễn ra suốt cuộc thi trong trường
+            hợp cần thiết.
+        </p>
+        <p>
+            <span>
+                BTC
+            </span> sẽ thông báo đến thí sinh dự thi thông qua
+            <span>
+                Email
+            </span> hoặc qua
+            <span>
+                Fanpage
+            </span> chính thức nếu có sự thay đổi.
+        </p>
+        <p>
+            <span>
+                BTC
+            </span> có quyền
+            <span>
+                cung cấp
+            </span> bài dự thi của các đội đến cho
+            <span>
+                Ban giám khảo
+            </span> và
+            <span>
+                đơn vị Bảo trợ chuyên môn.
+            </span>
+        </p>
+        <p>
+            <span>
+                BTC
+            </span> có
+            <span>
+                quyền hủy bỏ kết quả
+            </span> của đội thi nếu phát hiện bất kỳ
+            <span>
+                hành vi gian lận
+            </span> nào trong quá trình diễn ra cuộc thi.
+        </p>
+        <p>
+            <span>
+                BTC
+            </span> là người có quyền
+            <span>
+                quyết định cuối cùng
+            </span> về kết quả chương trình.
+        </p>
+        <br>
+        <p></p>
+        <div class="align-center" id="sub-title">
+            TRÁCH NHIỆM
+        </div>
+        <br>
+        <p>
+            <span>
+                BTC
+            </span> có trách nhiệm
+            <span>
+                bảo mật
+            </span> bài thi, đảm bảo thí sinh được nhận
+            <span>
+                đầy đủ giải thưởng
+            </span> như đề cập trong thể lệ.
+        </p>
+        <p>
+            Trong trường hợp các đội thi thuộc
+            <span>
+                TOP 20 & TOP 40 không sinh sống tại TP.HCM, BTC
+            </span> sẽ
+            <span>
+                hỗ trợ và đảm bảo
+            </span> các bạn được nhận
+            <span>
+                đầy đủ thông tin
+            </span> của các buổi
+            <span>
+                Training
+            </span>, làm việc với
+            <span>
+                Mentor
+            </span>. Đặc biệt
+            <span>
+                TOP 04
+            </span> sẽ được
+            <span>
+                hỗ trợ chi phí
+            </span> (di chuyển và lưu trú) để tham dự đêm chung kết
+            <span>
+                Gala Night
+            </span> tại
+            <span>
+                TP.HCM.
+            </span>
+        </p>
+    </div>
+    <!-- End QDTC -->
 
+    <!-- QDTC2 -->
+    <div class="qdct-text1" id="qdtc">
+        <p id="qdct-title">
+            QUY ĐỊNH ĐỐI VỚI BTC
+        </p>
+        <br>
+        <div class="align-center" id="sub-title">
+            QUYỀN HẠN
+        </div>
+        <br>
+        <p>
+            Các đội thi chỉ có quyền được
+            <span>
+                thay đổi
+            </span> số lượng thành viên trong
+            <span>
+                trường hợp bất khả kháng, có lý do chính đáng
+            </span> và phải thông báo cho
+            <span>
+                BTC
+            </span> trong vòng
+            <span>
+                48h
+            </span> trước khi diễn ra các hoạt động như
+            <span>
+                Pitching Day, Gala Night.
+            </span>
+        </p>
+        <br>
+        <p></p>
+        <div class="align-center" id="sub-title">
+            TRÁCH NHIỆM
+        </div>
+        <br>
+        <p>
+            Các đội thi phải
+            <span>
+                tham gia đầy đủ
+            </span> các
+            <span>
+                hoạt động chính
+            </span> diễn ra trong cuộc thi trừ trường hợp bất khả kháng;
+        </p>
+        <p>
+            Các thí sinh có trách nhiệm
+            <span>
+                cung cấp chính xác, đầy đủ
+            </span> các thông tin cá nhân
+            <span>
+                BTC
+            </span> yêu cầu;
+        </p>
+        <p>
+            Các đội thi chịu trách nhiệm với
+            <span>
+                nội dung
+            </span> trong bài thi của mình và
+            <span>
+                tự bảo mật, không tiết lộ
+            </span> những
+            <span>
+                thông tin quan trọng
+            </span> trong bài thi của mình;
+        </p>
+        <p>
+            Thí sinh phải giữ thái độ
+            <span>
+                lịch sự, văn minh,
+            </span> không có những cảm xúc, hành động quá khích đối với
+            <span>
+                BTC, Ban Giám khảo, đơn vị Bảo trợ chuyên môn,
+            </span> các diễn giả và các đội thi khác.
+            <span>
+                Không phát ngôn sai lệch
+            </span> làm ảnh hưởng đến các bên liên quan của cuộc thi;
+        </p>
+        <p>
+            Các đội thi cần
+            <span>
+                tuân thủ tuyệt đối
+            </span> nội quy, thời hạn nộp bài thi do
+            <span>
+                BTC
+            </span> quy định;
+        </p>
+        <p>
+            Để đảm bảo tính bảo mật của cuộc thi, các thí sinh
+            <span>
+                không được tiết lộ
+            </span> nội dung đề thi các
+            <span>
+                vòng 02, vòng 03.
+            </span>
+        </p>
+    </div>
+    <img src="./img/Quy_Dinh_Cuoc_Thi/7.png" id="qdct-svg" />
+    <img src="./img/Co_Cau_Giai_Thuong/13.png" id="qdct-svg1" />
+    <!-- End QDTC2 -->
 
-
-
+    <!-- LY -->
+    <div>
+        <div class="qdct-text2" id="qdtc">
+            <p id="qdct-title">
+                QUY ĐỊNH ĐỐI VỚI BTC
+            </p>
+            <br>
+            <div class="align-center" id="sub-title">
+                QUYỀN HẠN
+            </div>
+            <br>
+            <p>
+                Các đội thi chỉ có quyền được
+                <span>
+                    thay đổi
+                </span> số lượng thành viên trong
+                <span>
+                    trường hợp bất khả kháng, có lý do chính đáng
+                </span> và phải thông báo cho
+                <span>
+                    BTC
+                </span> trong vòng
+                <span>
+                    48h
+                </span> trước khi diễn ra các hoạt động như
+                <span>
+                    Pitching Day, Gala Night.
+                </span>
+            </p>
+            <br>
+            <p></p>
+            <div class="align-center" id="sub-title">
+                TRÁCH NHIỆM
+            </div>
+            <br>
+            <p>
+                Các đội thi phải
+                <span>
+                    tham gia đầy đủ
+                </span> các
+                <span>
+                    hoạt động chính
+                </span> diễn ra trong cuộc thi trừ trường hợp bất khả kháng;
+            </p>
+            <p>
+                Các thí sinh có trách nhiệm
+                <span>
+                    cung cấp chính xác, đầy đủ
+                </span> các thông tin cá nhân
+                <span>
+                    BTC
+                </span> yêu cầu;
+            </p>
+            <p>
+                Các đội thi chịu trách nhiệm với
+                <span>
+                    nội dung
+                </span> trong bài thi của mình và
+                <span>
+                    tự bảo mật, không tiết lộ
+                </span> những
+                <span>
+                    thông tin quan trọng
+                </span> trong bài thi của mình;
+            </p>
+            <p>
+                Thí sinh phải giữ thái độ
+                <span>
+                    lịch sự, văn minh,
+                </span> không có những cảm xúc, hành động quá khích đối với
+                <span>
+                    BTC, Ban Giám khảo, đơn vị Bảo trợ chuyên môn,
+                </span> các diễn giả và các đội thi khác.
+                <span>
+                    Không phát ngôn sai lệch
+                </span> làm ảnh hưởng đến các bên liên quan của cuộc thi;
+            </p>
+            <p>
+                Các đội thi cần
+                <span>
+                    tuân thủ tuyệt đối
+                </span> nội quy, thời hạn nộp bài thi do
+                <span>
+                    BTC
+                </span> quy định;
+            </p>
+            <p>
+                Để đảm bảo tính bảo mật của cuộc thi, các thí sinh
+                <span>
+                    không được tiết lộ
+                </span> nội dung đề thi các
+                <span>
+                    vòng 02, vòng 03.
+                </span>
+            </p>
+        </div>
+    </div>
+    <!-- LY -->
 
     <!-- Footer -->
     <div class="container-fluid">
@@ -596,6 +935,4 @@
     </div>
     <!-- End Footer -->
 </body>
-
-
 </html>
