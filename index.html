@@ -15,8 +15,8 @@
         -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-        -->
+    <script type="text/javascript" src="./js/addon/mdb.min.js"></script>
+        
 
     <style>
     </style>
@@ -35,7 +35,7 @@
                 </span>
             </button>
 
-            <a class="navbar-brand"><img class="logo-left" src="./img/Trang_Chu/1.jpg"></a>
+            <a class="navbar-brand"><img class="logo-left" src="./img/Trang_Chu/1.png"></a>
 
             <div class="collapse navbar-collapse" id="navbarCollapse">
 
@@ -72,6 +72,9 @@
                     </li>
 
                 </ul>
+            </div>
+            <div class="img-logo">
+                <img src="./img/Trang_Chu/3_1.png"/>
             </div>
         </nav>
 
@@ -127,9 +130,9 @@
 
     <!-- VCT Dot Animation-->
     <div class="container vct-dot-anima" id="TLCT">
-        <img src="./img/Ve_Chung_Toi/3.1.png" />
-        <img src="./img/Ve_Chung_Toi/3.1.png" />
-        <img src="./img/Ve_Chung_Toi/3.1.png" />
+        <img class="wow bounceInDown" src="./img/Ve_Chung_Toi/3.1.png" />
+        <img class="wow bounceInDown" src="./img/Ve_Chung_Toi/3.1.png" />
+        <img class="wow bounceInDown" src="./img/Ve_Chung_Toi/3.1.png" />
     </div>
 
     <div class="tlct-right-img">
@@ -143,11 +146,11 @@
         <img class="tlct-banner" src="./img/The_Le_Cuoc_Thi/2.png" />
     </div>
 
-    <div class="tlct-title align-center">
+    <div class="tlct-title align-center wow fadeInDown">
         <img src="./img/The_Le_Cuoc_Thi/4.png" />
     </div>
 
-    <div class="tlct-text align-center">
+    <div class="tlct-text align-center wow fadeInDown">
         <p>
             Cuộc thi
             <span style="color:#FFCF00">
@@ -184,19 +187,19 @@
         </p>
     </div>
 
-    <div class="tlct-timeline-icon align-center">
-        <img src="./img/The_Le_Cuoc_Thi/5.png" style="max-width: 10vw;" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (1).png" id="svg1" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/line.png" id="svg2" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/7.png" id="svg3" />
-        <br>
-        <img src="./img/The_Le_Cuoc_Thi/8.png" id="svg4" />
-    </div>
-
     <div class="container-fluid align-center">
+        <div class="tlct-timeline-icon zoomin-infi">
+            <img src="./img/The_Le_Cuoc_Thi/5.png"/>
+        </div>
+        <div id="svg21">
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (1).1.png"/>
+        </div>
+        <div class="dethi">
+            <img src="./img/The_Le_Cuoc_Thi/dethi.png"/>
+        </div>
+        <div id="svg20">
+            <img src="./img/The_Le_Cuoc_Thi/TL/16 - Copy (1).2.png"/>
+        </div>
 
         <div class="datetime1 datetime">
             <span>
@@ -207,7 +210,7 @@
                 02.06
             </span>
         </div>
-        <div class="btn-r1 btn-shadow">
+        <div class="btn-r1 btn-shadow hovers">
             <p>
                 ROUND 1 - KICK-START
                 <br>
@@ -221,7 +224,7 @@
                 16.05
             </span>
         </div>
-        <div class="btn-r1-white btn-shadow">
+        <div class="btn-r1-white btn-shadow hovers">
             <p>
                 Information Day
             </p>
@@ -262,13 +265,13 @@
             </p>
         </div>
         <div class="row align-center">
-            <div class="col col-lg-5">
+            <div class="col col-lg-5 wow fadeInLeft">
                 <div class="datetime3 datetime" id="trainning1">
                     <span>
                         6:00 PM 04.06
                     </span>
                 </div>
-                <div class="btn-r2-white btn-shadow">
+                <div class="btn-r2-white btn-shadow hovers">
                     <p>
                         Trainning Session:
                     </p>
@@ -283,13 +286,13 @@
             </div>
 
 
-            <div class="col col-lg-5">
+            <div class="col col-lg-5 wow fadeInRight">
                 <div class="datetime3 datetime" id="trainning2">
                     <span>
                         8:00 AM 06.06
                     </span>
                 </div>
-                <div class="btn-r2-white1 btn-shadow">
+                <div class="btn-r2-white1 btn-shadow hovers">
                     <p>
                         Trainning Session:
                     </p>
@@ -325,7 +328,7 @@
                 24.06
             </span>
         </div>
-        <div class="btn-r2 btn-shadow">
+        <div class="btn-r2 btn-shadow hovers">
             <p>
                 ROUND 3 - TOP OFF
                 <br>
@@ -349,13 +352,13 @@
         </div>
 
         <div class="row align-center">
-            <div class="col col-lg-5">
+            <div class="col col-lg-5 wow fadeInLeft">
                 <div class="datetime3 datetime" id="trainning1">
                     <span>
                         6:00 PM 18.06
                     </span>
                 </div>
-                <div class="btn-r2-white btn-shadow">
+                <div class="btn-r2-white btn-shadow hovers">
                     <p>
                         Trainning Session:
                     </p>
@@ -370,13 +373,13 @@
             </div>
 
 
-            <div class="col col-lg-5">
+            <div class="col col-lg-5 wow fadeInRight">
                 <div class="datetime3 datetime" id="trainning2">
                     <span>
                         8:00 AM 20.06
                     </span>
                 </div>
-                <div class="btn-r2-white1 btn-shadow">
+                <div class="btn-r2-white1 btn-shadow hovers">
                     <p>
                         Trainning Session:
                     </p>
@@ -387,7 +390,7 @@
             </div>
         </div>
 
-        <div class="btn-r1-white btn-shadow">
+        <div class="btn-r1-white btn-shadow hovers">
             <p>
                 Mentoring
             </p>
@@ -415,7 +418,7 @@
                 16.05
             </span>
         </div>
-        <div class="btn-r2 btn-shadow" style="background-color: rgb(207, 0, 0); border-radius: 15px;">
+        <div class="btn-r2 btn-shadow hovers" style="background-color: rgb(207, 0, 0); border-radius: 15px;">
             <p>
                 Gala Night
             </p>
@@ -435,13 +438,13 @@
         </div>
 
         <div class="row align-center">
-            <div class="col col-lg-5">
+            <div class="col col-lg-5 wow fadeInLeft">
                 <div class="datetime3 datetime" id="trainning1">
                     <span>
                         PHẦN 01
                     </span>
                 </div>
-                <div class="btn-r2-white btn-shadow">
+                <div class="btn-r2-white btn-shadow hovers">
                     <p>
                         Trình bày bài làm
                     </p>
@@ -456,13 +459,13 @@
             </div>
 
 
-            <div class="col col-lg-5">
+            <div class="col col-lg-5 wow fadeInRight">
                 <div class="datetime3 datetime" id="trainning2">
                     <span>
                         PHẦN 02
                     </span>
                 </div>
-                <div class="btn-r2-white1 btn-shadow">
+                <div class="btn-r2-white1 btn-shadow hovers">
                     <p>
                         Giải quyết tình huống
                     </p>
@@ -473,7 +476,7 @@
             </div>
         </div>
 
-        <div class="btn-r1-white btn-shadow" id="end-tl">
+        <div class="btn-r1-white btn-shadow hovers" id="end-tl">
             <p>
                 <span>
                     Vinh danh những nhà vô địch
@@ -493,9 +496,9 @@
         <div class="qdct-content align-center" id="qdct-bg">
             <img class="qdct-icon" src="./img/Quy_Dinh_Cuoc_Thi/1.png" />
             <br>
-            <img class="qdct-title" src="./img/Quy_Dinh_Cuoc_Thi/2.png" />
+            <img class="qdct-title wow fadeInDown" src="./img/Quy_Dinh_Cuoc_Thi/2.png" />
             <br>
-            <div class="qdct-text">
+            <div class="qdct-text wow fadeIn">
                 <p id="qdct-title">
                     ĐỐI TƯỢNG THAM GIA
                 </p>
@@ -616,11 +619,11 @@
 
     <!-- QDTC -->
     <div class="qdct-text1" id="qdtc">
-        <p id="qdct-title">
+        <p class="wow fadeInDown" id="qdct-title">
             QUY ĐỊNH ĐỐI VỚI BTC
         </p>
         <br>
-        <div class="align-center" id="sub-title">
+        <div class="align-center wow fadeInUp" id="sub-title">
             QUYỀN HẠN
         </div>
         <br>
@@ -679,7 +682,7 @@
         </p>
         <br>
         <p></p>
-        <div class="align-center" id="sub-title">
+        <div class="align-center wow fadeInUp" id="sub-title">
             TRÁCH NHIỆM
         </div>
         <br>
@@ -729,11 +732,11 @@
 
     <!-- QDTC2 -->
     <div class="qdct-text1" id="qdtc">
-        <p id="qdct-title">
+        <p class="wow fadeInDown" id="qdct-title">
             QUY ĐỊNH ĐỐI VỚI BTC
         </p>
         <br>
-        <div class="align-center" id="sub-title">
+        <div class="align-center wow fadeInUp" id="sub-title">
             QUYỀN HẠN
         </div>
         <br>
@@ -757,7 +760,7 @@
         </p>
         <br>
         <p></p>
-        <div class="align-center" id="sub-title">
+        <div class="align-center wow fadeInUp" id="sub-title">
             TRÁCH NHIỆM
         </div>
         <br>
@@ -826,8 +829,27 @@
     <img src="./img/Co_Cau_Giai_Thuong/13.png" id="qdct-svg1" />
     <!-- End QDTC2 -->
 
+    <!-- CCGT -->
+    <div class="container-fluid" id="CCGT">
+        <div class="icon zoomin-infi">
+            <img src="./img/Co_Cau_Giai_Thuong/1.png"/>
+        </div>
+        <div class="ccgt-title wow fadeInDown">
+            <img src="./img/Co_Cau_Giai_Thuong/2.png"/>
+        </div>
+        <div class="g1">
+            <img src="./img/G1.png"/>
+        </div>
+        <div class="g2">
+            <img src="./img/G2.png"/>
+        </div>
+        <img src="./img/Co_Cau_Giai_Thuong/13.png" id="qdct-svg2" />
+        <img class="qdct-icon1" src="./img/Quy_Dinh_Cuoc_Thi/1.png" />
+    </div>
+    <!-- End CCGT -->
+
     <!-- LY -->
-    <div class="container-fluid ly">
+    <div class="container-fluid ly" id="LY">
         <div class="qdct-text2" id="qdtc">
             <p id="qdct-title">
                 LƯU Ý DÀNH CHO THÍ SINH
@@ -928,7 +950,7 @@
                 </span> của cuộc thi;
             </p>
         </div>
-        <div class="ly-img">
+        <div class="ly-img wow fadeInLeft">
             <img src="./img/Luu_Y_Danh_Cho_Thi_Sinh/1.png" />
         </div>
         <div class="ly-img-car">
@@ -940,18 +962,18 @@
     <!-- DKDT -->
     <div class="ly-icon">
         <img src="./img/The_Le_Cuoc_Thi/1.png" />
+        <div id="DKTG"></div>
     </div>
-
-    <div class="container-fluid dkdt" id="DKTG">
+    <div class="container-fluid dkdt">
         <div class="dkdt-title">
             <img src="./img/Dang_Ky_Du_Thi/1.png" />
         </div>
         <div class="row" id="dkdt-bg">
-            <div class="col col-lg-6 col-sm-12" id="dkdt-cn">
-                <div class="de">
+            <div class="col col-lg-6 col-sm-12 wow fadeInLeft" id="dkdt-cn">
+                <div class="de wow fadeInUp">
                     <img src="./img/Dang_Ky_Du_Thi/1_1.png" />
                 </div>
-                <div class="dkcn">
+                <div class="dkcn hovers">
                     <img src="./img/Dang_Ky_Du_Thi/3.png" />
                 </div>
                 <div class="countdown align-center">
@@ -999,11 +1021,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col col-lg-6 col-sm-12" id="dkdt-gn">
-                <div class="de">
+            <div class="col col-lg-6 col-sm-12 wow fadeInRight" id="dkdt-gn">
+                <div class="de wow fadeInUp">
                     <img src="./img/Dang_Ky_Du_Thi/2_1.png" />
                 </div>
-                <div class="dkgn">
+                <div class="dkgn hovers">
                     <img src="./img/Dang_Ky_Du_Thi/4.png" />
                 </div>
                 <div class="countdown align-center">
@@ -1056,33 +1078,153 @@
     <!-- End DKDT -->
 
     <!-- SK -->
-    <div class="container-fluid sk">
-        <div class="sk-title align-center">
+    <div class="container-fluid sk" id="SK">
+        <div class="sk-title align-center wow fadeInDown">
             <img src="./img/Su_Kien/1.png"/>
         </div>
-        <div class="row sk-content">
-            <div class="col col-lg-1"></div>
-            <div class="col col-lg-6">
+
+        <div class="row sk-content1">
+            <div class="col col-xl-1"></div>
+
+            <div class="col col-xl-6 col-lg-12">
                 <div class="info-day">
-                    <img src="./img/Su_Kien/2.png"/>
+                    <img class="wow slideInLeft" src="./img/Su_Kien/2.png"/>
                     <p></p>
                     <p>
-                        16.05.2021
+                        <span style="color: #FFCF00; font-size: larger;">
+                            16.05.2021
+                        </span>
                     </p>
+                    <br>
+                    <p>
+                        Creatio sẽ tổ chức một buổi 
+                        <span>
+                            "Information Day"
+                        </span> dưới hình thức 
+                        <span>
+                            offline
+                        </span> ngay sau khi công bố đề thi vòng 01. với sự góp mặt của các chuyên gia đầu ngành dày dặn kinh nghiệm trong lĩnh vực Marketing, buổi 
+                        <span>
+                            Information Day
+                        </span> hứa hẹn sẽ giúp các thí sinh thấu hiểu cặn kẽ hơn về 
+                        <span>
+                            yêu cầu
+                        </span> và 
+                        <span>
+                            quy trình làm bài
+                        </span>, đồng thời cung cấp nhiều lời khuyên mang tính 
+                        <span>
+                            chuyên môn
+                        </span> cung như những 
+                        <span>
+                            trải nghiệm bổ ích.
+                        </span>
+                    </p>
+                    <br>
+                    <div class="info-btn btn-shadow">
+                        <span style="color: white;">
+                            Đăng ký tham dự Information Day
+                        </span>
+                    </div>
                 </div>
             </div>
-            <div class="col col-lg-4">
+            <div class="col col-xl-4 col-lg-12">
                 <div class="info-img">
                     <img src="./img/Su_Kien/3.png"/>
                 </div>
-                <div class="">
-
+                <div class="anima-img wow zoomin">
+                    <img src="./img/Su_Kien/4.png"/>
                 </div>
             </div>
-            <div class="col col-lg-1"></div>
+            <div class="col col-xl-1"></div>
+        </div>
+        <div class="row sk-content2">
+            <div class="col col-xl-5 col-lg-12">
+                <div class="gala-img">
+                    <img src="./img/Su_Kien/8.png"/>
+                </div>
+                <div class="anima-img2 wow zoomin">
+                    <img src="./img/Su_Kien/4.png"/>
+                </div>
+            </div>
+
+            <div class="col col-xl-7 col-lg-12">
+                <div class="gala-day">
+                    <img class="wow slideInRight" src="./img/Su_Kien/7.png"/>
+                    <p></p>
+                    <p>
+                        <span style="color: #FFCF00; font-size: larger;">
+                            16.05.2021
+                        </span>
+                    </p>
+                    <br>
+                    <div style="text-align: justify;">
+                    <p>
+                        <span>
+                            Đêm Chung kết
+                        </span> mang đến cơ hội chứng kiến màn tranh tài gay cấn từ 
+                        <span>
+                            04
+                        </span> đội chơi xuất sắc nhất. Những phần trình bày bùng nổ trong đêm Gala, các kế hoạch thực thi chiến dịch đột phá, màn chất vấn "căng não" đến từ Ban Giám khảo chuyên môn, các tác phẩm sáng tạo xuất sắc nhất, ... tất cả đều là những trải nghiệm vô cùng đáng giá cho quá trình học hỏi và phát triển bản thân của các Marketers tương lai.
+                    </p>
+                    </div>
+                    <br>
+                    <div class="info-btn btn-shadow" style="float: right;">
+                        <span style="color: white;">
+                            Đăng ký tham dự Gala Night
+                        </span>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- End SK -->
+
+    <!-- DT -->
+    <div class="container-fluid dt" id="DT">
+        <div class="dt-title">
+            <img src="./img/Doi_Tac/title.png"/>
+        </div>
+        <div class="dvtc wow fadeInDown align-center">
+            <img src="./img/Doi_Tac/dvtc.png"/>
+        </div>
+        <div class="nttkc wow fadeInDown align-center">
+            <img src="./img/Doi_Tac/nttkc.png"/>
+        </div>
+        <div class="row">
+            <div class="col col-lg-6 tiktok wow fadeInLeft">
+                <img src="./img/Doi_Tac/tiktok.png"/>
+            </div>
+            <div class="col col-lg-6 cocoon wow fadeInRight">
+                <img src="./img/Doi_Tac/cocoon.png"/>
+            </div>
+        </div>
+        <div class="row ntt1">
+            <div class="col col-lg-6 nttv wow fadeInLeft">
+                <img src="./img/Doi_Tac/nttv.png"/>
+            </div>
+            <div class="col col-lg-6 nttb wow fadeInRight">
+                <img src="./img/Doi_Tac/nttb.png"/>
+            </div>
+        </div>
+        <div class="row ntt1">
+            <div class="col col-lg-6 nttv wow fadeInUp">
+                <img src="./img/Doi_Tac/Đ.png"/>
+            </div>
+            <div class="col col-lg-6 nttb wow fadeInUp">
+                <img src="./img/Doi_Tac/ĐH.png"/>
+            </div>
+        </div>
+        <div class="row ntt1">
+            <div class="col col-lg-6 nttv wow fadeInLeft">
+                <img src="./img/Doi_Tac/BTCM.png"/>
+            </div>
+            <div class="col col-lg-6 nttb wow fadeInRight">
+                <img src="./img/Doi_Tac/BTTT.png"/>
+            </div>
+        </div>
+    </div>
+    <!-- End DT -->
 
     <!-- Footer -->
     <div class="container-fluid">
@@ -1108,10 +1250,29 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("day").innerHTML = '<div>' + days + '</div><p>ngày</p>';
-        document.getElementById("hr").innerHTML = '<div>' + hours + '</div><p>giờ</p>';
-        document.getElementById("min").innerHTML = '<div>' + minutes + '</div><p>phút</p>';
-        document.getElementById("sec").innerHTML = '<div>' + seconds + '</div><p>giây</p>';
+        if(days < 10){
+            document.getElementById("day").innerHTML = '<div>' + 0 + days + '</div><p>ngày</p>';
+        } else{
+            document.getElementById("day").innerHTML = '<div>' + days + '</div><p>ngày</p>';
+        }
+
+        if(hours < 10){
+            document.getElementById("hr").innerHTML = '<div>' + 0 + hours + '</div><p>giờ</p>';
+        } else{
+            document.getElementById("hr").innerHTML = '<div>' + hours + '</div><p>giờ</p>';
+        }
+
+        if(minutes < 10){
+            document.getElementById("min").innerHTML = '<div>' + 0 + minutes + '</div><p>phút</p>';
+        } else{
+            document.getElementById("min").innerHTML = '<div>' + minutes + '</div><p>phút</p>';
+        }
+
+        if(seconds < 10){
+            document.getElementById("sec").innerHTML = '<div>' + 0 + seconds + '</div><p>giây</p>';
+        } else{
+            document.getElementById("sec").innerHTML = '<div>' + seconds + '</div><p>giây</p>';
+        }
 
         if (distance < 0) {
             clearInterval(x);
@@ -1132,16 +1293,41 @@
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("day2").innerHTML = '<div>' + days + '</div><p>ngày</p>';
-        document.getElementById("hr2").innerHTML = '<div>' + hours + '</div><p>giờ</p>';
-        document.getElementById("min2").innerHTML = '<div>' + minutes + '</div><p>phút</p>';
-        document.getElementById("sec2").innerHTML = '<div>' + seconds + '</div><p>giây</p>';
+        if(days < 10){
+            document.getElementById("day2").innerHTML = '<div>' + 0 + days + '</div><p>ngày</p>';
+        } else{
+            document.getElementById("day2").innerHTML = '<div>' + days + '</div><p>ngày</p>';
+        }
+
+        if(hours < 10){
+            document.getElementById("hr2").innerHTML = '<div>' + 0 + hours + '</div><p>giờ</p>';
+        } else{
+            document.getElementById("hr2").innerHTML = '<div>' + hours + '</div><p>giờ</p>';
+        }
+
+        if(minutes < 10){
+            document.getElementById("min2").innerHTML = '<div>' + 0 + minutes + '</div><p>phút</p>';
+        } else{
+            document.getElementById("min2").innerHTML = '<div>' + minutes + '</div><p>phút</p>';
+        }
+
+        if(seconds < 10){
+            document.getElementById("sec2").innerHTML = '<div>' + 0 + seconds + '</div><p>giây</p>';
+        } else{
+            document.getElementById("sec2").innerHTML = '<div>' + seconds + '</div><p>giây</p>';
+        }
 
         if (distance < 0) {
             clearInterval(x);
             document.getElementById("demo").innerHTML = "EXPIRED";
         }
     }, 1000);
+</script>
+
+<script>
+    $( document ).ready(function() {
+    new WOW().init();
+});
 </script>
 
 </html>
