@@ -4340,6 +4340,8 @@ span {
     max-width: 80%;
 }
 
+
+
 .info-btn{
     background-color: #ffcf00;
     max-width: fit-content;
@@ -4359,12 +4361,6 @@ span {
     margin-top: 10em;
 }
 
-.anima-img2 img{
-    max-width: 80%;
-    margin-top: -30em;
-    margin-left: 5em;
-}
-
 .gala-day{
     margin-top: -1em;
     padding: 2em 2em 2em 9em;
@@ -4373,6 +4369,13 @@ span {
 
 .gala-day img{
     max-width: 35%;
+}
+
+.anima-img2 img{
+    margin-left: 5em;
+    max-width: 80%;
+    margin-top: -40em;
+    animation: zoominanima 1.5s;
 }
 
 .dt{
@@ -4664,23 +4667,25 @@ span {
 }
 
 .g1{
+    margin-top: 3em;
     text-align: center;
 }
 
 .g1 img{
-    max-width: 30em;
+    max-width: 40em;
 }
 
 .g2{
-    margin-top: 5em;
+    margin-top: 3em;
     text-align: center;
 }
 
 .g2 img{
-    max-width: 30em;
+    max-width: 40em;
 }
 
 .ccgt-title{
+    margin-top: 3em;
     text-align: center;
 }
 
