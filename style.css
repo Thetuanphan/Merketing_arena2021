@@ -3620,7 +3620,7 @@ html {
 
 body {
     overflow-y: scroll;
-    overflow-x: scroll
+    overflow-x: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -3636,6 +3636,12 @@ span {
     font-weight: 700
 }
 
+@media (max-width: 2048px){
+    .footer-res{
+        display: none;
+    }
+}
+
 @media (max-width:1024px) {
 
     .qdct-text{
@@ -3644,6 +3650,41 @@ span {
 }
 
 @media (max-width: 990px){
+
+    ul#menu-responsive.navbar-nav{
+        margin: 0 !important;
+    }
+
+    div.gala-img{
+        max-width: 100%;
+        background-position: center !important;
+    }
+
+    div.col.col-xl-5.col-lg-5.col-md-12.gala{
+        text-align: center;
+        padding-left: 0;
+    }
+
+    div.info-img{
+        text-align: center;
+        background-position: center;
+    }
+
+    div.ly-img-car{
+        margin-top: -10em;
+    }
+
+    div.ly-img.wow.fadeInLeft{
+        display: none;
+    }
+
+    div#qdtc.qdct-text2{
+        margin: 0 5em 0 5em;
+    }
+
+    div#luuy{
+        max-width: 5em;
+    }
 
     div#countdown-timer.row.btn-shadow{
         margin: -2.5em 12em 0em 12em;
@@ -3688,9 +3729,88 @@ span {
         max-height: 40px !important;
         margin-left: 95vw !important;
     }
+
+    img.hidden {
+        display: none
+    }
+
+    #qdct-bg {
+        background-color: #fff
+    }
+
+    img.qdct-title {
+        background-color: #ffcf00;
+        border-radius: 40px;
+        text-align: center;
+        margin: auto;
+        padding-top: 9px;
+        margin-bottom: 5px
+    }
+    p#qdct-title {
+        text-align: center;
+        font-size: 20px
+    }
 }
 
 @media (max-width:768px) {
+
+    div.qdct-text.wow.fadeIn {
+        padding: 7em;
+    }
+
+    div.btn-r1.btn-shadow.hovers{
+        margin: 0 5em -16px 5em;
+    }
+
+    div.btn-r2.btn-shadow.hovers{
+        margin: 0 5em -16px 5em;
+    }
+
+    div#countdown-timer.row.btn-shadow {
+        margin: -2.5em 8em 0em 8em;
+    }    
+
+    div.tlct-timeline-icon.zoomin-infi img{
+        max-width: 7em;
+    }
+
+    div.ccgt-title.wow.fadeInDown{
+        text-align: center;
+    }
+
+    div.ccgt-title.wow.fadeInDown img{
+        max-width: 20em;
+    }
+
+    div.g1 img{
+        max-width: 30em;
+    }
+
+    div.g2 img{
+        max-width: 30em;
+    }
+
+
+    .footer-res{
+        display: block;
+    }
+
+    img.footer-background{
+        display: none;
+    }
+
+    div.col.col-lg-6.tiktok.wow.fadeInLeft{
+        text-align: center;
+    }
+
+    div.col.col-lg-6.cocoon.wow.fadeInRight{
+        text-align: center;
+    }
+
+    div#luuy{
+        max-width: 6em;
+    }
+
     img.hidden {
         display: none
     }
@@ -3737,7 +3857,6 @@ span {
         font-size: 14px
     }
     div#luuy {
-        max-width: 80px;
         padding: 1vw 3vw 1vw 3vw
     }
     img.qdct-title {
@@ -3752,25 +3871,102 @@ span {
         text-align: center;
         font-size: 20px
     }
-    
+
     img#svg3 {
         margin-top: -14vw
     }
     img#svg4 {
         margin-top: -19.3vw
     }
+    div.container-fluid.tlct-container.align-center{
+        margin-top: -1em;
+    }
+
+}
+
+@media (max-width: 640px){
+
+    .dkdt-title{
+        margin-top: 10em;
+        text-align: center;
+    }
+
+    img#qdct-svg2{
+        display: none;
+    }
+
+    .ly-icon{
+        display: none;
+    }
 }
 
 @media (max-width: 560px){
+
+    div.g1 img{
+        max-width: 20em;
+    }
+
+    div.g2 img{
+        max-width: 20em;
+    }
+
+    div.gala-day{
+        padding: 2em 5em 2em 5em;
+    }
+
+    div.info-btn.btn-shadow{
+        text-align: center;
+    }
+
+    div.info-day{
+        padding: 2em 5em 2em 5em;
+    }
+
+    div#countdown-timer.row.btn-shadow {
+        margin: -2.5em 4em 0em 4em;
+    }    
+
+    .dkdt-title{
+        text-align: center;
+    }
+
+    .dkdt-title img{
+        max-width: 25em !important;
+    }
+
+    div#qdtc.qdct-text2 {
+        margin: 0 2em 0 2em;
+    }
+
+    img.qdct-icon1{
+        display: none;
+    }
+
+    div.qdct-text.wow.fadeIn{
+        padding: 5em;
+    }
+
+    .img-logo img{
+        max-width: 50px;
+        max-height: 40px !important;
+        margin-left: 91vw !important;
+    }
+
+    div.container-fluid.tlct-container.align-center{
+        margin-top: -2em;
+    }
+}
+
+@media (max-width: 440px){
     .img-logo img{
         max-width: 50px;
         max-height: 40px !important;
         margin-left: 90vw !important;
     }
+}
 
-    div.container-fluid.tlct-container.align-center{
-        margin-top: -3em;
-    }
+.footer-res img{
+    max-width: 100%;
 }
 
 .hovers{
@@ -3840,7 +4036,9 @@ span {
 }
 
 .logo-left {
-    max-width: 80px
+    max-width: 80px;
+    margin-top: 0.5em;
+    margin-bottom: -0.5em;
 }
 
 .img-logo{
@@ -4294,7 +4492,7 @@ span {
 }
 
 .dkdt-title img{
-    max-width: 40em;
+    max-width: 600px;
 }
 
 .de img{
@@ -4377,7 +4575,7 @@ span {
 }
 
 .gala-day img{
-    max-width: 35%;
+    max-width: 150px;
 }
 
 .anima-img2 img{
