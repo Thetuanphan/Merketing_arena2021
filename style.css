@@ -3644,6 +3644,28 @@ span {
 }
 
 @media (max-width: 990px){
+
+    div#countdown-timer.row.btn-shadow{
+        margin: -2.5em 12em 0em 12em;
+    }
+
+    div.de.wow.fadeInUp{
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    div.qdct-text.wow.fadeIn{
+        padding: 5em 10em 9em 10em;
+    }
+
+    div.col-lg-5.col-sm-12.vct-col-img{
+        text-align: center;
+    }
+
+    div#TLCT.container.vct-dot-anima{
+        display: none;
+    }
+
     #navbarCollapse {
         padding-left: 0;
         padding-right: 0;
@@ -3730,10 +3752,7 @@ span {
         text-align: center;
         font-size: 20px
     }
-    div.datetime1.datetime {
-        margin-top: -13vw;
-        font-size: 10px
-    }
+    
     img#svg3 {
         margin-top: -14vw
     }
@@ -3747,6 +3766,10 @@ span {
         max-width: 50px;
         max-height: 40px !important;
         margin-left: 90vw !important;
+    }
+
+    div.container-fluid.tlct-container.align-center{
+        margin-top: -3em;
     }
 }
 
@@ -4319,27 +4342,13 @@ span {
 }
 
 .info-day{
-    padding: 2em 9em 2em 2em;
+    padding: 2em 9em 2em 5em;
     text-align: justify;
 }
 
 .info-day img{
     max-width: 200px;
 }
-
-.info-img img{
-    max-width: 80%;
-}
-
-.gala{
-    text-align: center;
-}
-
-.gala-img img{
-    margin-left: 5em;
-    max-width: 80%;
-}
-
 
 
 .info-btn{
@@ -4363,7 +4372,7 @@ span {
 
 .gala-day{
     margin-top: -1em;
-    padding: 2em 2em 2em 9em;
+    padding: 2em 5em 2em 9em;
     text-align: right;
 }
 
@@ -4691,4 +4700,28 @@ span {
 
 .ccgt-title img{
     max-width: 30em;
+}
+
+.gala{
+    padding-left: 5em;
+}
+
+.gala-img img{
+    max-width: 25em;
+}
+
+.gala-img{
+    background-image: url("./img/Su_Kien/8.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.info-img img{
+    max-width: 25em;
+}
+
+.info-img{
+    background-image: url("./img/Su_Kien/3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
