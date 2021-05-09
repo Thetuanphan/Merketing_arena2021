@@ -3650,10 +3650,14 @@ span {
         display: none;
     }
 
+    .img-logo{
+        width: 100% !important;
+        text-align: right !important;
+    }
+
     .img-logo img{
         max-width: 50px;
         max-height: 80px !important;
-        margin-left: 96vw !important;
     }
 
     img#svg12{
@@ -3687,11 +3691,11 @@ span {
     }
 
     div.btn-r1.btn-shadow.hovers{
-        margin: 0 28em -16px 28em;
+        margin: 0 25em -16px 25em !important;
     }
 
     div.btn-r2.btn-shadow.hovers{
-        margin: 0 28em -16px 28em;
+        margin: 0 15em -16px 15em !important;
     }
 
     div.btn-r1-white.btn-shadow.hovers{
@@ -3713,11 +3717,11 @@ span {
     img.qdct-title.wow.fadeInDown{
         max-width: 60vw;
         margin-top: -2vw;
-        margin-left: 10em;
+        margin-left: 30em;
     }
 
     div.qdct-text.wow.fadeIn{
-        padding: 5em 35em 10em 35em;
+        padding: 5em 20em 10em 20em !important;
     }
 
     img.qdct-icon2.hidden{
@@ -3746,11 +3750,11 @@ span {
     }
 
     div#qdtc.qdct-text2{
-        margin: 0 30em 0 30em;
+        margin: 0 15em 0 15em !important;
     }
 
     div.ly-img.wow.fadeInLeft{
-        margin-left: 17em;
+        margin-left: 2em;
     }
 
     .ly-img-car img {
@@ -3819,7 +3823,57 @@ span {
 
 }
 
+
+
 @media (max-width:1920px) {
+
+    div.ly-img.wow.fadeInLeft {
+        margin-left: 12em;
+    }
+
+    div#qdtc.qdct-text2 {
+        margin: 0 25em 0 25em !important;
+    }
+
+    div#qdtc.qdct-text1 {
+        margin-top: 5em !important;
+        padding: 3vw 7em 10vw 7em !important;
+    }
+
+    div.qdct-text.wow.fadeIn {
+        padding: 5em 35em 10em 35em !important;
+    }
+
+    div.btn-r1.btn-shadow.hovers{
+        margin: 0 27em -16px 27em !important;
+    }
+
+    div.btn-r2.btn-shadow.hovers{
+        margin: 0 27em -16px 27em !important;
+    }
+
+    div.btn-r1-white.btn-shadow.hovers{
+        margin: 0 45em 0 45em;
+    }
+
+    div.btn-r2-white.btn-shadow.hovers{
+        max-width: 18em;
+    }
+
+    div.btn-r2-white1.btn-shadow.hovers{
+        max-width: 18em;
+    }
+
+    .img-logo{
+        width: 100%;
+        text-align: right;
+    }
+
+    .img-logo img{
+        max-height: 80px !important;
+        margin-right: 1.5em !important;
+        float: right;
+        }
 
     .vct-dot-anima {
         margin-top: 0px !important;
@@ -3843,7 +3897,7 @@ span {
     }
 
     .img-banner {
-        margin-top: 1vw
+        margin-top: -25em !important;
     }
     
     .vct {
@@ -3933,8 +3987,6 @@ span {
     }
     
     .tlct-text p {
-        padding-left: 15vw;
-        padding-right: 15vw;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 14px
     }
@@ -4317,7 +4369,7 @@ span {
     }
     
     .info-day{
-        padding: 2em 15em 2em 15em !important;
+        padding: 2em 17em 2em 17em !important;
         text-align: justify;
     }
     
@@ -4347,7 +4399,7 @@ span {
     
     .gala-day{
         margin-top: -1em;
-        padding: 2em 15em 2em 15em !important;
+        padding: 2em 17em 2em 17em !important;
         text-align: right;
     }
     
@@ -4597,8 +4649,8 @@ span {
         background-image: url("./img/Dang_Ky_Du_Thi/2.png");
         background-size: 30%;
         background-repeat: no-repeat;
-        background-position-x: 35em !important;
-        background-position-y: -3em !important;
+        background-position-x: 25em !important;
+        background-position-y: -5em !important;
         margin-top: -1em;
     }
     
@@ -4712,13 +4764,92 @@ span {
     }
 }
 
-@media (max-width: 1500px){
-    #navbarCollapse{
-        padding-left: 22% !important;
+@media (max-width: 1799px){
+
+    .vct-dot-anima {
+        margin-top: -1em !important;
+        margin-left: 10em !important;
+    }
+
+    .vct-img {
+        max-width: 40em !important;
+        margin-left: 10em !important;
+        margin-top: 5em;
+    }
+
+    .vct-col-content img {
+        margin-top: 15em !important;
+        max-width: 40em !important;
+        margin-bottom: 2em;
     }
 }
 
-@media (max-width:1280px) {
+@media (max-width: 1500px){
+    
+    #navbarCollapse{
+        padding-left: 15% !important;
+    }
+}
+
+@media (max-width: 1440px){
+    .vct-img {
+        max-width: 20em !important;
+        margin-left: 10em;
+    }
+
+    .vct-col-content img {
+        margin-top: 8em !important;
+        max-width: 20em !important;
+    }
+
+    .vct-dot-anima {
+        margin-top: -15px !important;
+        margin-left: 1em !important;
+    }
+
+    .vct-dot-anima img{
+        margin-top: -15px !important;
+    }
+}
+
+@media (max-width:1370px) {
+
+    div#qdtc.qdct-text1 {
+        margin-top: 5em !important;
+        padding: 3vw 12em 10vw 12em !important;
+    }
+
+    div.ly-img.wow.fadeInLeft {
+        margin-left: 2em;
+    }
+
+    div#qdtc.qdct-text2 {
+        margin: 0 15em 0 15em !important;
+    }
+
+    div.qdct-text.wow.fadeIn {
+        padding: 5em 20em 10em 20em !important;
+    }
+
+    div.btn-r1.btn-shadow.hovers{
+        margin: 0 15em -16px 15em !important;
+    }
+
+    div.btn-r2.btn-shadow.hovers{
+        margin: 0 15em -16px 15em !important;
+    }
+
+    div.btn-r1-white.btn-shadow.hovers{
+        margin: 0 45em 0 45em;
+    }
+
+    div.btn-r2-white.btn-shadow.hovers{
+        max-width: 18em;
+    }
+
+    div.btn-r2-white1.btn-shadow.hovers{
+        max-width: 18em;
+    }
 
     .img-logo img {
         max-width: 50px;
@@ -4727,8 +4858,12 @@ span {
     }
 
     .vct-dot-anima {
-        margin-top: 0px !important;
+        margin-top: 0em !important;
         margin-left: 5em !important;
+    }
+
+    .vct-dot-anima img {
+        margin-top: 1em !important;
     }
 
     .vct-img {
@@ -4737,8 +4872,8 @@ span {
     }
 
     .vct-col-content img {
-        margin-top: 8em !important;
-        max-width: 27em !important;
+        margin-top: 13em !important;
+        max-width: 30em !important;
     }
 
     #navbarCollapse{
@@ -4766,18 +4901,8 @@ span {
         padding: 0;
     }
     
-    .vct-img {
-        max-width: 45em;
-        margin-left: 10em;
-    }
-    
     .vct-col-content{
         text-align: center;
-    }
-    
-    .vct-col-content img{
-        margin-top: 13em;
-        max-width: 45em;
     }
     
     .vct-title {
@@ -4793,11 +4918,6 @@ span {
     .vct-dot-anima {
         text-align: right;
         margin-top: -60px
-    }
-    
-    .vct-dot-anima img {
-        max-width: 6vw;
-        margin-right: 0
     }
     
     #de1{
@@ -4840,8 +4960,6 @@ span {
     }
     
     .tlct-text p {
-        padding-left: 15vw;
-        padding-right: 15vw;
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 14px
     }
@@ -5224,7 +5342,7 @@ span {
     }
     
     .info-day{
-        padding: 2em 9em 2em 5em !important;
+        padding: 2em 8em 2em 8em !important;
         text-align: justify;
     }
     
@@ -5254,7 +5372,7 @@ span {
     
     .gala-day{
         margin-top: -1em;
-        padding: 2em 5em 2em 9em !important;
+        padding: 2em 8em 2em 8em !important;
         text-align: right;
     }
     
@@ -5515,7 +5633,7 @@ span {
     
     #countdown-timer{
         background-color: white;
-        margin: -2.75em 8em 0 8em !important; 
+        margin: -2.75em 10em 0 10em !important;
         padding: 2em 1em 1em 1em;
     }
     
@@ -5613,27 +5731,6 @@ span {
     }
 }
 
-@media (max-width: 1303px){
-    .vct-img {
-        max-width: 20em !important;
-        margin-left: 10em;
-    }
-
-    .vct-col-content img {
-        margin-top: 8em !important;
-        max-width: 20em !important;
-    }
-
-    .vct-dot-anima {
-        margin-top: -15px !important;
-        margin-left: 1em !important;
-    }
-
-    .vct-dot-anima img{
-        margin-top: -15px !important;
-    }
-}
-
 @media (max-width: 1200px){
     #navbarCollapse{
         padding-left: 5% !important;
@@ -5642,8 +5739,14 @@ span {
 
 @media (max-width: 990px){
 
+    img.qdct-title.wow.fadeInDown {
+        max-width: 20em !important;
+        margin-top: -2vw ;
+        margin-left: 0em !important;
+    }
+
     #navbarCollapse {
-        padding-left: 0 !important;
+        padding-left: 20em !important;
     }
 
     ul#menu-responsive.navbar-nav{
@@ -5749,8 +5852,12 @@ span {
 
 @media (max-width:768px) {
 
+    .btn-r1 p {
+        font-size: large;
+    }
+
     div.qdct-text.wow.fadeIn {
-        padding: 7em;
+        padding: 4em !important;
     }
 
     div.btn-r1.btn-shadow.hovers{
@@ -5808,10 +5915,15 @@ span {
         display: none
     }
 
+    .img-logo{
+        width: 100%;
+        text-align: right;
+    }
+
     .img-logo img{
         max-width: 50px;
         max-height: 40px !important;
-        margin-left: 94vw !important;
+        margin-right: 0.25em !important;
     }
 
     #navbarCollapse {
@@ -5888,6 +6000,82 @@ span {
     .ly-icon{
         display: none;
     }
+    div#qdtc.qdct-text1 {
+        margin-top: 5em !important;
+        padding: 3vw 2.5em 10vw 2.5em !important;
+    }
+
+    div#qdtc.qdct-text2 {
+        margin: 0 3em 0 3em !important;
+    }
+
+    .sk-content1{
+        text-align: center;
+    }
+
+    .info-day {
+        padding: 2em 2em 2em 2em !important;
+        text-align: justify;
+    }
+
+    div.info-day{
+        margin: 0;
+    }
+    div.info-img{
+        margin: 0 !important;
+    }
+    div.gala-img.align-center{
+        margin: 0;
+    }
+    .gala-day {
+        margin-top: -1em;
+        padding: 2em 2em 2em 2em !important;
+        text-align: right;
+    }
+    div.gala-day{
+        margin: 0;
+    }
+
+    .nttb img {
+        margin: -15em 0 -5em 0 !important;
+        max-width: 20em;
+    }
+
+    .nttv img {
+        margin: -10em 0 0 0 !important;
+        max-width: 20em;
+    }
+
+    .footer-res{
+        display: block;
+    }
+
+    img#qdct-svg {
+    display: none    
+    }    
+
+    .img-banner {
+        margin-top: -5em !important;
+    }
+
+    .vct-col-content img {
+        margin-top: 5em !important;
+        max-width: 30em !important;
+    }
+
+    .dethi img {
+        max-width: 35em !important;
+        margin-right: 0;
+        margin-top: -2.25em;
+    }
+
+    div.btn-r1.btn-shadow.hovers {
+        margin: 0 5em -16px 5em !important;
+    }
+
+    div.btn-r2.btn-shadow.hovers {
+        margin: 0 5em -16px 5em !important;
+    }
 }
 
 @media (max-width: 560px){
@@ -5945,6 +6133,7 @@ span {
     div.container-fluid.tlct-container.align-center{
         margin-top: -2em;
     }
+    
 }
 
 @media (max-width: 440px){
@@ -5956,6 +6145,21 @@ span {
 }
 
 @media (max-width: 412px){
+
+    div#qdtc.qdct-text1 {
+        margin-top: 5em !important;
+        padding: 3vw 4em 10vw 4em !important;
+    }
+
+    .qdct-text .wow .fadeIn {
+        padding: 5em 20em 10em 20em !important;
+    }
+
+    .img-logo img {
+        max-width: 50px;
+        max-height: 40px !important;
+        margin-left: 40em !important;
+    }
 
     #navbarCollapse {
         padding-left: 0 !important;
@@ -5981,8 +6185,6 @@ span {
     .nttb{
         margin: -15em 0 -25em 0;
     }
-
-    
 
     .nttv img {
         margin-top: -25em !important;
@@ -6048,10 +6250,6 @@ span {
 
     div#qdtc.qdct-text1 {
         margin-top: 5em;
-        padding: 2em !important;
-    }
-
-    div.qdct-text.wow.fadeIn {
         padding: 2em !important;
     }
 
@@ -6217,9 +6415,7 @@ span {
 }
 
 .img-logo img{
-    max-width: 50px;
     max-height: 60px;
-    margin-left: 94vw;
     transform: scale(1.5);
 }
 
@@ -6249,7 +6445,7 @@ span {
 }
 
 .img-banner {
-    margin-top: 1vw
+    margin-top: -15em;
 }
 
 .vct {
@@ -6339,8 +6535,6 @@ span {
 }
 
 .tlct-text p {
-    padding-left: 15vw;
-    padding-right: 15vw;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 14px
 }
@@ -6560,7 +6754,7 @@ span {
 
 .qdct-text1 {
     margin-top: -4vw;
-    padding: 3vw 21vw 10vw 21vw;
+    padding: 3vw 15em 10vw 15em !important;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center
@@ -6639,7 +6833,7 @@ span {
 
 .ly-img-car{
     position: relative;
-    margin-top: -15em;
+    margin-top: -10em;
     z-index: 1;
     float: right;
     margin-right: -10em;
@@ -6665,6 +6859,7 @@ span {
 }
 
 .dkdt-title{
+    margin-top: 10em;
     text-align: center;
 }
 
