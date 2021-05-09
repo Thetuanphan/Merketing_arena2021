@@ -3637,19 +3637,2014 @@ span {
 }
 
 @media (max-width: 2048px){
+
+    div.container-fluid.vct{
+        margin-top: -15em;
+    }
+
+    #navbarCollapse {
+        padding-left: 40% !important;
+    }
+
     .footer-res{
         display: none;
     }
+
+    .img-logo img{
+        max-width: 50px;
+        max-height: 80px !important;
+        margin-left: 96vw !important;
+    }
+
+    img#svg12{
+    max-width: 37em;
+    margin: -125em 0em 0 0;
+    float: left;
+    }
+
+    .vct-dot-anima{
+        margin-top: 0px !important;
+        margin-left: 40em !important;
+    }
+
+    .vct-col-img{
+        margin-top: 4em;
+    }
+
+    div.container-fluid.tlct-container.align-center{
+        margin-top: -10em;
+    }
+
+    div.dethi{
+        margin: 0;
+        text-align: center;
+    }
+
+    .dethi img{
+        max-width: 50em !important;
+        margin-right: 0;
+        margin-top: -2.25em;
+    }
+
+    div.btn-r1.btn-shadow.hovers{
+        margin: 0 28em -16px 28em;
+    }
+
+    div.btn-r2.btn-shadow.hovers{
+        margin: 0 28em -16px 28em;
+    }
+
+    div.btn-r1-white.btn-shadow.hovers{
+        margin: 0 45em 0 45em;
+    }
+
+    div.btn-r2-white.btn-shadow.hovers{
+        max-width: 18em;
+    }
+
+    div.btn-r2-white1.btn-shadow.hovers{
+        max-width: 18em;
+    }
+
+    img#svg9{
+        margin-top:0px;
+    }
+
+    img.qdct-title.wow.fadeInDown{
+        max-width: 60vw;
+        margin-top: -2vw;
+        margin-left: 10em;
+    }
+
+    div.qdct-text.wow.fadeIn{
+        padding: 5em 35em 10em 35em;
+    }
+
+    img.qdct-icon2.hidden{
+        max-width: 10vw;
+        margin-top: -60em;
+        margin-left: 30em;
+    }
+
+    img.qdct-car{
+        max-width: 65vw;
+        margin-top: -34vw;
+        margin-left: -18vw;
+    }
+
+    div#qdtc.qdct-text1{
+        margin-top:5em;
+        padding: 3vw 7em 10vw 7em;
+    }
+
+    img#qdct-svg{
+        margin: -185em 85vw 0 85vw;
+    }
+
+    img#qdct-svg1{
+        margin-top: -120em;
+    }
+
+    div#qdtc.qdct-text2{
+        margin: 0 30em 0 30em;
+    }
+
+    div.ly-img.wow.fadeInLeft{
+        margin-left: 17em;
+    }
+
+    .ly-img-car img {
+        margin-right: -4em;
+        margin-top: -5em;
+        max-width: 60em !important;
+        float: right;
+    }
+
+    .de img {
+        max-width: 20em !important;
+    }
+
+    #dkdt-bg {
+        position: relative;
+        max-width: 100%;
+        background-image: url(./img/Dang_Ky_Du_Thi/2.png);
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position-x: 35em !important;
+        margin-top: -1em;
+    }
+
+    #countdown-timer {
+        background-color: white;
+        margin: -2.75em 15em 0 15em !important;
+        padding: 2em 1em 1em 1em;
+    }
+    
+    .info-day {
+        padding: 2em 15em 2em 15em !important;
+        text-align: justify;
+        margin-left: 6em;
+    }
+
+    .info-img {
+        background-image: url(./img/Su_Kien/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 6em;
+    }
+
+    .gala-img{
+        background-position: center;
+        margin-left: 6em;
+    }
+
+    .gala-day{
+        padding: 2em 15em 2em 15em !important;
+        text-align: justify;
+        margin-right: 6em;
+
+    }
+
+    .footer-background {
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .qdct-icon1 {
+        max-width: 30vw;
+        margin-top: -250em !important;
+        margin-left: 88vw;
+    }
+
 }
 
-@media (max-width:1024px) {
+@media (max-width:1920px) {
+
+    .vct-dot-anima {
+        margin-top: 0px !important;
+    }
+
+    .vct-img {
+        margin-left: 15em !important;
+    }
+
+    .vct-col-content img {
+        margin-top: 12em !important;
+        margin-right: 10em;
+    }
+
+    #navbarCollapse{
+        padding-left: 40% !important;
+    }
 
     .qdct-text{
         padding: 5em 10em 10em 10em;
     }
+
+    .img-banner {
+        margin-top: 1vw
+    }
+    
+    .vct {
+        margin-bottom: 0
+    }
+    
+    .vct-dot {
+        max-width: 7vw;
+        align-self: center
+    }
+    
+    .vct-col-img {
+        padding: 0;
+    }
+    
+    .vct-img {
+        max-width: 45em;
+        margin-left: 10em;
+    }
+    
+    .vct-col-content{
+        text-align: center;
+    }
+    
+    .vct-col-content img{
+        margin-top: 13em;
+        max-width: 45em;
+    }
+    
+    .vct-title {
+        max-width: 25vw
+    }
+    
+    .vct-text {
+        max-width: 100%;
+        margin-top: 2.5vw;
+        font-size: 14px
+    }
+    
+    .vct-dot-anima {
+        text-align: right;
+        margin-top: -60px
+    }
+    
+    .vct-dot-anima img {
+        max-width: 6vw;
+        margin-right: 0
+    }
+    
+    #de1{
+        transition-delay: 1s !important;
+    }
+    
+    #de2{
+        transition-delay: 1.5s !important;
+    }
+    .tlct-container {
+        margin-top: -100px;
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 90%, rgba(214,214,214,1) 100%);}
+
+        .tlct-banner {
+        margin-top: -0.5em;
+        max-width: 21vw
+    }
+    
+    .tlct-right-img {
+        margin-top: -45px;
+        text-align: right;
+        margin-right: -17%
+    }
+    
+    .tlct-right-img img {
+        max-width: 30vw
+    }
+    
+    .tlct-title {
+        margin-top: 6vw
+    }
+    
+    .tlct-title img {
+        max-width: 30vw
+    }
+    
+    .tlct-text {
+        padding-top: 3vw
+    }
+    
+    .tlct-text p {
+        padding-left: 15vw;
+        padding-right: 15vw;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px
+    }
+    
+    .tlct-text p span {
+        font-weight: 700
+    }
+    
+    .tlct-timeline-icon img {
+        max-width: 10vw;
+        position: relative;
+    }
+    
+    .dethi{
+        margin-top: -2.5em;
+    }
+    
+    .dethi img{
+        max-width: 70vw;
+    }
+    
+    #svg20{
+        margin-top: -2em;
+    }
+    
+    #svg21{
+        margin-top: -2em;
+        position: relative;
+    }
+    
+    .timeline-icon1 {
+        margin-left: -11vw
+    }
+    
+    .btn-shadow {
+        box-shadow: 0 5px 50px #afafaf
+    }
+    
+    .datetime {
+        color: #ffcf00;
+        font-weight: 700;
+        text-align: center;
+        font-size: 14px
+    }
+    
+    .datetime1{
+        font-size: large;
+    }
+    
+    .datetime2 {
+        font-size: large;
+        color: rgba(128, 128, 128, .795)
+    }
+    
+    .datetime3 {
+        margin-top: 35px;
+        font-size: large;
+        color: rgba(128, 128, 128, .795)
+    }
+    
+    .datetime4 {
+        color: #cf0000;
+        font-weight: 700;
+        text-align: center;
+        font-size: large;
+        margin-top: -.25vw
+    }
+    
+    .btn-r1 {
+        background-color: #ffcf00;
+        margin: 0 550px -16px 550px !important;
+        border-radius: 12px;
+        padding: 5px 0 0 0;
+        color: #fff;
+        font-weight: bolder;
+        font-size: larger
+    }
+    
+    .btn-r1 p {
+        font-size: larger
+    }
+    
+    .btn-r1 p i {
+        font-size: smaller
+    }
+    
+    .btn-r1-white {
+        background-color: #f5f5f5;
+        margin: 0 33vw 0 33vw !important;
+        border-radius: 10px;
+        padding: 10px 0 .5px 0;
+        color: #ffcf00;
+        font-weight: bolder
+    }
+    
+    .btn-r1-white p {
+        font-size: larger
+    }
+    
+    .btn-r2 {
+        background-color: #ffcf00;
+        margin: 0 550px 0 550px !important;
+        border-radius: 12px;
+        padding: 1px 0 0 0;
+        color: #fff;
+        font-weight: bolder;
+        font-size: larger
+    }
+    
+    .btn-r2 p {
+        font-size: larger
+    }
+    
+    .btn-r2 p i {
+        font-size: smaller
+    }
+    
+    .btn-r2-arr {
+        margin: -15vw 13vw 0 13vw;
+        padding: 10px 20px .5px 85px;
+        position: absolute;
+        letter-spacing: 3px
+    }
+    
+    .btn-r2-white {
+        width: 22vw;
+        text-align: right;
+        background-color: #f5f5f5;
+        border-radius: 15px;
+        color: #ffcf00;
+        font-weight: bolder;
+        padding: 15px 15px 15px;
+        float: right
+    }
+    
+    .btn-r2-white p {
+        font-size: larger;
+        margin: -5px 0 0 0
+    }
+    
+    .btn-r2-white p {
+        font-size: larger;
+        margin: -5px 0 0 0
+    }
+    
+    .btn-r2-arr1 {
+        margin: -15vw 0 0 52.5vw;
+        padding: 10px 85px .5px 20px;
+        position: absolute;
+        letter-spacing: 3px
+    }
+    
+    .btn-r2-white1 {
+        width: 22vw;
+        text-align: left;
+        background-color: #f5f5f5;
+        border-radius: 15px;
+        color: #ffcf00;
+        font-weight: bolder;
+        padding: 15px 00px 15px 15px;
+        float: left
+    }
+    
+    .btn-r2-white1 p {
+        font-size: larger;
+        margin: -5px 0 0 0
+    }
+    
+    .text1 {
+        margin: 0 10vw 0 10vw !important;
+    }
+    
+    .qdct {
+        max-width: 100%;
+        margin-top: 5em;
+    }
+    
+    .qdct-content {
+        background-color: #ffcf00
+    }
+    
+    .qdct-icon {
+        max-width: 30vw;
+        margin-top: -28vw;
+        margin-left: 88vw
+    }
+    
+    .qdct-icon1 {
+        max-width: 30vw;
+        margin-top: -130em;
+        margin-left: 88vw
+    }
+    
+    .qdct-title {
+        max-width: 60vw;
+        margin-top: -2vw;
+        margin-left: 25vw
+    }
+    
+    .qdct-text {
+        margin-top: -4vw;
+        padding: 5em 35em 10em 35em !important;
+        background-image: url(img/Quy_Dinh_Cuoc_Thi/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+    
+    .qdct-text p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: justify;
+        font-size: 14px
+    }
+    
+    .qdct-text p span {
+        font-weight: 700
+    }
+    
+    .qdct-text1 {
+        margin-top: -0vw !important;
+        padding: 3vw 7vw 10vw 7vw !important;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+    
+    .qdct-text1 p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: justify;
+        font-size: 14px
+    }
+    
+    .qdct-text1 p span {
+        font-weight: 700
+    }
+    
+    .qdct-text2 {
+        margin: 0 30em 0 30em !important;
+        padding: 100px;
+        background-image: url("./img/Luu_Y_Danh_Cho_Thi_Sinh/2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .qdct-text2 p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: justify;
+        font-size: 14px
+    }
+    
+    .qdct-text2 p span {
+        font-weight: 700
+    }
+    
+    .qdct-dock {
+        max-width: 120%;
+        margin-top: -30vw;
+        margin-left: -5vw
+    }
+    
+    .qdct-car {
+        max-width: 65vw;
+        margin-top: -35vw;
+        margin-left: -18vw
+    }
+    
+    .qdct-icon2 {
+        max-width: 10vw !important;
+        margin-top: -50vw !important;
+        margin-left: 25vw !important;
+    }
+    
+    .icon{
+        text-align: center;
+    }
+    
+    .icon img{
+        max-width: 8em;
+    }
+    
+    .ly {
+        margin-top: 7em;
+        position: relative;
+    }
+
+    div.ly-img.wow.fadeInLeft {
+    }
+    
+    .ly-img{
+        position: absolute !important;
+        margin-top: -30em !important;
+        z-index: -1 !important;
+        margin-left: 17em;
+    }
+    
+    .ly-img img{
+        max-width: 300px;
+        margin-left: 50px;
+    }
+    
+    .ly-img-car{
+        position: relative;
+        margin-top: -15em;
+        z-index: 1;
+        float: right;
+        margin-right: -10em;
+    }
+    
+    .ly-img-car img{
+        margin-right: -4em;
+        margin-top: -5em;
+        max-width: 60em !important;
+    }
+    
+    .ly-icon{
+        margin-left: -40em;
+        margin-top: -20em;
+    }
+    
+    .ly-icon img{
+        max-width: 50em;
+    }
+    
+    .dkdt{
+        position: relative;
+        margin-top: -10em;
+    }
+    
+    .dkdt-title{
+        text-align: center;
+    }
+    
+    .dkdt-title img{
+        max-width: 600px;
+    }
+    
+    .de img{
+        max-width: 15em !important;
+    }
+    
+    .dkcn{
+        text-align: center;
+        margin-top: -5em;
+    }
+    
+    .dkcn img{
+        max-width: 24em;
+    }
+    
+    .dkgn{
+        text-align: center;
+        margin-top: -5em;
+    }
+    
+    .dkgn img{
+        max-width: 24em;
+    }
+    
+    .countdown{
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .countdown-text{
+        margin-top: -8em;
+    }
+    
+    .sk{
+        margin-top: 7em;
+    }
+    
+    .sk-title img{
+        max-width: 200px;
+    }
+    
+    .sk-content1{
+        margin-top: 4em;
+    }
+    
+    .info-day{
+        padding: 2em 15em 2em 15em !important;
+        text-align: justify;
+    }
+    
+    .info-day img{
+        max-width: 200px;
+    }
+    
+    
+    .info-btn{
+        background-color: #ffcf00;
+        max-width: fit-content;
+        text-align: center;
+        padding: 6px !important;
+        margin: 0 0 0 0 !important;
+        border-radius: 20px;
+    }
+    
+    .anima-img img{
+        max-width: 80%;
+        margin-top: -25em;
+        animation: zoominanima 1.5s;
+    }
+    
+    .sk-content2{
+        margin-top: 10em;
+    }
+    
+    .gala-day{
+        margin-top: -1em;
+        padding: 2em 15em 2em 15em !important;
+        text-align: right;
+    }
+    
+    .gala-day img{
+        max-width: 150px;
+    }
+    
+    .anima-img2 img{
+        margin-left: 5em;
+        max-width: 80%;
+        margin-top: -40em;
+        animation: zoominanima 1.5s;
+    }
+    
+    .dt{
+        margin-top: 8em;
+    }
+    
+    .dt-title{
+        text-align: center;
+    }
+    
+    .dt-title img{
+        max-width: 200px;
+    }
+    
+    .dvtc{
+        margin-top: 3em;
+    }
+    
+    .dvtc img{
+        max-width: 20em;
+    }
+    
+    .nttkc{
+        margin-top: 3em;
+    }
+    
+    .nttkc img{
+        max-width: 20em;
+    }
+    
+    .tiktok{
+        padding-right: 1em;
+        margin-top: 3em;
+        text-align: right;
+    }
+    
+    .tiktok img{
+        max-width: 20em;
+    }
+    
+    .cocoon{
+        padding-left: 1em;
+        margin-top: 2.5em;
+        text-align: left;
+    }
+    
+    .cocoon img{
+        max-width: 20em;
+    }
+    
+    .ntt1{
+        margin-top: 3em;
+    }
+    
+    .nttv{
+        text-align: center;
+    }
+    
+    .nttv img{
+        max-width: 20em;
+    }
+    
+    .nttb{
+        text-align: center;
+    
+    }
+    
+    .nttb img{
+        max-width: 20em;
+    }
+    
+    .footer {
+        width: 100%
+    }
+    
+    .footer-background {
+        width: 100%;
+        margin-top: 5%
+    }
+    
+    #navbar-margin {
+        height: 100%
+    }
+    
+    #navbarCollapse {
+        padding-left: 18%
+    }
+    
+    #dropdown-menu-hover {
+        background-color: #fff;
+        color: #000
+    }
+    
+    #dropdown-menu-hover:hover {
+        background-color: #fff;
+        color: #ffcf00
+    }
+    
+    #qdct-title {
+        font-weight: 775;
+        font-size: 22px
+    }
+    
+    #luuy {
+        font-size: 18px;
+        max-width: 7vw;
+        color: #fff;
+        font-weight: 500;
+        background-color: #ffcf00;
+        border-radius: 20px;
+        padding: 3px 7px 3px 7px
+    }
+    
+    #svg1 {
+        margin-top: -2.7vw;
+        position: relative
+    }
+    
+    #svg2 {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70vw;
+        margin-top: -5.1vw;
+        position: absolute
+    }
+    
+    #svg3 {
+        margin-top: -10%;
+        margin-left: -35vw;
+        position: absolute
+    }
+    
+    #svg4 {
+        transform: scale(1.2);
+        margin-top: -11.4vw;
+        margin-left: 23.5vw;
+        position: absolute
+    }
+    
+    #arr_svg {
+        max-width: 6px;
+        margin-top: -3px;
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    
+    #svg8 {
+        transform: scale(.75);
+        margin-top: -16px
+    }
+    
+    #svg9{
+        margin-top: -16px;
+    }
+    
+    #svg10 {
+        margin-top: -16px
+    }
+    
+    #svg11 {
+        margin-top: -1rem
+    }
+    
+    #svg12 {
+        max-width: 30vw !important;
+        margin: -110em 0 0 0 !important;
+        float: left !important;
+    }
+    
+    #trainning1 {
+        text-align: right;
+        margin-right: .5vw
+    }
+    
+    #trainning2 {
+        text-align: left;
+        margin-left: .5vw
+    }
+    
+    #social-media {
+        padding: 1vw 1vw 1vw 3vw
+    }
+    
+    #sub1 {
+        margin-top: -1.5vw
+    }
+    
+    #sub1_1 {
+        margin-top: -1vw;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #000;
+        font-weight: 400
+    }
+    
+    #end-tl {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 15vw
+    }
+    
+    #sub-title {
+        font-size: 18px;
+        max-width: 150px;
+        color: #fff;
+        font-weight: 500;
+        background-color: #ffcf00;
+        border-radius: 20px;
+        padding: 3px 7px 3px 7px
+    }
+    
+    #qdct-svg {
+        max-width: 13vw !important;
+        margin: -175em 85vw 0 85vw !important;
+    }
+    
+    #qdct-svg1 {
+        transform: scaleX(-1);
+        margin: -150vw -30vw 0 -30vw;
+        max-width: 50vw
+    }
+    
+    #qdct-svg2 {
+        transform: scaleX(-1);
+        margin: -50vw -30vw 0 -30vw;
+        max-width: 50vw
+    }
+    
+    #dkdt-bg{
+        position: relative;
+        max-width: 100%;
+        background-image: url("./img/Dang_Ky_Du_Thi/2.png");
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position-x: 35em !important;
+        background-position-y: -3em !important;
+        margin-top: -1em;
+    }
+    
+    #dkdt-cn{
+        text-align: right;
+        position: relative;
+    }
+    
+    #countdown-timer{
+        background-color: white;
+        margin: -2.75em 15em 0 15em !important; 
+        padding: 2em 1em 1em 1em;
+    }
+    
+    #countdown-timer .col div{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #countdown-timer .col p{
+        font-weight: 400;
+        color: grey;
+        font-size: 10px;
+    }
+    
+    #lock-icon{
+        margin-top: -1.75em;
+    }
+    
+    #lock-icon img{
+        max-width: 50px;
+    }
+    
+    .countdown-text p{
+    }
+    
+    @keyframes zoominanima {
+        0% {
+            transform: scale(1,1);
+        }
+        50% {
+            transform: scale(1.2,1.2);
+        }
+        100% {
+            transform: scale(1,1);
+        }
+    }
+    
+    .zoomin{
+        animation: zoominanima 1s;
+    }
+    
+    .zoomin-infi{
+        animation: zoominanima 1s infinite;
+    }
+    
+    .g1{
+        text-align: center;
+    }
+    
+    .g1 img{
+        max-width: 40em;
+    }
+    
+    .g2{
+        margin-top: 3em;
+        text-align: center;
+    }
+    
+    .g2 img{
+        max-width: 40em;
+    }
+    
+    .ccgt-title{
+        margin-top: 3em;
+        text-align: center;
+    }
+    
+    .ccgt-title img{
+        max-width: 30em;
+    }
+    
+    .gala{
+        padding-left: 5em;
+    }
+    
+    .gala-img img{
+        max-width: 25em;
+    }
+    
+    .gala-img{
+        background-image: url("./img/Su_Kien/8.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .info-img img{
+        max-width: 25em;
+    }
+    
+    .info-img{
+        background-image: url("./img/Su_Kien/3.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1800px){
+    #navbarCollapse{
+        padding-left: 30% !important;
+    }
+}
+
+@media (max-width: 1500px){
+    #navbarCollapse{
+        padding-left: 22% !important;
+    }
+}
+
+@media (max-width:1280px) {
+
+    .img-logo img {
+        max-width: 50px;
+        max-height: 80px !important;
+        margin-left: 93.75vw !important;
+    }
+
+    .vct-dot-anima {
+        margin-top: 0px !important;
+        margin-left: 5em !important;
+    }
+
+    .vct-img {
+        max-width: 27em !important;
+        margin-left: 10em;
+    }
+
+    .vct-col-content img {
+        margin-top: 8em !important;
+        max-width: 27em !important;
+    }
+
+    #navbarCollapse{
+        padding-left: 10% !important;
+    }
+
+    .qdct-text{
+        padding: 5em 10em 10em 10em;
+    }
+
+    .img-banner {
+        margin-top: -15em !important;
+    }
+    
+    .vct {
+        margin-bottom: 0
+    }
+    
+    .vct-dot {
+        max-width: 7vw;
+        align-self: center
+    }
+    
+    .vct-col-img {
+        padding: 0;
+    }
+    
+    .vct-img {
+        max-width: 45em;
+        margin-left: 10em;
+    }
+    
+    .vct-col-content{
+        text-align: center;
+    }
+    
+    .vct-col-content img{
+        margin-top: 13em;
+        max-width: 45em;
+    }
+    
+    .vct-title {
+        max-width: 25vw
+    }
+    
+    .vct-text {
+        max-width: 100%;
+        margin-top: 2.5vw;
+        font-size: 14px
+    }
+    
+    .vct-dot-anima {
+        text-align: right;
+        margin-top: -60px
+    }
+    
+    .vct-dot-anima img {
+        max-width: 6vw;
+        margin-right: 0
+    }
+    
+    #de1{
+        transition-delay: 1s !important;
+    }
+    
+    #de2{
+        transition-delay: 1.5s !important;
+    }
+    .tlct-container {
+        margin-top: -100px;
+        background: rgb(255,255,255);
+        background: linear-gradient(0deg, rgba(255,255,255,1) 90%, rgba(214,214,214,1) 100%);}
+    
+    .tlct-banner {
+        margin-top: -0.5em;
+        max-width: 21vw
+    }
+    
+    .tlct-right-img {
+        margin-top: -45px;
+        text-align: right;
+        margin-right: -17%
+    }
+    
+    .tlct-right-img img {
+        max-width: 30vw
+    }
+    
+    .tlct-title {
+        margin-top: 6vw
+    }
+    
+    .tlct-title img {
+        max-width: 30vw
+    }
+    
+    .tlct-text {
+        padding-top: 3vw
+    }
+    
+    .tlct-text p {
+        padding-left: 15vw;
+        padding-right: 15vw;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px
+    }
+    
+    .tlct-text p span {
+        font-weight: 700
+    }
+    
+    .tlct-timeline-icon img {
+        max-width: 10vw;
+        position: relative;
+    }
+    
+    .dethi{
+        margin-top: -2.5em;
+    }
+    
+    .dethi img{
+        max-width: 70vw;
+    }
+    
+    #svg20{
+        margin-top: -2em;
+    }
+    
+    #svg21{
+        margin-top: -2em;
+        position: relative;
+    }
+    
+    .timeline-icon1 {
+        margin-left: -11vw
+    }
+    
+    .btn-shadow {
+        box-shadow: 0 5px 50px #afafaf
+    }
+    
+    .datetime {
+        color: #ffcf00;
+        font-weight: 700;
+        text-align: center;
+        font-size: 14px
+    }
+    
+    .datetime1{
+        font-size: large;
+    }
+    
+    .datetime2 {
+        font-size: large;
+        color: rgba(128, 128, 128, .795)
+    }
+    
+    .datetime3 {
+        margin-top: 35px;
+        font-size: large;
+        color: rgba(128, 128, 128, .795)
+    }
+    
+    .datetime4 {
+        color: #cf0000;
+        font-weight: 700;
+        text-align: center;
+        font-size: large;
+        margin-top: -.25vw
+    }
+    
+    .btn-r1 {
+        background-color: #ffcf00;
+        margin: 0 220px -16px 220px !important;
+        border-radius: 12px;
+        padding: 5px 0 0 0;
+        color: #fff;
+        font-weight: bolder;
+        font-size: larger
+    }
+    
+    .btn-r1 p {
+        font-size: larger
+    }
+    
+    .btn-r1 p i {
+        font-size: smaller
+    }
+    
+    .btn-r1-white {
+        background-color: #f5f5f5;
+        margin: 0 25vw 0 25vw !important;
+        border-radius: 10px;
+        padding: 10px 0 .5px 0;
+        color: #ffcf00;
+        font-weight: bolder
+    }
+    
+    .btn-r1-white p {
+        font-size: larger
+    }
+    
+    .btn-r2 {
+        background-color: #ffcf00;
+        margin: 0 220px 0 220px !important;
+        border-radius: 12px;
+        padding: 1px 0 0 0;
+        color: #fff;
+        font-weight: bolder;
+        font-size: larger
+    }
+    
+    .btn-r2 p {
+        font-size: larger
+    }
+    
+    .btn-r2 p i {
+        font-size: smaller
+    }
+    
+    .btn-r2-arr {
+        margin: -15vw 13vw 0 13vw;
+        padding: 10px 20px .5px 85px;
+        position: absolute;
+        letter-spacing: 3px
+    }
+    
+    .btn-r2-white {
+        width: 22vw;
+        text-align: right;
+        background-color: #f5f5f5;
+        border-radius: 15px;
+        color: #ffcf00;
+        font-weight: bolder;
+        padding: 15px 15px 15px;
+        float: right
+    }
+    
+    .btn-r2-white p {
+        font-size: larger;
+        margin: -5px 0 0 0
+    }
+    
+    .btn-r2-white p {
+        font-size: larger;
+        margin: -5px 0 0 0
+    }
+    
+    .btn-r2-arr1 {
+        margin: -15vw 0 0 52.5vw;
+        padding: 10px 85px .5px 20px;
+        position: absolute;
+        letter-spacing: 3px
+    }
+    
+    .btn-r2-white1 {
+        width: 22vw;
+        text-align: left;
+        background-color: #f5f5f5;
+        border-radius: 15px;
+        color: #ffcf00;
+        font-weight: bolder;
+        padding: 15px 00px 15px 15px;
+        float: left
+    }
+    
+    .btn-r2-white1 p {
+        font-size: larger;
+        margin: -5px 0 0 0
+    }
+    
+    .text1 {
+        margin: 0 10vw 0 10vw !important;
+    }
+    
+    .qdct {
+        max-width: 100%;
+        margin-top: 5em;
+    }
+    
+    .qdct-content {
+        background-color: #ffcf00
+    }
+    
+    .qdct-icon {
+        max-width: 30vw;
+        margin-top: -28vw;
+        margin-left: 88vw
+    }
+    
+    .qdct-icon1 {
+        max-width: 30vw;
+        margin-top: -130em;
+        margin-left: 88vw
+    }
+    
+    .qdct-title {
+        max-width: 60vw;
+        margin-top: -2vw;
+        margin-left: 25vw
+    }
+    
+    .qdct-text {
+        margin-top: -4vw;
+        padding: 5em 15em 10em 15em !important;
+        background-image: url(img/Quy_Dinh_Cuoc_Thi/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+    
+    .qdct-text p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: justify;
+        font-size: 14px
+    }
+    
+    .qdct-text p span {
+        font-weight: 700
+    }
+    
+    .qdct-text1 {
+        margin-top: -4vw !important;
+        padding: 3vw 21vw 10vw 21vw !important;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center
+    }
+    
+    .qdct-text1 p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: justify;
+        font-size: 14px
+    }
+    
+    .qdct-text1 p span {
+        font-weight: 700
+    }
+    
+    .qdct-text2 {
+        margin: 0 200px 0 200px !important;
+        padding: 100px;
+        background-image: url("./img/Luu_Y_Danh_Cho_Thi_Sinh/2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .qdct-text2 p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        text-align: justify;
+        font-size: 14px
+    }
+    
+    .qdct-text2 p span {
+        font-weight: 700
+    }
+    
+    .qdct-dock {
+        max-width: 120%;
+        margin-top: -30vw;
+        margin-left: -5vw
+    }
+    
+    .qdct-car {
+        max-width: 65vw;
+        margin-top: -35vw;
+        margin-left: -18vw
+    }
+    
+    .qdct-icon2 {
+        max-width: 10vw !important;
+        margin-top: -60vw !important;
+        margin-left: 80vw !important;
+    }
+    
+    .icon{
+        text-align: center;
+    }
+    
+    .icon img{
+        max-width: 8em;
+    }
+    
+    .ly {
+        margin-top: 7em;
+        position: relative;
+    }
+
+    div.ly-img.wow.fadeInLeft {
+        margin-left: 0em;
+    }
+    
+    .ly-img{
+        position: absolute !important;
+        margin-top: -30em !important;
+        z-index: -1 !important;
+    }
+    
+    .ly-img img{
+        max-width: 300px;
+        margin-left: 50px;
+    }
+    
+    .ly-img-car{
+        position: relative;
+        margin-top: -15em;
+        z-index: 1;
+        float: right;
+        margin-right: -10em;
+    }
+    
+    .ly-img-car img{
+        margin-top: 2em;
+        max-width: 40em !important;
+        float: right;
+    }
+    
+    .ly-icon{
+        margin-left: -40em;
+        margin-top: -20em;
+    }
+    
+    .ly-icon img{
+        max-width: 50em;
+    }
+    
+    .dkdt{
+        position: relative;
+        margin-top: -10em;
+    }
+    
+    .dkdt-title{
+        text-align: center;
+    }
+    
+    .dkdt-title img{
+        max-width: 600px;
+    }
+    
+    .de img{
+        max-width: 15em !important;
+    }
+    
+    .dkcn{
+        text-align: center;
+        margin-top: -5em;
+    }
+    
+    .dkcn img{
+        max-width: 24em;
+    }
+    
+    .dkgn{
+        text-align: center;
+        margin-top: -5em;
+    }
+    
+    .dkgn img{
+        max-width: 24em;
+    }
+    
+    .countdown{
+        text-align: center;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .countdown-text{
+        margin-top: -8em;
+    }
+    
+    .sk{
+        margin-top: 7em;
+    }
+    
+    .sk-title img{
+        max-width: 200px;
+    }
+    
+    .sk-content1{
+        margin-top: 4em;
+    }
+    
+    .info-day{
+        padding: 2em 9em 2em 5em !important;
+        text-align: justify;
+    }
+    
+    .info-day img{
+        max-width: 200px;
+    }
+    
+    
+    .info-btn{
+        background-color: #ffcf00;
+        max-width: fit-content;
+        text-align: center;
+        padding: 6px !important;
+        margin: 0 0 0 0 !important;
+        border-radius: 20px;
+    }
+    
+    .anima-img img{
+        max-width: 80%;
+        margin-top: -25em;
+        animation: zoominanima 1.5s;
+    }
+    
+    .sk-content2{
+        margin-top: 10em;
+    }
+    
+    .gala-day{
+        margin-top: -1em;
+        padding: 2em 5em 2em 9em !important;
+        text-align: right;
+    }
+    
+    .gala-day img{
+        max-width: 150px;
+    }
+    
+    .anima-img2 img{
+        margin-left: 5em;
+        max-width: 80%;
+        margin-top: -40em;
+        animation: zoominanima 1.5s;
+    }
+    
+    .dt{
+        margin-top: 8em;
+    }
+    
+    .dt-title{
+        text-align: center;
+    }
+    
+    .dt-title img{
+        max-width: 200px;
+    }
+    
+    .dvtc{
+        margin-top: 3em;
+    }
+    
+    .dvtc img{
+        max-width: 20em;
+    }
+    
+    .nttkc{
+        margin-top: 3em;
+    }
+    
+    .nttkc img{
+        max-width: 20em;
+    }
+    
+    .tiktok{
+        padding-right: 1em;
+        margin-top: 3em;
+        text-align: right;
+    }
+    
+    .tiktok img{
+        max-width: 20em;
+    }
+    
+    .cocoon{
+        padding-left: 1em;
+        margin-top: 2.5em;
+        text-align: left;
+    }
+    
+    .cocoon img{
+        max-width: 20em;
+    }
+    
+    .ntt1{
+        margin-top: 3em;
+    }
+    
+    .nttv{
+        text-align: center;
+    }
+    
+    .nttv img{
+        max-width: 20em;
+    }
+    
+    .nttb{
+        text-align: center;
+    
+    }
+    
+    .nttb img{
+        max-width: 20em;
+    }
+    
+    .footer {
+        width: 100%
+    }
+    
+    .footer-background {
+        width: 100%;
+        margin-top: 5%
+    }
+    
+    #navbar-margin {
+        height: 100%
+    }
+    
+    #navbarCollapse {
+        padding-left: 18%
+    }
+    
+    #dropdown-menu-hover {
+        background-color: #fff;
+        color: #000
+    }
+    
+    #dropdown-menu-hover:hover {
+        background-color: #fff;
+        color: #ffcf00
+    }
+    
+    #qdct-title {
+        font-weight: 775;
+        font-size: 22px
+    }
+    
+    #luuy {
+        font-size: 18px;
+        max-width: 7vw;
+        color: #fff;
+        font-weight: 500;
+        background-color: #ffcf00;
+        border-radius: 20px;
+        padding: 3px 7px 3px 7px
+    }
+    
+    #svg1 {
+        margin-top: -2.7vw;
+        position: relative
+    }
+    
+    #svg2 {
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 70vw;
+        margin-top: -5.1vw;
+        position: absolute
+    }
+    
+    #svg3 {
+        margin-top: -10%;
+        margin-left: -35vw;
+        position: absolute
+    }
+    
+    #svg4 {
+        transform: scale(1.2);
+        margin-top: -11.4vw;
+        margin-left: 23.5vw;
+        position: absolute
+    }
+    
+    #arr_svg {
+        max-width: 6px;
+        margin-top: -3px;
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    
+    #svg8 {
+        transform: scale(.75);
+        margin-top: -16px
+    }
+    
+    #svg9{
+        margin-top: -16px;
+    }
+    
+    #svg10 {
+        margin-top: -16px
+    }
+    
+    #svg11 {
+        margin-top: -1rem
+    }
+    
+    #svg12 {
+        max-width: 30vw !important;
+        margin: -105em 0 0 0 !important;
+        float: left !important;
+    }
+    
+    #trainning1 {
+        text-align: right;
+        margin-right: .5vw
+    }
+    
+    #trainning2 {
+        text-align: left;
+        margin-left: .5vw
+    }
+    
+    #social-media {
+        padding: 1vw 1vw 1vw 3vw
+    }
+    
+    #sub1 {
+        margin-top: -1.5vw
+    }
+    
+    #sub1_1 {
+        margin-top: -1vw;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #000;
+        font-weight: 400
+    }
+    
+    #end-tl {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 15vw
+    }
+    
+    #sub-title {
+        font-size: 18px;
+        max-width: 150px;
+        color: #fff;
+        font-weight: 500;
+        background-color: #ffcf00;
+        border-radius: 20px;
+        padding: 3px 7px 3px 7px
+    }
+    
+    #qdct-svg {
+        max-width: 13vw !important;
+        margin: -175em 85vw 0 85vw !important;
+    }
+    
+    #qdct-svg1 {
+        transform: scaleX(-1);
+        margin: -150vw -30vw 0 -30vw;
+        max-width: 50vw
+    }
+    
+    #qdct-svg2 {
+        transform: scaleX(-1);
+        margin: -50vw -30vw 0 -30vw;
+        max-width: 50vw
+    }
+    
+    #dkdt-bg{
+        position: relative;
+        max-width: 100%;
+        background-image: url("./img/Dang_Ky_Du_Thi/2.png");
+        background-size: 30%;
+        background-repeat: no-repeat;
+        background-position-x: 23em !important;
+        margin-top: -1em;
+    }
+    
+    #dkdt-cn{
+        text-align: right;
+        position: relative;
+    }
+    
+    #countdown-timer{
+        background-color: white;
+        margin: -2.75em 8em 0 8em !important; 
+        padding: 2em 1em 1em 1em;
+    }
+    
+    #countdown-timer .col div{
+        font-weight: bold;
+        font-size: 30px;
+    }
+    
+    #countdown-timer .col p{
+        font-weight: 400;
+        color: grey;
+        font-size: 10px;
+    }
+    
+    #lock-icon{
+        margin-top: -1.75em;
+    }
+    
+    #lock-icon img{
+        max-width: 50px;
+    }
+    
+    .countdown-text p{
+    }
+    
+    @keyframes zoominanima {
+        0% {
+            transform: scale(1,1);
+        }
+        50% {
+            transform: scale(1.2,1.2);
+        }
+        100% {
+            transform: scale(1,1);
+        }
+    }
+    
+    .zoomin{
+        animation: zoominanima 1s;
+    }
+    
+    .zoomin-infi{
+        animation: zoominanima 1s infinite;
+    }
+    
+    .g1{
+        margin-top: 3em;
+        text-align: center;
+    }
+    
+    .g1 img{
+        max-width: 40em;
+    }
+    
+    .g2{
+        margin-top: 3em;
+        text-align: center;
+    }
+    
+    .g2 img{
+        max-width: 40em;
+    }
+    
+    .ccgt-title{
+        margin-top: 3em;
+        text-align: center;
+    }
+    
+    .ccgt-title img{
+        max-width: 30em;
+    }
+    
+    .gala{
+        padding-left: 5em;
+    }
+    
+    .gala-img img{
+        max-width: 25em;
+    }
+    
+    .gala-img{
+        background-image: url("./img/Su_Kien/8.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .info-img img{
+        max-width: 25em;
+    }
+    
+    .info-img{
+        background-image: url("./img/Su_Kien/3.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1303px){
+    .vct-img {
+        max-width: 20em !important;
+        margin-left: 10em;
+    }
+
+    .vct-col-content img {
+        margin-top: 8em !important;
+        max-width: 20em !important;
+    }
+
+    .vct-dot-anima {
+        margin-top: -15px !important;
+        margin-left: 1em !important;
+    }
+
+    .vct-dot-anima img{
+        margin-top: -15px !important;
+    }
+}
+
+@media (max-width: 1200px){
+    #navbarCollapse{
+        padding-left: 5% !important;
+    }
 }
 
 @media (max-width: 990px){
+
+    #navbarCollapse {
+        padding-left: 0 !important;
+    }
 
     ul#menu-responsive.navbar-nav{
         margin: 0 !important;
@@ -3788,11 +5783,6 @@ span {
 
     div.g2 img{
         max-width: 30em;
-    }
-
-
-    .footer-res{
-        display: block;
     }
 
     img.footer-background{
@@ -3965,6 +5955,190 @@ span {
     }
 }
 
+@media (max-width: 412px){
+
+    #navbarCollapse {
+        padding-left: 0 !important;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .footer-res{
+        margin-top: 1em;
+        display: block;
+    }
+
+    .footer-res img{
+        margin-top: 2em;
+    }
+
+    .nttv{
+        margin: -5em 0 0em 0;
+    }
+
+    .nttb{
+        margin: -15em 0 -25em 0;
+    }
+
+    
+
+    .nttv img {
+        margin-top: -25em !important;
+        margin-bottom: -25em !important;
+        max-width: 25em !important;
+        margin: 0 !important;
+    }
+    .nttb img {
+        margin-top: -10em !important;
+        max-width: 25em !important;
+        margin: 0 !important;
+    }
+
+    div.row.ntt1{
+        text-align: center !important;
+    }
+
+    .gala-day {
+        margin-right: 0;
+        margin-top: -1em;
+        padding: 2em 2em 2em 2em !important;
+        text-align: justify !important;
+    }
+
+    .gala-img {
+        background-position: center;
+        margin-left: 0em;
+    }
+
+    div.info-day {
+        padding: 2em 2em 2em 2em !important;
+        margin-left: 0;
+    }
+
+    div#countdown-timer.row.btn-shadow {
+        margin: -2.5em 4em 0em 4em !important;
+    }
+
+    div#qdtc.qdct-text2 {
+        margin: 0 2em 0 2em !important;
+        padding: 20px;
+    }
+
+    div.g1 img {
+        margin-top: -7em;
+        max-width: 20em;
+    }
+
+    .g2 .g2-tt {
+        max-width: 8em;
+        margin-left: 0em !important;
+        margin-bottom: 1em;
+    }
+
+    div.g2 img {
+        margin-top: -15em;
+        max-width: 20em;
+    }
+
+    img#qdct-svg {
+    display: none;    
+}
+
+    div#qdtc.qdct-text1 {
+        margin-top: 5em;
+        padding: 2em !important;
+    }
+
+    div.qdct-text.wow.fadeIn {
+        padding: 2em !important;
+    }
+
+    img.qdct-title.wow.fadeInDown {
+        max-width: 60vw;
+        margin-top: -2vw;
+        margin-left: 0em;
+    }
+
+    img#svg12{
+        display: none;
+    }
+
+    #end-tl{
+        font-size: 12px !important;
+    }
+
+    div.btn-r2.btn-shadow.hovers {
+        margin: 0 2em -16px 2em !important;
+    }
+
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 25em;
+        font-size: 12px;
+    }
+
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 25em;
+        font-size: 12px;
+    }
+
+    div.btn-r1.btn-shadow.hovers {
+        margin: 0 2em -16px 2em !important;
+    }
+
+    .dethi img {
+        max-width: 25em !important;
+        margin-right: 0;
+        margin-top: -2.25em;
+    }
+
+    .vct-img {
+        max-width: 20em !important;
+        margin-left: 0em !important;
+        margin-top: 10em;
+    }
+
+    .vct-col-content img {
+        margin-top: 2em !important;
+        max-width: 20em !important;
+        margin-bottom: 2em;
+    }
+
+    .img-banner {
+        margin-top: -2em !important;
+    }
+
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 25em;
+        font-size: 10px;
+    }
+
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 25em;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px){
+
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 25em;
+        font-size: 10px;
+    }
+
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 25em;
+        font-size: 10px;
+    }
+
+    .dethi img {
+        max-width: 20em !important;
+        margin-right: 0;
+        margin-top: -2.25em;
+    }
+}    
+
 .footer-res img{
     max-width: 100%;
 }
@@ -3976,10 +6150,6 @@ span {
 .hovers:hover{
     transform: scale(1.2);
     transition: 0.3s;
-}
-
-#navbarCollapse {
-    padding-left: 0!important
 }
 
 .grey {
@@ -3999,7 +6169,7 @@ span {
     border-radius: 20px;
     transition: .3s;
     font-weight: 700;
-    font-size: 1vw
+    font-size: 12px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -4054,7 +6224,11 @@ span {
 }
 
 .img-banner {
-    max-width: 100%
+    max-width: 100%;
+}
+
+#TC img{
+    margin-top: -25em;
 }
 
 .container-fluid {
@@ -4088,17 +6262,21 @@ span {
 }
 
 .vct-col-img {
-    padding: 4vw 4vw 0 4vw
+    padding: 0;
 }
 
 .vct-img {
-    max-width: 100%;
-    max-height: 440px
+    max-width: 45em;
+    margin-left: 10em;
 }
 
-.vct-col-content {
-    margin-top: 4vw;
-    padding: 5vw 5vw 0 5vw
+.vct-col-content{
+    text-align: center;
+}
+
+.vct-col-content img{
+    margin-top: 13em;
+    max-width: 45em;
 }
 
 .vct-title {
@@ -4128,11 +6306,10 @@ span {
 #de2{
     transition-delay: 1.5s !important;
 }
-
 .tlct-container {
     margin-top: -100px;
     background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 72%, rgba(214,214,214,1) 100%);}
+    background: linear-gradient(0deg, rgba(255,255,255,1) 90%, rgba(214,214,214,1) 100%);}
 
 .tlct-banner {
     margin-top: -0.5em;
@@ -4642,7 +6819,10 @@ span {
 }
 
 .nttv img{
-    max-width: 20em;
+    margin-top: -10em;
+    margin-bottom: -10em;
+    max-width: 30em;
+    margin-right: -15em;
 }
 
 .nttb{
@@ -4651,7 +6831,10 @@ span {
 }
 
 .nttb img{
-    max-width: 20em;
+    margin-bottom: -10em;
+    margin-top: -10em;
+    max-width: 30em;
+    margin-left: -15em;
 }
 
 .footer {
@@ -4668,7 +6851,7 @@ span {
 }
 
 #navbarCollapse {
-    padding-left: 10%
+    padding-left: 18%
 }
 
 #dropdown-menu-hover {
@@ -4734,6 +6917,10 @@ span {
 #svg8 {
     transform: scale(.75);
     margin-top: -16px
+}
+
+#svg9{
+    margin-top: -16px;
 }
 
 #svg10 {
@@ -4874,12 +7061,13 @@ span {
 }
 
 .g1{
-    margin-top: 3em;
+    margin-top: 2em;
     text-align: center;
 }
 
 .g1 img{
-    max-width: 40em;
+    margin-top: -10em;
+    max-width: 30em;
 }
 
 .g2{
@@ -4887,8 +7075,14 @@ span {
     text-align: center;
 }
 
+.g2 .g2-tt{
+    max-width: 8em;
+    margin-left: -20em;
+}
+
 .g2 img{
-    max-width: 40em;
+    margin-top: -21em;
+    max-width: 30em;
 }
 
 .ccgt-title{
