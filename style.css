@@ -3620,7 +3620,7 @@ html {
 
 body {
     overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-x: scroll;
 }
 
 body::-webkit-scrollbar {
@@ -3637,6 +3637,10 @@ span {
 }
 
 @media (max-width: 2048px){
+
+    #abu_m{
+        display: none;
+    }
 
     div.container-fluid.vct{
         margin-top: -15em;
@@ -3713,7 +3717,8 @@ span {
     }
 
     img#svg9{
-        margin-top:0px;
+        max-width: 3em;
+        margin-top:-15px;
     }
 
     img.qdct-title.wow.fadeInDown{
@@ -3829,6 +3834,74 @@ span {
 
 @media (max-width:1920px) {
 
+    .sk-title img {
+        max-width: 15em !important;
+    }
+
+    .dkdt-title img {
+        max-width: 50em !important;
+    }
+
+    .g2{
+        margin-top: -5em !important;
+        margin-bottom: -3em;
+    }
+
+    .ccgt-title img {
+        margin-top: -6em;
+        max-width: 40em !important;
+    }
+
+    #LY{
+        margin-top: -1em;
+    }
+
+    div.ccgt-title.wow.fadeInDown{
+        margin-top: -10em;
+    }
+
+    #CCGT{
+        margin-top: -5em;
+    }
+
+    img#svg9 {
+        max-width: 3em;
+        margin-top: 20px;
+    }
+
+    #svg40{
+        margin-top: -50px !important;
+    }
+
+    .svg10_1 img{
+        max-width: 3em;
+        margin-top: -510px !important;
+    }
+
+    #svg33 {
+        max-width: 3em;
+        margin-top: 15px !important;
+    }
+
+    #svg32{
+        margin-top: -25px !important;
+    }
+
+    .datetime2 {
+        font-size: large;
+        color: rgba(128, 128, 128, .795);
+        margin-top: -5px !important;
+    }
+
+    #svg10{
+        margin-top: -10px !important;
+    }
+
+    #svg21 img {
+        margin-top: -15px;
+        max-width: 3em;
+    }
+
     div.ly-img.wow.fadeInLeft {
         margin-left: 12em;
     }
@@ -3847,11 +3920,11 @@ span {
     }
 
     div.btn-r1.btn-shadow.hovers{
-        margin: 0 27em -16px 27em !important;
+        margin: 0 35em -16px 35em !important;
     }
 
     div.btn-r2.btn-shadow.hovers{
-        margin: 0 27em -16px 27em !important;
+        margin: 0 35em -16px 35em !important;
     }
 
     div.btn-r1-white.btn-shadow.hovers{
@@ -3859,11 +3932,11 @@ span {
     }
 
     div.btn-r2-white.btn-shadow.hovers{
-        max-width: 18em;
+        max-width: 24em;
     }
 
     div.btn-r2-white1.btn-shadow.hovers{
-        max-width: 18em;
+        max-width: 24em;
     }
 
     .img-logo{
@@ -3875,7 +3948,7 @@ span {
         max-height: 80px !important;
         margin-right: 1.5em !important;
         float: right;
-        }
+    }
 
     .vct-dot-anima {
         margin-top: 0px !important;
@@ -3888,6 +3961,7 @@ span {
     .vct-col-content img {
         margin-top: 12em !important;
         margin-right: 10em;
+        max-width: 50em !important;
     }
 
     #navbarCollapse{
@@ -3922,11 +3996,6 @@ span {
     
     .vct-col-content{
         text-align: center;
-    }
-    
-    .vct-col-content img{
-        margin-top: 13em;
-        max-width: 45em;
     }
     
     .vct-title {
@@ -4433,7 +4502,7 @@ span {
     }
     
     .dvtc img{
-        max-width: 20em;
+        max-width: 11em;
     }
     
     .nttkc{
@@ -4799,7 +4868,20 @@ span {
     }
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1441px){
+
+    div.collapse.navbar-collapse{
+        padding-left: 50% !important;
+    }
+
+    #navbarCollapse {
+        padding-left: 0% !important;
+    }
+    .img-logo img{
+        max-height: 60px !important;
+        margin-right: 1.5em !important;
+        float: right;
+    }
     .vct-img {
         max-width: 20em !important;
         margin-left: 10em;
@@ -4821,6 +4903,29 @@ span {
 }
 
 @media (max-width:1370px) {
+    #dkdt-bg{
+        margin-top: -5em !important;
+    }
+    .dkdt-title img {
+        max-width: 50em !important;
+    }
+    img#svg9 {
+        max-width: 3em;
+        margin-top: 0px;
+    }
+    #svg33 {
+        max-width: 3em;
+        margin-top: 0px !important;
+    }
+    .datetime2 {
+        font-size: large;
+        color: rgba(128, 128, 128, .795);
+        margin-top: -15px !important;
+    }
+
+    #svg10{
+        margin-top: -40px !important;
+    }
 
     div#qdtc.qdct-text1 {
         margin-top: 5em !important;
@@ -4840,11 +4945,15 @@ span {
     }
 
     div.btn-r1.btn-shadow.hovers{
-        margin: 0 15em -16px 15em !important;
+        margin: 0 15em 0px 15em !important;
+    }
+
+    div#svg32.btn-r1.btn-shadow.hovers{
+        margin: -25px 15em 0px 15em !important;
     }
 
     div.btn-r2.btn-shadow.hovers{
-        margin: 0 15em -16px 15em !important;
+        margin: 0 15em 0px 15em !important;
     }
 
     div.btn-r1-white.btn-shadow.hovers{
@@ -4852,11 +4961,11 @@ span {
     }
 
     div.btn-r2-white.btn-shadow.hovers{
-        max-width: 18em;
+        max-width: 25em;
     }
 
     div.btn-r2-white1.btn-shadow.hovers{
-        max-width: 18em;
+        max-width: 25em;
     }
 
     .img-logo img {
@@ -5056,7 +5165,7 @@ span {
     
     .btn-r1-white {
         background-color: #f5f5f5;
-        margin: 0 25vw 0 25vw !important;
+        margin: 0 20em 0 20em !important;
         border-radius: 10px;
         padding: 10px 0 .5px 0;
         color: #ffcf00;
@@ -5560,7 +5669,7 @@ span {
     
     #svg12 {
         max-width: 30vw !important;
-        margin: -105em 0 0 0 !important;
+        margin: -98em 0 0 0 !important;
         float: left !important;
     }
     
@@ -5594,7 +5703,8 @@ span {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         font-size: 14px;
         color: #000;
-        margin-bottom: 15vw
+        margin-bottom: 15vw;
+        margin: 0 23em 0 23em !important;
     }
     
     #sub-title {
@@ -5740,8 +5850,110 @@ span {
 }
 
 @media (max-width: 1200px){
+    .nttb img {
+        margin-bottom: -10em;
+        margin-top: -10em;
+        max-width: 30em;
+        margin-left: 0em !important;
+    }
+    .nttv img {
+        margin-top: -10em;
+        margin-bottom: -10em;
+        max-width: 30em;
+        margin-right: 0em !important;
+    }
+    .gala-img img {
+        margin-left: -2em;
+        max-width: 25em;
+    }
+    .gala-day {
+        margin-top: -1em;
+        padding: 2em 7em 2em 7em !important;
+        text-align: right;
+        margin-right: 0 !important;
+    }
+    .gala-img {
+        background-image: url(./img/Su_Kien/8.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .gala {
+        padding-left: 0em !important;
+    }
+    .info-day {
+        padding: 2em 7em 2em 7em !important;
+        text-align: justify;
+        margin-left: 0;
+    }
+    #countdown-timer {
+        background-color: white;
+        margin: -2.75em 5em 0 5em !important;
+        padding: 2em 1em 1em 1em;
+    }
+    .ly-img-car img {
+        margin-top: -2em;
+        max-width: 40em !important;
+        float: right;
+    }
+    div#qdtc.qdct-text2 {
+        margin: 0 10em 0 10em !important;
+    }
+    img.qdct-title.wow.fadeInDown {
+        max-width: 60vw;
+        margin-top: 0em;
+        margin-bottom: -2em;
+        margin-left: 30em;
+    }
+    div.qdct-text.wow.fadeIn {
+        padding: 5em 10em 10em 10em !important;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 17em !important;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 17em !important;
+    }
+    #end-tl {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 15vw;
+        margin: 0 21em 0 21em !important;
+    }
+    .btn-r1-white {
+        background-color: #f5f5f5;
+        margin: 0 18em 0 18em !important;
+        border-radius: 10px;
+        padding: 10px 0 .5px 0;
+        color: #ffcf00;
+        font-weight: bolder;
+    }
+    .dethi img {
+        max-width: 35em !important;
+        margin-right: 0;
+        margin-top: -2.25em;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #000;
+        border-radius: 20px;
+        transition: .3s;
+        font-weight: 700;
+        font-size: 10px !important;
+    }
     #navbarCollapse{
         padding-left: 5% !important;
+    }
+}
+
+@media (max-width: 1024px){
+    #navbarCollapse {
+        padding-left: 0em !important;
+    }
+    .navbar {
+        max-width: 1024px !important;
+        max-height: 75px;
     }
 }
 
@@ -5859,13 +6071,117 @@ span {
 }
 
 @media (max-width:768px) {
+    #navbarCollapse {
+        padding-left: 00em !important;
+    }
+    .footer-res{
+        display: block;
+    }
+    .gala-img {
+        background-position: center;
+        margin-left: 0em;
+    }
+    .info-img {
+        background-image: url(./img/Su_Kien/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 0em;
+    }
+    #countdown-timer {
+        background-color: white;
+        margin: -2.75em 11em 0 11em !important;
+        padding: 2em 1em 1em 1em;
+    }
+    .dkdt-title img {
+        margin-top: -2em;
+        max-width: 50em !important;
+    }
+    div#qdtc.qdct-text2 {
+        margin: 0 6em 0 6em !important;
+    }
+    .g2 .g2-tt {
+        max-width: 10em !important;
+        margin-left: 0em !important;
+        margin-bottom: -3em;
+    }
+    div#qdtc.qdct-text1 {
+        margin-top: 5em !important;
+        padding: 3vw 7em 10vw 7em !important;
+    }
+    #end-tl {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 15vw;
+        margin: 0 15em 0 15em !important;
+    }
+    div.btn-r2.btn-shadow.hovers {
+        margin: 0 7em 0px 7em !important;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 25em !important;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 25em !important;
+    }
+
+    div.col.col-lg-1{
+        max-width: 10%;
+    }
+
+    #svg11 {
+        margin-left: -2em !important;
+        margin-right: -2em !important;
+        max-width: 3em;
+        margin-top: -20px;
+    }
+    .btn-r1-white {
+        background-color: #f5f5f5;
+        margin: 0 10em 0 10em !important;
+        border-radius: 10px;
+        padding: 10px 0 .5px 0;
+        color: #ffcf00;
+        font-weight: bolder;
+    }
+    div#svg32.btn-r1.btn-shadow.hovers {
+        margin: -25px 7em 0px 7em !important;
+    }
+    #svg12 {
+        max-width: 30vw !important;
+        margin: -92em 0 0 0 !important;
+        float: left !important;
+    }
+    div.btn-r1.btn-shadow.hovers {
+        margin: 0 7em 0px 7em !important;
+    }
+    .tlct-text p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 10px !important;
+    }
+    .tlct-title img {
+        max-width: 30em !important;
+    }
+    .vct-col-content img {
+        margin-left: 2em;
+        margin-top: 0em !important;
+        max-width: 40em !important;
+    }
+    .navbar {
+        max-width: 768px !important;
+        max-height: 75px;
+    }
+
+    .img-banner {
+        margin-top: -10em !important;
+    }
 
     .btn-r1 p {
         font-size: large;
     }
 
     div.qdct-text.wow.fadeIn {
-        padding: 4em !important;
+        padding: 7em !important;
     }
 
     div.btn-r1.btn-shadow.hovers{
@@ -6152,7 +6468,114 @@ span {
     }
 }
 
-@media (max-width: 412px){
+@media (max-width: 414px){
+
+    .vct-col-content img {
+        margin-left: 1em !important;
+        margin-top: 0em !important;
+        max-width: 40em !important;
+    }
+
+    #abu{
+        display: none;
+    }
+
+    #abu_m{
+        display: block;
+    }
+
+    .dkdt-title img{
+        margin-top: 5em !important;
+        text-align: center;
+    }
+    .ly-img-car img {
+        margin-top: 3em;
+        max-width: 40em !important;
+        float: right;
+    }
+    #g2id{
+        margin-top: -10em !important;
+    }
+    div.g2 img {
+        margin-top: -5em !important;
+        max-width: 20em !important;
+    }
+    .ccgt-title img {
+        margin-top: 0em !important;
+        max-width: 23em !important;
+    }
+    img#qdct-svg1 {
+        z-index: -1;
+        position: relative;
+        margin-top: -125em !important;
+    }
+    div.qdct-text.wow.fadeIn {
+        padding: 4em !important;
+    }
+    #end-tl {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 15vw;
+        margin: 0 6em 0 6em !important;
+    }
+    .btn-r2-white1 p {
+        font-size: 10px !important;
+        margin: -5px 0 0 0;
+    }
+    .btn-r2-white p {
+        font-size: 10px !important;
+        margin: -5px 0 0 0;
+    }
+    div#svg32.btn-r1.btn-shadow.hovers {
+        margin: -25px 2em 0px 2em !important;
+    }
+    .btn-r1 p {
+        font-size: 18px !important;
+    }
+    .btn-r1 {
+        background-color: #ffcf00;
+        margin: 0 200px -16px 200px;
+        border-radius: 12px;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 16px;
+        line-height: 15px;
+    }
+    .btn-r1-white {
+        background-color: #f5f5f5;
+        margin: 0 5em 0 5em !important;
+        border-radius: 10px;
+        padding: 10px 0 .5px 0;
+        color: #ffcf00;
+        font-weight: bolder;
+    }
+
+    .sk-title img {
+        max-width: 11em !important;
+    }
+
+    img#qdct-svg1 {
+        margin-top: -125em;
+    }
+
+    .dkdt-title img {
+        margin-left: -5em;
+        max-width: 35em !important;
+    }
+
+    .tlct-title img {
+        max-width: 18em !important;
+    }    
+
+    .tlct-text p {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 10px !important;
+    }
+
+    .navbar{
+        max-width: 414px !important;
+    }
 
     div#qdtc.qdct-text1 {
         margin-top: 5em !important;
@@ -6307,7 +6730,7 @@ span {
 
     .vct-col-content img {
         margin-top: 2em !important;
-        max-width: 20em !important;
+        max-width: 21.5em !important;
         margin-bottom: 2em;
     }
 
@@ -6324,9 +6747,41 @@ span {
         max-width: 25em;
         font-size: 10px;
     }
+    .gala-img img {
+        margin-left: 0 !important;
+        max-width: 20em !important;
+    }
+    .info-img img {
+        max-width: 20em !important;
+    }
 }
 
 @media (max-width: 375px){
+    .dkdt-title img {
+        margin-left: -6em;
+        max-width: 35em !important;
+    }
+    .dkgn img {
+        max-width: 21em !important;
+    }
+    .dkcn img {
+        max-width: 21em !important;
+    }
+    .ccgt-title img {
+        margin-left: 1em !important;
+        margin-top: 0em !important;
+        max-width: 21em !important;
+    }
+    .vct-col-content img {
+        margin-top: 2em !important;
+        max-width: 21.5em !important;
+        margin-bottom: 2em;
+        margin-left: 0 !important;
+    }
+    .navbar {
+        max-width: 375px !important;
+        max-height: 75px;
+    }
 
     div.btn-r2-white1.btn-shadow.hovers {
         max-width: 25em;
@@ -6343,7 +6798,236 @@ span {
         margin-right: 0;
         margin-top: -2.25em;
     }
-}    
+    .tiktok{
+        text-align: center !important;
+    }
+
+    .cocoon{
+        text-align: center !important;
+    }
+    .cocoon img {
+        max-width: 15em !important;
+    }
+    .tiktok img {
+        max-width: 15em !important;
+    }
+    .nttb img {
+        margin-top: -0em !important;
+        margin-bottom: -2em !important;
+        max-width: 20em !important;
+
+    }
+    .nttv img {
+        margin-top: -4em !important;
+        margin-bottom: 0em !important;
+        max-width: 20em !important;
+
+    }
+    .gala-img img {
+        margin-left: 0 !important;
+        max-width: 20em !important;
+    }
+    .info-img img {
+        max-width: 20em !important;
+    }
+}   
+
+@media (max-width: 320px){
+    .tiktok{
+        text-align: center !important;
+    }
+
+    .cocoon{
+        text-align: center !important;
+    }
+    .cocoon img {
+        max-width: 15em !important;
+    }
+    .tiktok img {
+        max-width: 15em !important;
+    }
+    .nttb img {
+        margin-top: -0em !important;
+        margin-bottom: -2em !important;
+        max-width: 20em !important;
+
+    }
+    .nttv img {
+        margin-top: -4em !important;
+        margin-bottom: 0em !important;
+        max-width: 20em !important;
+
+    }
+    .gala-img img {
+        margin-left: 0 !important;
+        max-width: 20em !important;
+    }
+    .info-img img {
+        max-width: 20em !important;
+    }
+    div#countdown-timer.row.btn-shadow {
+        margin: -2.5em 2em 0em 2em !important;
+    }
+    .dkdt-title img {
+        margin-left: -5em;
+        max-width: 30em !important;
+    }
+    div.g2 img {
+        margin-top: -10em;
+        max-width: 17em !important;
+    }
+    .g2 .g2-tt {
+        margin-top: 0.25em !important;
+        max-width: 6em !important;
+        margin-left: 0em !important;
+        margin-bottom: 3em;
+    }
+    .ccgt-title img {
+        margin-left: 1em !important;
+        margin-top: 2em !important;
+        max-width: 18em !important;
+    }
+    #CCGT {
+        margin-top: -4em !important;
+    }
+    div.qdct-text.wow.fadeIn {
+        margin-top: 1em;
+        padding: 3em !important;
+    }
+    img.qdct-title.wow.fadeInDown {
+        max-width: 18em !important;
+        margin-top: -2vw;
+        margin-left: 0em !important;
+    }
+    .dethi img {
+        max-width: 17em !important;
+        margin-right: 0;
+        margin-top: -2.25em;
+    }
+    span {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        margin-top: 5px;
+        max-width: 25em;
+        font-size: 10px;
+    }
+
+    .btn-r2-white1 p {
+        font-size: 6px !important;
+        margin: -5px 0 0 0;
+        margin-bottom: 6px !important;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        margin-top: 5px;
+        max-width: 25em;
+        font-size: 10px;
+    }
+
+    .btn-r2-white p {
+        font-size: 6px !important;
+        margin: -5px 0 0 0;
+        margin-bottom: 6px !important;
+    }
+        
+    .vct-col-content img {
+        margin-top: 2em !important;
+        max-width: 18em !important;
+        margin-bottom: 2em;
+        margin-left: 0 !important;
+    }
+    .navbar {
+        max-width: 320px !important;
+        max-height: 75px;
+    }
+}
+
+#svg40{
+    max-width: 3em;
+    margin-top: -50px
+}
+
+#svg39{
+    margin-top: -45px;
+}
+
+#svg38{
+    margin-top: -5px;
+}
+
+#svg37{
+    margin-top: -22px;
+    max-width: 3em;
+}
+
+#svg36{
+    margin-top: -10px;
+    max-width: 3em;
+    transform: scale(.75);
+}
+
+#svg35{
+    margin-top: -25px;
+}
+
+#svg34{
+    margin-top: -6px;
+    max-width: 3em;
+}
+
+.datetime1{
+
+    font-size: large;
+}
+
+#svg11 {
+    max-width: 3em;
+    margin-top: -20px;
+}
+
+#svg33{
+    max-width: 3em;
+    margin-top: -0px;
+}
+
+#svg31{
+    max-width: 3em;
+    margin-top: -50px;
+}
+
+#svg8 {
+    max-width: 3em;
+    transform: scale(.75);
+    margin-top: -49px;
+}
+
+#svg30{
+    max-width: 3em;
+    margin-top: -50px;
+}
+
+#tl-text{
+    margin-top: -13px;
+}
+
+#svg6{
+    max-width: 3em;
+    margin-top: -13px;
+}
+
+#svg10 {
+    max-width: 3em;
+    margin-top: -50px
+}
+
+#svg21 img{
+    max-width: 3em;
+}
+
+#svg20 img{
+    max-width: 3em;
+}
 
 .footer-res img{
     max-width: 100%;
@@ -6588,13 +7272,10 @@ span {
     font-size: 14px
 }
 
-.datetime1{
-    font-size: large;
-}
-
 .datetime2 {
     font-size: large;
-    color: rgba(128, 128, 128, .795)
+    color: rgba(128, 128, 128, .795);
+    margin-top: -20px;
 }
 
 .datetime3 {
@@ -6608,17 +7289,18 @@ span {
     font-weight: 700;
     text-align: center;
     font-size: large;
-    margin-top: -.25vw
+    margin-top: -0.5em;
 }
 
 .btn-r1 {
     background-color: #ffcf00;
     margin: 0 200px -16px 200px;
     border-radius: 12px;
-    padding: 5px 0 0 0;
+    padding: 15px 0 2px 0;
     color: #fff;
     font-weight: bolder;
     font-size: 16px;
+    line-height: 15px;
 }
 
 .btn-r1 p {
@@ -6646,10 +7328,11 @@ span {
     background-color: #ffcf00;
     margin: 0 200px 0 200px;
     border-radius: 12px;
-    padding: 1px 0 0 0;
+    padding: 15px 0 2px 0;
     color: #fff;
     font-weight: bolder;
-    font-size: larger
+    font-size: 16px;
+    line-height: 15px;
 }
 
 .btn-r2 p {
@@ -6984,7 +7667,7 @@ span {
 }
 
 .dvtc img{
-    max-width: 20em;
+    max-width: 11em;
 }
 
 .nttkc{
@@ -6992,7 +7675,7 @@ span {
 }
 
 .nttkc img{
-    max-width: 20em;
+    max-width: 14.5em;
 }
 
 .tiktok{
@@ -7056,7 +7739,7 @@ span {
 }
 
 #navbarCollapse {
-    padding-left: 18%
+    padding-left: 45%;
 }
 
 #dropdown-menu-hover {
@@ -7119,21 +7802,8 @@ span {
     margin-right: 10px
 }
 
-#svg8 {
-    transform: scale(.75);
-    margin-top: -16px
-}
-
 #svg9{
     margin-top: -16px;
-}
-
-#svg10 {
-    margin-top: -16px
-}
-
-#svg11 {
-    margin-top: -1rem
 }
 
 #svg12 {
