@@ -3704,10 +3704,12 @@ span {
 
     div.btn-r2-white.btn-shadow.hovers{
         max-width: 18em;
+        font-size: 12px;
     }
 
     div.btn-r2-white1.btn-shadow.hovers{
         max-width: 18em;
+        font-size: 12px;
     }
 
     img#svg9{
@@ -4721,7 +4723,13 @@ span {
     }
     
     .g2 img{
-        max-width: 40em;
+        max-width: 40em !important;
+    }
+    
+    .g2 .g2-tt {
+        max-width: 10em !important;
+        margin-left: 0em !important;
+        margin-bottom: -5em;
     }
     
     .ccgt-title{
@@ -4961,7 +4969,7 @@ span {
     
     .tlct-text p {
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        font-size: 14px
+        font-size: 12px !important;
     }
     
     .tlct-text p span {
@@ -5694,7 +5702,7 @@ span {
     }
     
     .g2 img{
-        max-width: 40em;
+        max-width: 40em !important;
     }
     
     .ccgt-title{
@@ -5889,7 +5897,7 @@ span {
     }
 
     div.g2 img{
-        max-width: 30em;
+        max-width: 30em !important;
     }
 
     img.footer-background{
@@ -6085,7 +6093,7 @@ span {
     }
 
     div.g2 img{
-        max-width: 20em;
+        max-width: 20em !important;
     }
 
     div.gala-day{
@@ -6234,14 +6242,14 @@ span {
     }
 
     .g2 .g2-tt {
-        max-width: 8em;
+        max-width: 8em !important;
         margin-left: 0em !important;
         margin-bottom: 1em;
     }
 
     div.g2 img {
-        margin-top: -15em;
-        max-width: 20em;
+        margin-top: -10em;
+        max-width: 20em !important;
     }
 
     img#qdct-svg {
@@ -6471,8 +6479,8 @@ span {
 }
 
 .vct-col-content img{
-    margin-top: 13em;
-    max-width: 45em;
+    margin-top: 2em;
+    max-width: 20em;
 }
 
 .vct-title {
@@ -6610,7 +6618,7 @@ span {
     padding: 5px 0 0 0;
     color: #fff;
     font-weight: bolder;
-    font-size: larger
+    font-size: 16px;
 }
 
 .btn-r1 p {
@@ -6667,7 +6675,8 @@ span {
     color: #ffcf00;
     font-weight: bolder;
     padding: 15px 15px 15px;
-    float: right
+    float: right;
+    font-size: 10px;
 }
 
 .btn-r2-white p {
@@ -6695,7 +6704,8 @@ span {
     color: #ffcf00;
     font-weight: bolder;
     padding: 15px 00px 15px 15px;
-    float: left
+    float: left;
+    font-size: 10px;
 }
 
 .btn-r2-white1 p {
@@ -6754,7 +6764,7 @@ span {
 
 .qdct-text1 {
     margin-top: -4vw;
-    padding: 3vw 15em 10vw 15em !important;
+    padding: 3vw 4em 10vw 4em !important;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center
@@ -7271,13 +7281,14 @@ span {
 }
 
 .g2 .g2-tt{
-    max-width: 8em;
+    max-width: 5em;
     margin-left: -20em;
 }
 
 .g2 img{
-    margin-top: -21em;
+    margin-top: -15em;
     max-width: 30em;
+    transform: scale(1.25);
 }
 
 .ccgt-title{
