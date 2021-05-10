@@ -3638,6 +3638,10 @@ span {
 
 @media (max-width: 2048px){
 
+    #endl{
+        display: none;
+    }
+
     #abu_m{
         display: none;
     }
@@ -3833,6 +3837,9 @@ span {
 
 
 @media (max-width:1920px) {
+    .navbar{
+        max-width: 1920px !important;
+    }
 
     .sk-title img {
         max-width: 15em !important;
@@ -4732,7 +4739,7 @@ span {
     
     #countdown-timer{
         background-color: white;
-        margin: -2.75em 15em 0 15em !important; 
+        margin: -2.75em 17em 0 17em !important; 
         padding: 2em 1em 1em 1em;
     }
     
@@ -4783,7 +4790,7 @@ span {
     }
     
     .g1 img{
-        max-width: 40em;
+        max-width: 50em !important;
     }
     
     .g2{
@@ -4792,7 +4799,7 @@ span {
     }
     
     .g2 img{
-        max-width: 40em !important;
+        max-width: 50em !important;
     }
     
     .g2 .g2-tt {
@@ -4861,6 +4868,40 @@ span {
     }
 }
 
+@media (max-width: 1600px){
+    .gala-day {
+        padding: 2em 10em 2em 10em !important;
+        text-align: justify;
+        margin-left: 6em;
+    }
+    .info-day {
+        padding: 2em 10em 2em 10em !important;
+        text-align: justify;
+        margin-left: 6em;
+    }
+    div.qdct-text.wow.fadeIn {
+        padding: 5em 25em 10em 25em !important;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 20em;
+        font-size: 12px;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 20em;
+        font-size: 12px;
+    }
+    div.btn-r2.btn-shadow.hovers {
+        margin: 0 25em -16px 25em !important;
+    }
+    div.btn-r1.btn-shadow.hovers {
+        margin: 0 25em -16px 25em !important;
+    }
+    .navbar {
+        max-width: 1600px !important;
+        max-height: 75px;
+    }
+}
+
 @media (max-width: 1500px){
     
     #navbarCollapse{
@@ -4869,27 +4910,42 @@ span {
 }
 
 @media (max-width: 1441px){
+    .gala-day {
+        padding: 2em 10em 2em 10em !important;
+        text-align: justify;
+        margin-left: 0em;
+    }
+    #countdown-timer {
+        background-color: white;
+        margin: -2.75em 10em 0 10em !important;
+        padding: 2em 1em 1em 1em;
+    }
+    .vct-img {
+        max-width: 35em !important;
+        margin-left: 15em !important;
+        margin-top: 5em;
+    }
+    #navbarCollapse {
+        padding-left: 20% !important;
+    }
+
+    .navbar{
+        max-width: 1440px !important;
+    }
 
     div.collapse.navbar-collapse{
         padding-left: 50% !important;
     }
 
-    #navbarCollapse {
-        padding-left: 0% !important;
-    }
     .img-logo img{
         max-height: 60px !important;
         margin-right: 1.5em !important;
         float: right;
     }
-    .vct-img {
-        max-width: 20em !important;
-        margin-left: 10em;
-    }
 
     .vct-col-content img {
-        margin-top: 8em !important;
-        max-width: 20em !important;
+        margin-top: 15em !important;
+        max-width: 35em !important;
     }
 
     .vct-dot-anima {
@@ -4903,6 +4959,9 @@ span {
 }
 
 @media (max-width:1370px) {
+    .navbar{
+        max-width: 1366px !important;
+    }
     #dkdt-bg{
         margin-top: -5em !important;
     }
@@ -4957,7 +5016,7 @@ span {
     }
 
     div.btn-r1-white.btn-shadow.hovers{
-        margin: 0 45em 0 45em;
+        margin: 0 25em 0 25em !important;
     }
 
     div.btn-r2-white.btn-shadow.hovers{
@@ -4971,7 +5030,7 @@ span {
     .img-logo img {
         max-width: 50px;
         max-height: 80px !important;
-        margin-left: 93.75vw !important;
+        margin-left: 93em !important;
     }
 
     .vct-dot-anima {
@@ -4994,7 +5053,7 @@ span {
     }
 
     #navbarCollapse{
-        padding-left: 10% !important;
+        padding-left: 16% !important;
     }
 
     .qdct-text{
@@ -5704,7 +5763,7 @@ span {
         font-size: 14px;
         color: #000;
         margin-bottom: 15vw;
-        margin: 0 23em 0 23em !important;
+        margin: 0 28em 0 28em !important;
     }
     
     #sub-title {
@@ -5846,6 +5905,17 @@ span {
         background-image: url("./img/Su_Kien/3.png");
         background-size: contain;
         background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1280px){
+    #navbarCollapse {
+        padding-left: 10% !important;
+    }
+    
+    
+    .navbar{
+        max-width: 1280px !important;
     }
 }
 
@@ -6067,6 +6137,81 @@ span {
     p#qdct-title {
         text-align: center;
         font-size: 20px
+    }
+}
+
+@media (max-width: 800px){
+    .g2 img{
+        max-width: 30em !important;
+    }
+    .g1 img{
+        max-width: 30em !important;
+    }
+    .gala-img {
+        background-image: url(./img/Su_Kien/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-left: 0em;
+    }
+    .info-img {
+        background-image: url(./img/Su_Kien/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 0em;
+    }
+    div#qdtc.qdct-text2 {
+        margin: 0 6em 0 6em !important;
+    }
+    div#qdtc.qdct-text1 {
+        margin-top: 5em !important;
+        padding: 3vw 8em 10vw 8em !important;
+    }
+    #end-tl {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin-bottom: 15vw;
+        margin: 0 15em 0 15em !important;
+    }
+    div.btn-r2.btn-shadow.hovers {
+        margin: 0 9em 0px 9em !important;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 20em !important;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 20em !important;
+    }
+    div.col.col-lg-1{
+        max-width: 3em;
+    }
+    div.btn-r1-white.btn-shadow.hovers {
+        margin: 0 13em 0 13em !important;
+    }
+    div#svg32.btn-r1.btn-shadow.hovers {
+        margin: -25px 9em 0px 9em !important;
+    }
+    div.btn-r1.btn-shadow.hovers {
+        margin: 0 9em 0px 9em !important;
+    }
+    .tlct-title img {
+        max-width: 27em !important;
+    }
+    .vct-col-content img {
+        margin-left: 4em;
+        margin-top: 2em !important;
+        max-width: 40em !important;
+    }
+    .img-logo img {
+        max-width: 50px;
+        max-height: 40px !important;
+        margin-left: 90em !important;
+    }
+    .navbar {
+        max-width: 812px !important;
+        max-height: 75px;
     }
 }
 
@@ -6402,6 +6547,73 @@ span {
     }
 }
 
+@media (max-width: 720px){
+    .navbar{
+        max-width: 720px !important;
+    }
+    .dkdt-title img {
+        margin-left: -2em;
+        margin-top: -2em !important;
+        max-width: 50em !important;
+    }
+    div#qdtc.qdct-text1 {
+        margin-top: 5em !important;
+        padding: 3vw 3em 10vw 3em !important;
+    }
+    .btn-r1-white {
+        background-color: #f5f5f5;
+        margin: 0 12em 0 12em !important;
+        border-radius: 10px;
+        padding: 10px 0 .5px 0;
+        color: #ffcf00;
+        font-weight: bolder;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 22em;
+        font-size: 10px;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 22em;
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 601px){
+    #countdown-timer {
+        background-color: white;
+        margin: -2.75em 7em 0 7em !important;
+        padding: 2em 1em 1em 1em;
+    }
+    .vct-col-content img {
+        margin-top: 5em !important;
+        max-width: 33em !important;
+    }
+    .ccgt-title img {
+        margin-top: -4em;
+        max-width: 34em !important;
+    }
+    .dkdt-title img {
+        margin-left: -4em;
+        margin-top: 3em !important;
+        max-width: 45em !important;
+    }
+    .gala-img img {
+        margin-left: 0 !important;
+        max-width: 25em;
+    }
+    .gala-day {
+        margin-top: -1em;
+        padding: 2em 5em 2em 9em;
+        text-align: right;
+    }
+    #endl{
+        display: block;
+    }
+    .navbar{
+        max-width: 601px !important;
+    }
+}
+
 @media (max-width: 560px){
 
     div.g1 img{
@@ -6469,6 +6681,10 @@ span {
 }
 
 @media (max-width: 414px){
+
+    div.btn-r1-white.btn-shadow.hovers {
+        margin: 0 4em 0 4em !important;
+    }
 
     .vct-col-content img {
         margin-left: 1em !important;
@@ -6661,7 +6877,7 @@ span {
 
     div.g1 img {
         margin-top: -7em;
-        max-width: 20em;
+        max-width: 20em !important;
     }
 
     .g2 .g2-tt {
@@ -6757,6 +6973,12 @@ span {
 }
 
 @media (max-width: 375px){
+    .g2 img{
+        max-width: 15em !important;
+    }
+    .g1 img{
+        max-width: 15em !important;
+    }
     .dkdt-title img {
         margin-left: -6em;
         max-width: 35em !important;
@@ -6831,6 +7053,15 @@ span {
         max-width: 20em !important;
     }
 }   
+
+@media (max-width: 360px) {
+    div.btn-r1-white.btn-shadow.hovers {
+        margin: 0 4em 0 4em !important;
+    }
+    .navbar{
+        max-width: 360px !important;
+    }
+}
 
 @media (max-width: 320px){
     .tiktok{
@@ -7992,4 +8223,12 @@ span {
     background-image: url("./img/Su_Kien/3.png");
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+#abu_m{
+    display: none;
+}
+
+a:hover{
+    text-decoration: none;
 }
