@@ -3837,6 +3837,10 @@ span {
 
 
 @media (max-width:1920px) {
+    #svg41{
+        margin-top: -25px;
+        margin-bottom: 25px;
+    }
     .navbar{
         max-width: 1920px !important;
     }
