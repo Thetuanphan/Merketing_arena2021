@@ -6022,6 +6022,16 @@ span {
 }
 
 @media (max-width: 1024px){
+    .vct-img {
+        max-width: 25em !important;
+        margin-left: 8em !important;
+        margin-top: 5em;
+    }
+    .vct-col-content img {
+        margin-left: 2em;
+        margin-top: 15em !important;
+        max-width: 25em !important;
+    }
     #navbarCollapse {
         padding-left: 0em !important;
     }
@@ -6032,6 +6042,40 @@ span {
 }
 
 @media (max-width: 990px){
+    #countdown-timer {
+        background-color: white;
+        margin: -2.75em 15em 0 15em !important;
+        padding: 2em 1em 1em 1em;
+    }
+    .gala-img {
+        background-position: center;
+        margin-left: 0em;
+    }
+    .info-img {
+        background-image: url(./img/Su_Kien/3.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-right: 0em;
+    }
+    div#qdtc.qdct-text1 {
+        margin-top: 5em !important;
+        padding: 3vw 7em 10vw 7em !important;
+    }
+    div.col.col-lg-1{
+        max-width: 3em;
+    }
+    div.btn-r1-white.btn-shadow.hovers {
+        margin: 0 20em 0 20em !important;
+    }
+    .navbar{
+        max-width: 990px !important;
+    }
+    .vct-col-content img {
+        margin-left: 10em;
+        margin-top: 2em !important;
+        max-width: 28em !important;
+    }
 
     img.qdct-title.wow.fadeInDown {
         max-width: 20em !important;
@@ -6040,7 +6084,7 @@ span {
     }
 
     #navbarCollapse {
-        padding-left: 20em !important;
+        padding-left: 00em !important;
     }
 
     ul#menu-responsive.navbar-nav{
@@ -6119,9 +6163,145 @@ span {
     .img-logo img{
         max-width: 50px;
         max-height: 40px !important;
+        margin-right: 0em !important;
+    }
+
+    img.hidden {
+        display: none
+    }
+
+    #qdct-bg {
+        background-color: #fff
+    }
+
+    img.qdct-title {
+        background-color: #ffcf00;
+        border-radius: 40px;
+        text-align: center;
+        margin: auto;
+        padding-top: 9px;
+        margin-bottom: 5px
+    }
+    p#qdct-title {
+        text-align: center;
+        font-size: 20px
+    }
+}
+
+@media (max-width: 910px){
+
+    img.qdct-title.wow.fadeInDown {
+        max-width: 20em !important;
+        margin-top: -2vw ;
+        margin-left: 0em !important;
+    }
+
+    #navbarCollapse {
+    }
+
+    ul#menu-responsive.navbar-nav{
+        margin: 0 !important;
+    }
+
+    div.gala-img{
+        max-width: 100%;
+        background-position: center !important;
+    }
+
+    div.col.col-xl-5.col-lg-5.col-md-12.gala{
+        text-align: center;
+        padding-left: 0;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 17em !important;
+        height: 83px;
+    }
+    div.info-img{
+        text-align: center;
+        background-position: center;
+    }
+
+    div.ly-img-car{
+        margin-top: -10em;
+    }
+
+    div.ly-img.wow.fadeInLeft{
+        display: none;
+    }
+
+    div#qdtc.qdct-text2{
+        margin: 0 5em 0 5em;
+    }
+
+    div#luuy{
+        max-width: 5em;
+    }
+
+    div#countdown-timer.row.btn-shadow{
+        margin: -2.5em 12em 0em 12em;
+    }
+
+    div.de.wow.fadeInUp{
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    div.qdct-text.wow.fadeIn{
+        padding: 5em 10em 9em 10em;
+    }
+
+    div.col-lg-5.col-sm-12.vct-col-img{
+        text-align: center;
+    }
+
+    div#TLCT.container.vct-dot-anima{
+        display: none;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 17em !important;
+        height: 83px;
+    }
+    #navbarCollapse {
+        padding-left: 0;
+        padding-right: 0;
+        background-color: #fff;
+        max-width: 100%;
+        text-align: center
+    }
+
+    .navbar {
+        max-width: 910px !important;
+        padding: 10px 0 10px 0;
+        text-align: center
+    }
+    
+    img.logo-left {
+        display: none
+    }
+
+    .img-logo img{
+        max-width: 50px;
+        max-height: 40px !important;
         margin-left: 95vw !important;
     }
 
+    .btn-r2-white1 p {
+        font-size: larger;
+        margin: 0px 0 0 0 !important;
+    }
+    .btn-r2-white p {
+        font-size: larger;
+        margin: 0px 0 0 0 !important;
+    }
+    .vct-col-content img {
+        margin: 7em 0 0 0 !important;
+        margin-bottom: 50px;
+
+    }
+    .vct-col-content {
+        text-align: center;
+        margin-top: -150px;
+    }
     img.hidden {
         display: none
     }
@@ -6205,8 +6385,9 @@ span {
         max-width: 27em !important;
     }
     .vct-col-content img {
+        margin-bottom: 5em !important;
         margin-left: 4em;
-        margin-top: 2em !important;
+        margin-top: 10em !important;
         max-width: 40em !important;
     }
     .img-logo img {
@@ -6215,7 +6396,7 @@ span {
         margin-left: 90em !important;
     }
     .navbar {
-        max-width: 812px !important;
+        max-width: 800px !important;
         max-height: 75px;
     }
 }
@@ -6318,7 +6499,7 @@ span {
     }
     .vct-col-content img {
         margin-left: 2em;
-        margin-top: 0em !important;
+        margin-top: 10em !important;
         max-width: 40em !important;
     }
     .navbar {
@@ -6954,7 +7135,7 @@ span {
     }
 
     .vct-col-content img {
-        margin-top: 2em !important;
+        margin-top: 10em !important;
         max-width: 21.5em !important;
         margin-bottom: 2em;
     }
@@ -7073,6 +7254,11 @@ span {
 }
 
 @media (max-width: 320px){
+    .img-logo img {
+        max-width: 50px;
+        max-height: 35px !important;
+        margin-left: 40em !important;
+    }
     .tiktok{
         text-align: center !important;
     }
@@ -7149,30 +7335,29 @@ span {
         font-weight: 700;
     }
     div.btn-r2-white1.btn-shadow.hovers {
-        margin-top: 5px;
         max-width: 25em;
         font-size: 10px;
     }
 
     .btn-r2-white1 p {
-        font-size: 6px !important;
-        margin: -5px 0 0 0;
-        margin-bottom: 6px !important;
+        font-size: 9px !important;
+        margin: -7px 0 0 0;
+        margin-bottom: 0px !important;
     }
     div.btn-r2-white.btn-shadow.hovers {
-        margin-top: 5px;
+
         max-width: 25em;
         font-size: 10px;
     }
 
     .btn-r2-white p {
-        font-size: 6px !important;
+        font-size: 9px !important;
         margin: -5px 0 0 0;
-        margin-bottom: 6px !important;
+        margin-bottom: 0px !important;
     }
         
     .vct-col-content img {
-        margin-top: 2em !important;
+        margin-top: 8em !important;
         max-width: 18em !important;
         margin-bottom: 2em;
         margin-left: 0 !important;
