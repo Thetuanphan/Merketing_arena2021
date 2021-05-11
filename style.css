@@ -6144,6 +6144,7 @@ span {
     }
 }
 
+
 @media (max-width: 800px){
     .g2 img{
         max-width: 30em !important;
@@ -6220,6 +6221,10 @@ span {
 }
 
 @media (max-width:768px) {
+    .gala-img img {
+        margin-left: 0em;
+        max-width: 25em;
+    }
     #navbarCollapse {
         padding-left: 00em !important;
     }
@@ -6701,7 +6706,7 @@ span {
     }
 
     #abu_m{
-        display: block;
+        display: block !important;
     }
 
     .dkdt-title img{
