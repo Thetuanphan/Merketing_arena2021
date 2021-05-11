@@ -6872,6 +6872,13 @@ span {
 
 @media (max-width: 414px){
 
+    .dkgn img {
+        max-width: 20em !important;
+    }
+    .dkcn img {
+        max-width: 20em !important;
+    }
+
     div.btn-r1-white.btn-shadow.hovers {
         margin: 0 4em 0 4em !important;
     }
@@ -7254,6 +7261,12 @@ span {
 }
 
 @media (max-width: 320px){
+    .dkgn img {
+        max-width: 18em !important;
+    }
+    .dkcn img {
+        max-width: 18em !important;
+    }
     .img-logo img {
         max-width: 50px;
         max-height: 35px !important;
