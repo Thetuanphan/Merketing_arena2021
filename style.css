@@ -6144,6 +6144,141 @@ span {
     }
 }
 
+@media (max-width: 910px){
+
+    img.qdct-title.wow.fadeInDown {
+        max-width: 20em !important;
+        margin-top: -2vw ;
+        margin-left: 0em !important;
+    }
+
+    #navbarCollapse {
+        padding-left: 20em !important;
+    }
+
+    ul#menu-responsive.navbar-nav{
+        margin: 0 !important;
+    }
+
+    div.gala-img{
+        max-width: 100%;
+        background-position: center !important;
+    }
+
+    div.col.col-xl-5.col-lg-5.col-md-12.gala{
+        text-align: center;
+        padding-left: 0;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 17em !important;
+        height: 83px;
+    }
+    div.info-img{
+        text-align: center;
+        background-position: center;
+    }
+
+    div.ly-img-car{
+        margin-top: -10em;
+    }
+
+    div.ly-img.wow.fadeInLeft{
+        display: none;
+    }
+
+    div#qdtc.qdct-text2{
+        margin: 0 5em 0 5em;
+    }
+
+    div#luuy{
+        max-width: 5em;
+    }
+
+    div#countdown-timer.row.btn-shadow{
+        margin: -2.5em 12em 0em 12em;
+    }
+
+    div.de.wow.fadeInUp{
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    div.qdct-text.wow.fadeIn{
+        padding: 5em 10em 9em 10em;
+    }
+
+    div.col-lg-5.col-sm-12.vct-col-img{
+        text-align: center;
+    }
+
+    div#TLCT.container.vct-dot-anima{
+        display: none;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 17em !important;
+        height: 83px;
+    }
+    #navbarCollapse {
+        padding-left: 0;
+        padding-right: 0;
+        background-color: #fff;
+        max-width: 100%;
+        text-align: center
+    }
+
+    .navbar {
+        padding: 10px 0 10px 0;
+        text-align: center
+    }
+    
+    img.logo-left {
+        display: none
+    }
+
+    .img-logo img{
+        max-width: 50px;
+        max-height: 40px !important;
+        margin-left: 95vw !important;
+    }
+
+    .btn-r2-white1 p {
+        font-size: larger;
+        margin: 0px 0 0 0 !important;
+    }
+    .btn-r2-white p {
+        font-size: larger;
+        margin: 0px 0 0 0 !important;
+    }
+    .vct-col-content img {
+        margin: auto;
+        margin-bottom: 50px;
+
+    }
+    .vct-col-content {
+        text-align: center;
+        margin-top: -150px;
+    }
+    img.hidden {
+        display: none
+    }
+
+    #qdct-bg {
+        background-color: #fff
+    }
+
+    img.qdct-title {
+        background-color: #ffcf00;
+        border-radius: 40px;
+        text-align: center;
+        margin: auto;
+        padding-top: 9px;
+        margin-bottom: 5px
+    }
+    p#qdct-title {
+        text-align: center;
+        font-size: 20px
+    }
+}
 
 @media (max-width: 800px){
     .g2 img{
@@ -6178,7 +6313,7 @@ span {
         font-size: 14px;
         color: #000;
         margin-bottom: 15vw;
-        margin: 0 15em 0 15em !important;
+        margin: 10px 15em 0 15em !important;
     }
     div.btn-r2.btn-shadow.hovers {
         margin: 0 9em 0px 9em !important;
@@ -6206,8 +6341,8 @@ span {
     }
     .vct-col-content img {
         margin-left: 4em;
-        margin-top: 2em !important;
-        max-width: 40em !important;
+        margin-top: 7em !important;
+        max-width: 37em !important;
     }
     .img-logo img {
         max-width: 50px;
@@ -6268,7 +6403,7 @@ span {
         font-size: 14px;
         color: #000;
         margin-bottom: 15vw;
-        margin: 0 15em 0 15em !important;
+        margin: 10px 15em 0 15em !important;
     }
     div.btn-r2.btn-shadow.hovers {
         margin: 0 7em 0px 7em !important;
@@ -6318,8 +6453,7 @@ span {
     }
     .vct-col-content img {
         margin-left: 2em;
-        margin-top: 0em !important;
-        max-width: 40em !important;
+        margin-top: 10em !important;
     }
     .navbar {
         max-width: 768px !important;
@@ -6537,7 +6671,7 @@ span {
     }
 
     .vct-col-content img {
-        margin-top: 5em !important;
+        margin-top: 9em !important;
         max-width: 30em !important;
     }
 
@@ -6594,8 +6728,8 @@ span {
         padding: 2em 1em 1em 1em;
     }
     .vct-col-content img {
-        margin-top: 5em !important;
-        max-width: 33em !important;
+        margin-top: 8em !important;
+        max-width: 30em !important;
     }
     .ccgt-title img {
         margin-top: -4em;
@@ -6681,11 +6815,62 @@ span {
     
 }
 
+@media (max-width: 555px)
+{
+    .dethi img {
+        width: 95%;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        width: 150px;
+        font-size: 10px;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        width: 150px;
+        font-size: 10px;
+    }
+    .vct-img {
+        max-width: 27em !important;
+        margin-left: 10em;
+        margin-left: 75px !important;
+    }
+    .vct-col-content img {
+        margin-top: 8em !important;
+        width: 95% !important;
+        margin-left: 0px !important;
+    }
+    .tlct-title img {
+        width: 99% !important;
+    }
+    .ccgt-title img {
+        width: 97%;
+    }
+    div.g2 img {
+        max-width: 24em !important;
+        margin-top: -200px;
+    }
+    .g2 .g2-tt {
+        max-width: 10em !important;
+        margin-left: 0em !important;
+        margin-bottom: 0em;
+    }
+}
+
 @media (max-width: 440px){
     .img-logo img{
         max-width: 50px;
         max-height: 40px !important;
         margin-left: 90vw !important;
+    }
+    div.g1 img {
+        width: 95%;
+    }
+    .g2 .g2-tt {
+        max-width: 10em !important;
+        margin-left: 0em !important;
+        margin-bottom: -3em;
+    }
+    div#qdtc.qdct-text2 {
+        margin: 0px 1em 0 1em !important;
     }
 }
 
@@ -6697,7 +6882,7 @@ span {
 
     .vct-col-content img {
         margin-left: 1em !important;
-        margin-top: 0em !important;
+        margin-top: 8em !important;
         max-width: 40em !important;
     }
 
@@ -6951,6 +7136,7 @@ span {
         max-width: 20em !important;
         margin-left: 0em !important;
         margin-top: 10em;
+        margin-bottom: 90px;
     }
 
     .vct-col-content img {
@@ -7061,6 +7247,10 @@ span {
     .info-img img {
         max-width: 20em !important;
     }
+    div#qdtc.qdct-text2 {
+        margin: 0 3em 0 3em !important;
+        padding: 20px;
+    }
 }   
 
 @media (max-width: 360px) {
@@ -7069,6 +7259,10 @@ span {
     }
     .navbar{
         max-width: 360px !important;
+    }
+    .dkdt-title img {
+        margin-left: -93px;
+        max-width: 32em !important;
     }
 }
 
@@ -7117,7 +7311,7 @@ span {
         max-width: 17em !important;
     }
     .g2 .g2-tt {
-        margin-top: 0.25em !important;
+        margin-top: -3.75em !important;
         max-width: 6em !important;
         margin-left: 0em !important;
         margin-bottom: 3em;
@@ -7152,6 +7346,8 @@ span {
         margin-top: 5px;
         max-width: 25em;
         font-size: 10px;
+        width: 100px;
+        height: 80px;
     }
 
     .btn-r2-white1 p {
@@ -7163,6 +7359,8 @@ span {
         margin-top: 5px;
         max-width: 25em;
         font-size: 10px;
+        width: 100px;
+        height: 80px;
     }
 
     .btn-r2-white p {
