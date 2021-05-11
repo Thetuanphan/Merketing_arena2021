@@ -5012,7 +5012,7 @@ span {
     }
 
     div#svg32.btn-r1.btn-shadow.hovers{
-        margin: -25px 15em 0px 15em !important;
+        margin: 0px 15em 0px 15em !important;
     }
 
     div.btn-r2.btn-shadow.hovers{
@@ -6144,6 +6144,142 @@ span {
     }
 }
 
+@media (max-width: 910px){
+
+    img.qdct-title.wow.fadeInDown {
+        max-width: 20em !important;
+        margin-top: -2vw ;
+        margin-left: 0em !important;
+    }
+
+    #navbarCollapse {
+        padding-left: 20em !important;
+    }
+
+    ul#menu-responsive.navbar-nav{
+        margin: 0 !important;
+    }
+
+    div.gala-img{
+        max-width: 100%;
+        background-position: center !important;
+    }
+
+    div.col.col-xl-5.col-lg-5.col-md-12.gala{
+        text-align: center;
+        padding-left: 0;
+    }
+    div.btn-r2-white1.btn-shadow.hovers {
+        max-width: 17em !important;
+        height: 83px;
+    }
+    div.info-img{
+        text-align: center;
+        background-position: center;
+    }
+
+    div.ly-img-car{
+        margin-top: -10em;
+    }
+
+    div.ly-img.wow.fadeInLeft{
+        display: none;
+    }
+
+    div#qdtc.qdct-text2{
+        margin: 0 5em 0 5em;
+    }
+
+    div#luuy{
+        max-width: 5em;
+    }
+
+    div#countdown-timer.row.btn-shadow{
+        margin: -2.5em 12em 0em 12em;
+    }
+
+    div.de.wow.fadeInUp{
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    div.qdct-text.wow.fadeIn{
+        padding: 5em 10em 9em 10em;
+    }
+
+    div.col-lg-5.col-sm-12.vct-col-img{
+        text-align: center;
+    }
+
+    div#TLCT.container.vct-dot-anima{
+        display: none;
+    }
+    div.btn-r2-white.btn-shadow.hovers {
+        max-width: 17em !important;
+        height: 83px;
+    }
+    #navbarCollapse {
+        padding-left: 0;
+        padding-right: 0;
+        background-color: #fff;
+        max-width: 100%;
+        text-align: center
+    }
+
+    .navbar {
+        padding: 10px 0 10px 0;
+        text-align: center
+    }
+    
+    img.logo-left {
+        display: none
+    }
+
+    .img-logo img{
+        max-width: 50px;
+        max-height: 40px !important;
+        margin-left: 95vw !important;
+    }
+
+    .btn-r2-white1 p {
+        font-size: larger;
+        margin: 0px 0 0 0 !important;
+    }
+    .btn-r2-white p {
+        font-size: larger;
+        margin: 0px 0 0 0 !important;
+    }
+    .vct-col-content img {
+        margin: auto;
+        margin-bottom: 50px;
+
+    }
+    .vct-col-content {
+        text-align: center;
+        margin-top: -150px;
+    }
+    img.hidden {
+        display: none
+    }
+
+    #qdct-bg {
+        background-color: #fff
+    }
+
+    img.qdct-title {
+        background-color: #ffcf00;
+        border-radius: 40px;
+        text-align: center;
+        margin: auto;
+        padding-top: 9px;
+        margin-bottom: 5px
+    }
+    p#qdct-title {
+        text-align: center;
+        font-size: 20px
+    }
+}
+
 @media (max-width: 800px){
     .g2 img{
         max-width: 30em !important;
@@ -6230,6 +6366,12 @@ span {
         background-position: center;
         margin-left: 0em;
     }
+    .vct-img {
+        margin-bottom: 140px;
+    }
+    .vct-col-content img {
+        width: 75%;
+    }
     .info-img {
         background-image: url(./img/Su_Kien/3.png);
         background-size: contain;
@@ -6264,6 +6406,7 @@ span {
         color: #000;
         margin-bottom: 15vw;
         margin: 0 15em 0 15em !important;
+        margin-top: 15px !important;
     }
     div.btn-r2.btn-shadow.hovers {
         margin: 0 7em 0px 7em !important;
@@ -6622,58 +6765,30 @@ span {
 
     div.g1 img{
         max-width: 20em;
+@media(max-width: 651px)
+{
+    div.btn-r2-white.btn-shadow.hovers {
+        width: 13em;
     }
-
-    div.g2 img{
-        max-width: 20em !important;
+    div.btn-r2-white1.btn-shadow.hovers {
+        width: 13em;
     }
-
-    div.gala-day{
-        padding: 2em 5em 2em 5em;
+    .vct-col-content img {
+        width: 90%;
     }
-
-    div.info-btn.btn-shadow{
-        text-align: center;
+    div.ccgt-title.wow.fadeInDown img {
+        width: 93%;
     }
-
-    div.info-day{
-        padding: 2em 5em 2em 5em;
+    div.g2 img {
+        width: 80%;
     }
+}
 
-    div#countdown-timer.row.btn-shadow {
-        margin: -2.5em 4em 0em 4em;
-    }    
+@media (max-width: 560px){
 
-    .dkdt-title{
-        text-align: center;
+    div.g1 img {
+        max-width: 26em;
     }
-
-    .dkdt-title img{
-        max-width: 25em !important;
-    }
-
-    div#qdtc.qdct-text2 {
-        margin: 0 2em 0 2em;
-    }
-
-    img.qdct-icon1{
-        display: none;
-    }
-
-    div.qdct-text.wow.fadeIn{
-        padding: 5em;
-    }
-
-    .img-logo img{
-        max-width: 50px;
-        max-height: 40px !important;
-        margin-left: 91vw !important;
-    }
-
-    div.container-fluid.tlct-container.align-center{
-        margin-top: -2em;
-    }
-    
 }
 
 @media (max-width: 440px){
@@ -6681,6 +6796,20 @@ span {
         max-width: 50px;
         max-height: 40px !important;
         margin-left: 90vw !important;
+    }
+    .icon img {
+        max-width: 8em;
+        margin-bottom: 51px;
+    }
+    element.style {
+        visibility: visible;
+        animation-name: fadeInDown;
+        animation-iteration-count: 1;
+        margin-bottom: 20px;
+    }
+    div.g2 img {
+        width: 80%;
+        margin-top: -146px;
     }
 }
 
@@ -8227,12 +8356,4 @@ span {
     background-image: url("./img/Su_Kien/3.png");
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-#abu_m{
-    display: none;
-}
-
-a:hover{
-    text-decoration: none;
 }
