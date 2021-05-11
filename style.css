@@ -3840,6 +3840,7 @@ span {
     #svg41{
         margin-top: -25px;
         margin-bottom: 25px;
+        
     }
     .navbar{
         max-width: 1920px !important;
@@ -4656,7 +4657,8 @@ span {
     }
     
     #svg11 {
-        margin-top: -1rem
+        margin-top: -1rem;
+        margin-left: 1px; /* canh giữa cột màu đỏ*/
     }
     
     #svg12 {
@@ -6775,7 +6777,10 @@ span {
         margin-top: -2em !important;
         max-width: 50em !important;
     }
-    
+    .tiktok img {
+        max-width: 20em;
+        margin-left: 25px;  /*canh chinh margin **/
+    }
     .navbar{
         max-width: 640px !important;
     }
@@ -7573,6 +7578,7 @@ span {
 
 #svg35{
     margin-top: -25px;
+    
 }
 
 #svg34{
@@ -8402,7 +8408,7 @@ span {
 #arr_svg {
     max-width: 6px;
     margin-top: -3px;
-    margin-left: 10px;
+    margin-left: 15px; /* canh giữa mũi tên */
     margin-right: 10px
 }
 
