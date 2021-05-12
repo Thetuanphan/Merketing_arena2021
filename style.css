@@ -8361,6 +8361,11 @@ span {
     margin-right: -15em;
 }
 
+#btcm{
+    max-width: 18em;
+    margin-top: -4.5em;
+}
+
 .nttb{
     text-align: center;
 
@@ -8368,8 +8373,8 @@ span {
 
 .nttb img{
     margin-bottom: -10em;
-    margin-top: -10em;
-    max-width: 30em;
+    margin-top: -4.5em;
+    max-width: 19em;
     margin-left: -15em;
 }
 
