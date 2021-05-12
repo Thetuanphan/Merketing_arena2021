@@ -4968,6 +4968,10 @@ span {
 }
 
 @media (max-width:1370px) {
+    .dt {
+        margin-bottom: 5em;
+        margin-top: 8em;
+    }
     .navbar{
         max-width: 1366px !important;
     }
@@ -5937,8 +5941,8 @@ span {
     }
     .nttv img {
         margin-top: -10em;
-        margin-bottom: -10em;
-        max-width: 30em;
+        margin-bottom: -4.5em;
+        max-width: 19em;
         margin-right: 0em !important;
     }
     .gala-img img {
@@ -6407,6 +6411,15 @@ span {
 }
 
 @media (max-width:768px) {
+    #bttt{
+        margin-top: 4em !important;
+    }
+    #btcm{
+        margin-top: -3em !important;
+    }
+    .nttb img{
+        margin-bottom: -6em !important;
+    }
     .gala-img img {
         margin-left: 0em;
         max-width: 25em;
@@ -6775,6 +6788,12 @@ span {
 
 
 @media (max-width: 640px){
+.nttkc img {
+    max-width: 20em !important;
+}
+    #bttt{
+        margin-top: 0em !important;
+    }
     .dkdt-title img {
         margin-left: -5em;
         margin-top: -2em !important;
@@ -7214,8 +7233,18 @@ span {
         margin: -5em 0 0em 0;
     }
 
+    #btcm{
+        margin-top: 5em !important;
+        max-width: 13em !important;
+    }
+
+    #bttt{
+        margin-top: 9em !important;
+        margin-bottom: 15em !important;
+    }
+
     .nttb{
-        margin: -15em 0 -25em 0;
+        margin: -10em 0 -25em 0;
     }
 
     .nttv img {
@@ -7226,7 +7255,7 @@ span {
     }
     .nttb img {
         margin-top: -10em !important;
-        max-width: 25em !important;
+        max-width: 15em !important;
         margin: 0 !important;
     }
 
@@ -7358,6 +7387,9 @@ span {
 }
 
 @media (max-width: 375px){
+    .nttkc img {
+        max-width: 15em !important;
+    }
     .g2 img{
         max-width: 15em !important;
     }
@@ -7421,14 +7453,21 @@ span {
     .nttb img {
         margin-top: -0em !important;
         margin-bottom: -2em !important;
-        max-width: 20em !important;
+        max-width: 13em !important;
 
     }
     .nttv img {
         margin-top: -4em !important;
         margin-bottom: 0em !important;
-        max-width: 20em !important;
+        max-width: 21em !important;
 
+    }#bttt {
+        margin-top: 6em !important;
+        margin-bottom: 15em !important;
+    }
+    #btcm {
+        margin-top: 1em !important;
+        max-width: 13em !important;
     }
     .gala-img img {
         margin-left: 0 !important;
@@ -7497,14 +7536,21 @@ span {
     .nttb img {
         margin-top: -0em !important;
         margin-bottom: -2em !important;
-        max-width: 20em !important;
+        max-width: 13em !important;
 
     }
     .nttv img {
         margin-top: -4em !important;
         margin-bottom: 0em !important;
-        max-width: 20em !important;
+        max-width: 21em !important;
 
+    }#bttt {
+        margin-top: 6em !important;
+        margin-bottom: 15em !important;
+    }
+    #btcm {
+        margin-top: 1em !important;
+        max-width: 13em !important;
     }
     .gala-img img {
         margin-left: 0 !important;
@@ -7546,6 +7592,7 @@ span {
         max-width: 18em !important;
         margin-top: -2vw;
         margin-left: 0em !important;
+        padding-right: 1em;
     }
     .dethi img {
         max-width: 17em !important;
